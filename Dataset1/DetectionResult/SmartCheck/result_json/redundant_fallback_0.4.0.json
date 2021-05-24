@@ -1,0 +1,1 @@
+[{"severity":1,"argument":"SOLIDITY_REDUNDANT_FALLBACK_REJECT","starting_column":15,"description_val":"{ (tests/mini_dataset/redundant_fallback_0.4.0.sol)#5\n","context_ling":5,"text":"{"},{"severity":1,"argument":"SOLIDITY_VISIBILITY","starting_column":4,"description_val":"function() { (tests/mini_dataset/redundant_fallback_0.4.0.sol)#5\n","context_ling":5,"text":"function"}]

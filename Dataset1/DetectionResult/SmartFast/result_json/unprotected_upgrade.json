@@ -1,0 +1,618 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "Buggy",
+            "source_mapping": {
+              "start": 103,
+              "length": 285,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_relative": "tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_short": "tests/mini_dataset/unprotected_upgrade.sol",
+              "is_dependency": false,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          },
+          {
+            "type": "function",
+            "name": "initialize",
+            "source_mapping": {
+              "start": 168,
+              "length": 115,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_relative": "tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_short": "tests/mini_dataset/unprotected_upgrade.sol",
+              "is_dependency": false,
+              "lines": [
+                12,
+                13,
+                14,
+                15
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Buggy",
+                "source_mapping": {
+                  "start": 103,
+                  "length": 285,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+                  "filename_relative": "tests/mini_dataset/unprotected_upgrade.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+                  "filename_short": "tests/mini_dataset/unprotected_upgrade.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "initialize()"
+            }
+          },
+          {
+            "type": "function",
+            "name": "kill",
+            "source_mapping": {
+              "start": 288,
+              "length": 98,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_relative": "tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_short": "tests/mini_dataset/unprotected_upgrade.sol",
+              "is_dependency": false,
+              "lines": [
+                16,
+                17,
+                18,
+                19
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Buggy",
+                "source_mapping": {
+                  "start": 103,
+                  "length": 285,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+                  "filename_relative": "tests/mini_dataset/unprotected_upgrade.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+                  "filename_short": "tests/mini_dataset/unprotected_upgrade.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "kill()"
+            }
+          }
+        ],
+        "description": "Buggy (tests/mini_dataset/unprotected_upgrade.sol#9-20) is an upgradeable contract that does not protect its initiliaze functions: Buggy.initialize() (tests/mini_dataset/unprotected_upgrade.sol#12-15). Anyone can delete the contract with: Buggy.kill() (tests/mini_dataset/unprotected_upgrade.sol#16-19)\n",
+        "markdown": "[Buggy](tests/mini_dataset/unprotected_upgrade.sol#L9-L20) is an upgradeable contract that does not protect its initiliaze functions: [Buggy.initialize()](tests/mini_dataset/unprotected_upgrade.sol#L12-L15). Anyone can delete the contract with: [Buggy.kill()](tests/mini_dataset/unprotected_upgrade.sol#L16-L19)\n",
+        "id": "b237ede796e0781e15cf9d6f6e061123bc434b1372ed5d7b29e92e7d9fda86da",
+        "check": "unprotected-upgrade",
+        "impact": "High",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "0.5.1",
+            "source_mapping": {
+              "start": 0,
+              "length": 22,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_relative": "tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_short": "tests/mini_dataset/unprotected_upgrade.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 23
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "0.5",
+                ".1"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version0.5.1 (tests/mini_dataset/unprotected_upgrade.sol#1) allows old versions\n",
+        "markdown": "Pragma version[0.5.1](tests/mini_dataset/unprotected_upgrade.sol#L1) allows old versions\n",
+        "id": "5ef5c116dfad325989679f56a986767215940447f9d28b17d88abd120dc5372e",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "0.5.1",
+            "source_mapping": {
+              "start": 0,
+              "length": 22,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_relative": "tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_short": "tests/mini_dataset/unprotected_upgrade.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 23
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "0.5",
+                ".1"
+              ]
+            }
+          }
+        ],
+        "description": "solc-0.5.1 is not recommended for deployment\n",
+        "markdown": "solc-0.5.1 is not recommended for deployment\n",
+        "id": "2f7166358983c53be8a0b31ac26286250fbef36e0c8d78a7a30c0db035fb7c79",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "kill",
+            "source_mapping": {
+              "start": 288,
+              "length": 98,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_relative": "tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_short": "tests/mini_dataset/unprotected_upgrade.sol",
+              "is_dependency": false,
+              "lines": [
+                16,
+                17,
+                18,
+                19
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Buggy",
+                "source_mapping": {
+                  "start": 103,
+                  "length": 285,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+                  "filename_relative": "tests/mini_dataset/unprotected_upgrade.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+                  "filename_short": "tests/mini_dataset/unprotected_upgrade.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "kill()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "selfdestruct(address)(owner)",
+            "source_mapping": {
+              "start": 360,
+              "length": 19,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_relative": "tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_short": "tests/mini_dataset/unprotected_upgrade.sol",
+              "is_dependency": false,
+              "lines": [
+                18
+              ],
+              "starting_column": 9,
+              "ending_column": 28
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "kill",
+                "source_mapping": {
+                  "start": 288,
+                  "length": 98,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+                  "filename_relative": "tests/mini_dataset/unprotected_upgrade.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+                  "filename_short": "tests/mini_dataset/unprotected_upgrade.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Buggy",
+                    "source_mapping": {
+                      "start": 103,
+                      "length": 285,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+                      "filename_relative": "tests/mini_dataset/unprotected_upgrade.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+                      "filename_short": "tests/mini_dataset/unprotected_upgrade.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "kill()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in Buggy.kill() (tests/mini_dataset/unprotected_upgrade.sol#16-19):\n\t- selfdestruct(address)(owner) (tests/mini_dataset/unprotected_upgrade.sol#18)\n",
+        "markdown": "Low level call in [Buggy.kill()](tests/mini_dataset/unprotected_upgrade.sol#L16-L19):\n\t- [selfdestruct(address)(owner)](tests/mini_dataset/unprotected_upgrade.sol#L18)\n",
+        "id": "3e77ba914b3d45572d4af43a61c529ea05aaf60c73b766c7d277835415663142",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "kill",
+            "source_mapping": {
+              "start": 636,
+              "length": 98,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_relative": "tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_short": "tests/mini_dataset/unprotected_upgrade.sol",
+              "is_dependency": false,
+              "lines": [
+                33,
+                34,
+                35,
+                36
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Fixed",
+                "source_mapping": {
+                  "start": 390,
+                  "length": 394,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+                  "filename_relative": "tests/mini_dataset/unprotected_upgrade.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+                  "filename_short": "tests/mini_dataset/unprotected_upgrade.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "kill()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "selfdestruct(address)(owner)",
+            "source_mapping": {
+              "start": 708,
+              "length": 19,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_relative": "tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_short": "tests/mini_dataset/unprotected_upgrade.sol",
+              "is_dependency": false,
+              "lines": [
+                35
+              ],
+              "starting_column": 9,
+              "ending_column": 28
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "kill",
+                "source_mapping": {
+                  "start": 636,
+                  "length": 98,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+                  "filename_relative": "tests/mini_dataset/unprotected_upgrade.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+                  "filename_short": "tests/mini_dataset/unprotected_upgrade.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    33,
+                    34,
+                    35,
+                    36
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Fixed",
+                    "source_mapping": {
+                      "start": 390,
+                      "length": 394,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+                      "filename_relative": "tests/mini_dataset/unprotected_upgrade.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+                      "filename_short": "tests/mini_dataset/unprotected_upgrade.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "kill()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in Fixed.kill() (tests/mini_dataset/unprotected_upgrade.sol#33-36):\n\t- selfdestruct(address)(owner) (tests/mini_dataset/unprotected_upgrade.sol#35)\n",
+        "markdown": "Low level call in [Fixed.kill()](tests/mini_dataset/unprotected_upgrade.sol#L33-L36):\n\t- [selfdestruct(address)(owner)](tests/mini_dataset/unprotected_upgrade.sol#L35)\n",
+        "id": "adc59eeab5cc240d04bce4192dde2c9743d8d4247c9337bad321e367a946d08d",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "other_function",
+            "source_mapping": {
+              "start": 740,
+              "length": 42,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_relative": "tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_short": "tests/mini_dataset/unprotected_upgrade.sol",
+              "is_dependency": false,
+              "lines": [
+                38,
+                39,
+                40
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Fixed",
+                "source_mapping": {
+                  "start": 390,
+                  "length": 394,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+                  "filename_relative": "tests/mini_dataset/unprotected_upgrade.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+                  "filename_short": "tests/mini_dataset/unprotected_upgrade.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "other_function()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function Fixed.other_function() (tests/mini_dataset/unprotected_upgrade.sol#38-40) is not in mixedCase\n",
+        "markdown": "Function [Fixed.other_function()](tests/mini_dataset/unprotected_upgrade.sol#L38-L40) is not in mixedCase\n",
+        "id": "a18ad0e91615f79afcb30b8d887c01952df6b4291424fe297c9425afcff80d2d",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "Not_Upgradeable",
+            "source_mapping": {
+              "start": 787,
+              "length": 27,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_relative": "tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/unprotected_upgrade.sol",
+              "filename_short": "tests/mini_dataset/unprotected_upgrade.sol",
+              "is_dependency": false,
+              "lines": [
+                44,
+                45
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract Not_Upgradeable (tests/mini_dataset/unprotected_upgrade.sol#44-45) is not in CapWords\n",
+        "markdown": "Contract [Not_Upgradeable](tests/mini_dataset/unprotected_upgrade.sol#L44-L45) is not in CapWords\n",
+        "id": "7a3593bf47c17a8702dba7c5e3a49ec55d779b191631b3cb80bd97adaa691b20",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

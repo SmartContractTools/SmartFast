@@ -1,0 +1,805 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "name",
+            "source_mapping": {
+              "start": 228,
+              "length": 11,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_short": "tests/mini_dataset/erc875_interface.sol",
+              "is_dependency": false,
+              "lines": [
+                6
+              ],
+              "starting_column": 39,
+              "ending_column": 50
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "name",
+                "source_mapping": {
+                  "start": 194,
+                  "length": 47,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_short": "tests/mini_dataset/erc875_interface.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 52
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC875",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 807,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                      "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                      "filename_short": "tests/mini_dataset/erc875_interface.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "name()"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "name",
+            "source_mapping": {
+              "start": 194,
+              "length": 47,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_short": "tests/mini_dataset/erc875_interface.sol",
+              "is_dependency": false,
+              "lines": [
+                6
+              ],
+              "starting_column": 5,
+              "ending_column": 52
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC875",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 807,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_short": "tests/mini_dataset/erc875_interface.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "name()"
+            }
+          }
+        ],
+        "description": "ERC875.name().name (tests/mini_dataset/erc875_interface.sol#6) shadows:\n\t- ERC875.name() (tests/mini_dataset/erc875_interface.sol#6) (function)\n",
+        "markdown": "[ERC875.name().name](tests/mini_dataset/erc875_interface.sol#L6) shadows:\n\t- [ERC875.name()](tests/mini_dataset/erc875_interface.sol#L6) (function)\n",
+        "id": "a11d7a19eb6d11706dc6a4a3bcc80b18ab98e0813acf018f6fcb0638408c7a0a",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 282,
+              "length": 12,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_short": "tests/mini_dataset/erc875_interface.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 41,
+              "ending_column": 53
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "symbol",
+                "source_mapping": {
+                  "start": 246,
+                  "length": 50,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_short": "tests/mini_dataset/erc875_interface.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    7
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 55
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC875",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 807,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                      "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                      "filename_short": "tests/mini_dataset/erc875_interface.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "symbol()"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 246,
+              "length": 50,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_short": "tests/mini_dataset/erc875_interface.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 5,
+              "ending_column": 55
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC875",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 807,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_short": "tests/mini_dataset/erc875_interface.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "symbol()"
+            }
+          }
+        ],
+        "description": "ERC875.symbol().symbol (tests/mini_dataset/erc875_interface.sol#7) shadows:\n\t- ERC875.symbol() (tests/mini_dataset/erc875_interface.sol#7) (function)\n",
+        "markdown": "[ERC875.symbol().symbol](tests/mini_dataset/erc875_interface.sol#L7) shadows:\n\t- [ERC875.symbol()](tests/mini_dataset/erc875_interface.sol#L7) (function)\n",
+        "id": "d7f7f00fcc88d5522e3b7516fa7079c96ed347787ef209c6be49cad3e7e5b116",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "name",
+            "source_mapping": {
+              "start": 194,
+              "length": 47,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_short": "tests/mini_dataset/erc875_interface.sol",
+              "is_dependency": false,
+              "lines": [
+                6
+              ],
+              "starting_column": 5,
+              "ending_column": 52
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC875",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 807,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_short": "tests/mini_dataset/erc875_interface.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "name()"
+            }
+          }
+        ],
+        "description": "name() should be declared external:\n\t- ERC875.name() (tests/mini_dataset/erc875_interface.sol#6)\n",
+        "markdown": "name() should be declared external:\n\t- [ERC875.name()](tests/mini_dataset/erc875_interface.sol#L6)\n",
+        "id": "b72190398b85c6de82da2cc24b90627b6626b7a8ad19ff466ed5d036fbe3ec93",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 246,
+              "length": 50,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_short": "tests/mini_dataset/erc875_interface.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 5,
+              "ending_column": 55
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC875",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 807,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_short": "tests/mini_dataset/erc875_interface.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "symbol()"
+            }
+          }
+        ],
+        "description": "symbol() should be declared external:\n\t- ERC875.symbol() (tests/mini_dataset/erc875_interface.sol#7)\n",
+        "markdown": "symbol() should be declared external:\n\t- [ERC875.symbol()](tests/mini_dataset/erc875_interface.sol#L7)\n",
+        "id": "e1eeeb189ba4d966a499dc770f92b4814241b4dc7e9ba1cea8a1e903fb02b3b4",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "balanceOf",
+            "source_mapping": {
+              "start": 309,
+              "length": 77,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_short": "tests/mini_dataset/erc875_interface.sol",
+              "is_dependency": false,
+              "lines": [
+                8
+              ],
+              "starting_column": 5,
+              "ending_column": 82
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC875",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 807,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_short": "tests/mini_dataset/erc875_interface.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "balanceOf(address)"
+            }
+          }
+        ],
+        "description": "balanceOf(address) should be declared external:\n\t- ERC875.balanceOf(address) (tests/mini_dataset/erc875_interface.sol#8)\n",
+        "markdown": "balanceOf(address) should be declared external:\n\t- [ERC875.balanceOf(address)](tests/mini_dataset/erc875_interface.sol#L8)\n",
+        "id": "71262549d7778f6f97bb5ba09c03fb5e6ae29108c99bf067d1a355c6e3447dfd",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 391,
+              "length": 57,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_short": "tests/mini_dataset/erc875_interface.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 5,
+              "ending_column": 62
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC875",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 807,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_short": "tests/mini_dataset/erc875_interface.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer(address,uint256[])"
+            }
+          }
+        ],
+        "description": "transfer(address,uint256[]) should be declared external:\n\t- ERC875.transfer(address,uint256[]) (tests/mini_dataset/erc875_interface.sol#9)\n",
+        "markdown": "transfer(address,uint256[]) should be declared external:\n\t- [ERC875.transfer(address,uint256[])](tests/mini_dataset/erc875_interface.sol#L9)\n",
+        "id": "cb23c18f492b5c4a0ca5c8f1b0b775b13d16964bff3ed486155d65d4072bc259",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transferFrom",
+            "source_mapping": {
+              "start": 453,
+              "length": 76,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_short": "tests/mini_dataset/erc875_interface.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 5,
+              "ending_column": 81
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC875",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 807,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_short": "tests/mini_dataset/erc875_interface.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferFrom(address,address,uint256[])"
+            }
+          }
+        ],
+        "description": "transferFrom(address,address,uint256[]) should be declared external:\n\t- ERC875.transferFrom(address,address,uint256[]) (tests/mini_dataset/erc875_interface.sol#10)\n",
+        "markdown": "transferFrom(address,address,uint256[]) should be declared external:\n\t- [ERC875.transferFrom(address,address,uint256[])](tests/mini_dataset/erc875_interface.sol#L10)\n",
+        "id": "5f9d2c435e0b35cc5ff68e33441eac02540b7081b759b02d981694c13a7ab91a",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "totalSupply",
+            "source_mapping": {
+              "start": 550,
+              "length": 32,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_short": "tests/mini_dataset/erc875_interface.sol",
+              "is_dependency": false,
+              "lines": [
+                13
+              ],
+              "starting_column": 5,
+              "ending_column": 37
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC875",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 807,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_short": "tests/mini_dataset/erc875_interface.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "totalSupply()"
+            }
+          }
+        ],
+        "description": "totalSupply() should be declared external:\n\t- ERC875.totalSupply() (tests/mini_dataset/erc875_interface.sol#13)\n",
+        "markdown": "totalSupply() should be declared external:\n\t- [ERC875.totalSupply()](tests/mini_dataset/erc875_interface.sol#L13)\n",
+        "id": "12c9fe811214712096f383171defe37cd8432072e5b13da30fe5f567efd1254a",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "trade",
+            "source_mapping": {
+              "start": 618,
+              "length": 110,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_short": "tests/mini_dataset/erc875_interface.sol",
+              "is_dependency": false,
+              "lines": [
+                14
+              ],
+              "starting_column": 5,
+              "ending_column": 115
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC875",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 807,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_short": "tests/mini_dataset/erc875_interface.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "trade(uint256,uint256[],uint8,bytes32,bytes32)"
+            }
+          }
+        ],
+        "description": "trade(uint256,uint256[],uint8,bytes32,bytes32) should be declared external:\n\t- ERC875.trade(uint256,uint256[],uint8,bytes32,bytes32) (tests/mini_dataset/erc875_interface.sol#14)\n",
+        "markdown": "trade(uint256,uint256[],uint8,bytes32,bytes32) should be declared external:\n\t- [ERC875.trade(uint256,uint256[],uint8,bytes32,bytes32)](tests/mini_dataset/erc875_interface.sol#L14)\n",
+        "id": "fb87f2854f1220fb827889950222090ea46a3004e671fc37da307af9b205235d",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "ownerOf",
+            "source_mapping": {
+              "start": 733,
+              "length": 72,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+              "filename_short": "tests/mini_dataset/erc875_interface.sol",
+              "is_dependency": false,
+              "lines": [
+                15
+              ],
+              "starting_column": 5,
+              "ending_column": 77
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC875",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 807,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_relative": "tests/mini_dataset/erc875_interface.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/erc875_interface.sol",
+                  "filename_short": "tests/mini_dataset/erc875_interface.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "ownerOf(uint256)"
+            }
+          }
+        ],
+        "description": "ownerOf(uint256) should be declared external:\n\t- ERC875.ownerOf(uint256) (tests/mini_dataset/erc875_interface.sol#15)\n",
+        "markdown": "ownerOf(uint256) should be declared external:\n\t- [ERC875.ownerOf(uint256)](tests/mini_dataset/erc875_interface.sol#L15)\n",
+        "id": "70ef0525d54b0188e499d44e3bb3685a3278f28d0dcf4ecdeeca4d8f3290f584",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

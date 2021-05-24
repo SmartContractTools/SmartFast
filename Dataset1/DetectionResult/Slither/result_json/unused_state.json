@@ -1,0 +1,434 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "unused",
+            "source_mapping": {
+              "start": 44,
+              "length": 14,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+              "filename_relative": "tests/mini_dataset/unused_state.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+              "filename_short": "tests/mini_dataset/unused_state.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 5,
+              "ending_column": 19
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 199,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+                  "filename_relative": "tests/mini_dataset/unused_state.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+                  "filename_short": "tests/mini_dataset/unused_state.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "contract",
+            "name": "B",
+            "source_mapping": {
+              "start": 229,
+              "length": 85,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+              "filename_relative": "tests/mini_dataset/unused_state.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+              "filename_short": "tests/mini_dataset/unused_state.sol",
+              "is_dependency": false,
+              "lines": [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          }
+        ],
+        "description": "A.unused (tests/mini_dataset/unused_state.sol#4) is never used in B (tests/mini_dataset/unused_state.sol#15-20)\n",
+        "markdown": "[A.unused](tests/mini_dataset/unused_state.sol#L4) is never used in [B](tests/mini_dataset/unused_state.sol#L15-L20)\n",
+        "id": "195279490862ae355bac3d27d0cdb1aa18200a5daed8f3dbd84dc5b120e29482",
+        "check": "unused-state",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "unused3",
+            "source_mapping": {
+              "start": 92,
+              "length": 23,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+              "filename_relative": "tests/mini_dataset/unused_state.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+              "filename_short": "tests/mini_dataset/unused_state.sol",
+              "is_dependency": false,
+              "lines": [
+                6
+              ],
+              "starting_column": 5,
+              "ending_column": 28
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 199,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+                  "filename_relative": "tests/mini_dataset/unused_state.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+                  "filename_short": "tests/mini_dataset/unused_state.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "contract",
+            "name": "B",
+            "source_mapping": {
+              "start": 229,
+              "length": 85,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+              "filename_relative": "tests/mini_dataset/unused_state.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+              "filename_short": "tests/mini_dataset/unused_state.sol",
+              "is_dependency": false,
+              "lines": [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          }
+        ],
+        "description": "A.unused3 (tests/mini_dataset/unused_state.sol#6) is never used in B (tests/mini_dataset/unused_state.sol#15-20)\n",
+        "markdown": "[A.unused3](tests/mini_dataset/unused_state.sol#L6) is never used in [B](tests/mini_dataset/unused_state.sol#L15-L20)\n",
+        "id": "e2ac51590509d97ff791ce50d9a711fc5ad01c20d23eacf6fb31939bd91b9f48",
+        "check": "unused-state",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "unused4",
+            "source_mapping": {
+              "start": 121,
+              "length": 15,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+              "filename_relative": "tests/mini_dataset/unused_state.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+              "filename_short": "tests/mini_dataset/unused_state.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 5,
+              "ending_column": 20
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 199,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+                  "filename_relative": "tests/mini_dataset/unused_state.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+                  "filename_short": "tests/mini_dataset/unused_state.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "contract",
+            "name": "B",
+            "source_mapping": {
+              "start": 229,
+              "length": 85,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+              "filename_relative": "tests/mini_dataset/unused_state.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+              "filename_short": "tests/mini_dataset/unused_state.sol",
+              "is_dependency": false,
+              "lines": [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          }
+        ],
+        "description": "A.unused4 (tests/mini_dataset/unused_state.sol#7) is never used in B (tests/mini_dataset/unused_state.sol#15-20)\n",
+        "markdown": "[A.unused4](tests/mini_dataset/unused_state.sol#L7) is never used in [B](tests/mini_dataset/unused_state.sol#L15-L20)\n",
+        "id": "562d3e6a04f6f6068c3e4f0c074ecdbcff87929e43ec6fbeb6c088e715f63cf2",
+        "check": "unused-state",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "unused",
+            "source_mapping": {
+              "start": 44,
+              "length": 14,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+              "filename_relative": "tests/mini_dataset/unused_state.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+              "filename_short": "tests/mini_dataset/unused_state.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 5,
+              "ending_column": 19
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 199,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+                  "filename_relative": "tests/mini_dataset/unused_state.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+                  "filename_short": "tests/mini_dataset/unused_state.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "A.unused (tests/mini_dataset/unused_state.sol#4) should be constant\n",
+        "markdown": "[A.unused](tests/mini_dataset/unused_state.sol#L4) should be constant\n",
+        "id": "58f5db248663884d941b5d7b5fb11fa532742374a47c1ec4b38352da5c0d7f95",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "unused2",
+            "source_mapping": {
+              "start": 64,
+              "length": 22,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+              "filename_relative": "tests/mini_dataset/unused_state.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+              "filename_short": "tests/mini_dataset/unused_state.sol",
+              "is_dependency": false,
+              "lines": [
+                5
+              ],
+              "starting_column": 5,
+              "ending_column": 27
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 199,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+                  "filename_relative": "tests/mini_dataset/unused_state.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+                  "filename_short": "tests/mini_dataset/unused_state.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "A.unused2 (tests/mini_dataset/unused_state.sol#5) should be constant\n",
+        "markdown": "[A.unused2](tests/mini_dataset/unused_state.sol#L5) should be constant\n",
+        "id": "156057671ee654238e505e71d3751ff548229a9e46ab8d046ee840a8b346ed57",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "unused4",
+            "source_mapping": {
+              "start": 121,
+              "length": 15,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+              "filename_relative": "tests/mini_dataset/unused_state.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+              "filename_short": "tests/mini_dataset/unused_state.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 5,
+              "ending_column": 20
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 199,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+                  "filename_relative": "tests/mini_dataset/unused_state.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unused_state.sol",
+                  "filename_short": "tests/mini_dataset/unused_state.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "A.unused4 (tests/mini_dataset/unused_state.sol#7) should be constant\n",
+        "markdown": "[A.unused4](tests/mini_dataset/unused_state.sol#L7) should be constant\n",
+        "id": "d79dbf48d8f424666bc81ca6f693ef62ab140fa610ed6348d2df4f88b5b0c4cd",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

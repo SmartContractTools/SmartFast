@@ -1,0 +1,1 @@
+[{"severity":2,"argument":"SOLIDITY_INCORRECT_BLOCKHASH","starting_column":33,"description_val":"10000)) % 10; (tests/mini_dataset/bad_prng.sol)#13\n","context_ling":13,"text":"10000"},{"severity":2,"argument":"SOLIDITY_INCORRECT_BLOCKHASH","starting_column":31,"description_val":"10000))); (tests/mini_dataset/bad_prng.sol)#17\n","context_ling":17,"text":"10000"}]

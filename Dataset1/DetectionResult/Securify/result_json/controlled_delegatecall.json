@@ -1,0 +1,99 @@
+{
+  "tests/mini_dataset/controlled_delegatecall.sol:C": {
+    "version": "unknown_version",
+    "results": {
+      "DAO": {
+        "violations": [],
+        "warnings": [],
+        "safe": [],
+        "conflicts": []
+      },
+      "DAOConstantGas": {
+        "violations": [],
+        "warnings": [],
+        "safe": [],
+        "conflicts": []
+      },
+      "LockedEther": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          0
+        ],
+        "conflicts": []
+      },
+      "MissingInputValidation": {
+        "violations": [
+          14
+        ],
+        "warnings": [],
+        "safe": [
+          9,
+          19,
+          23,
+          27,
+          38,
+          47,
+          51,
+          55,
+          60
+        ],
+        "conflicts": []
+      },
+      "RepeatedCall": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          10,
+          11,
+          20,
+          24,
+          28,
+          30,
+          43,
+          48,
+          52,
+          57,
+          63
+        ],
+        "conflicts": []
+      },
+      "TODAmount": {
+        "violations": [],
+        "warnings": [],
+        "safe": [],
+        "conflicts": []
+      },
+      "TODReceiver": {
+        "violations": [],
+        "warnings": [],
+        "safe": [],
+        "conflicts": []
+      },
+      "UnhandledException": {
+        "violations": [],
+        "warnings": [],
+        "safe": [],
+        "conflicts": []
+      },
+      "UnrestrictedEtherFlow": {
+        "violations": [],
+        "warnings": [],
+        "safe": [],
+        "conflicts": []
+      },
+      "UnrestrictedWrite": {
+        "violations": [
+          15,
+          16
+        ],
+        "warnings": [],
+        "safe": [],
+        "conflicts": []
+      }
+    },
+    "securifyErrors": {
+      "errors": []
+    }
+  }
+}

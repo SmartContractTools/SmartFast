@@ -1,0 +1,373 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 27,
+              "length": 136,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+              "filename_relative": "tests/mini_dataset/integer_overflow.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+              "filename_short": "tests/mini_dataset/integer_overflow.sol",
+              "is_dependency": false,
+              "lines": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MarketPlace",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 166,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+                  "filename_relative": "tests/mini_dataset/integer_overflow.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+                  "filename_short": "tests/mini_dataset/integer_overflow.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "a = x + 1",
+            "source_mapping": {
+              "start": 85,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+              "filename_relative": "tests/mini_dataset/integer_overflow.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+              "filename_short": "tests/mini_dataset/integer_overflow.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 9,
+              "ending_column": 19
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 27,
+                  "length": 136,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+                  "filename_relative": "tests/mini_dataset/integer_overflow.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+                  "filename_short": "tests/mini_dataset/integer_overflow.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MarketPlace",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 166,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+                      "filename_relative": "tests/mini_dataset/integer_overflow.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+                      "filename_short": "tests/mini_dataset/integer_overflow.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transfer()"
+                }
+              }
+            }
+          },
+          {
+            "type": "node",
+            "name": "b = 2 * x",
+            "source_mapping": {
+              "start": 113,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+              "filename_relative": "tests/mini_dataset/integer_overflow.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+              "filename_short": "tests/mini_dataset/integer_overflow.sol",
+              "is_dependency": false,
+              "lines": [
+                5
+              ],
+              "starting_column": 9,
+              "ending_column": 19
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 27,
+                  "length": 136,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+                  "filename_relative": "tests/mini_dataset/integer_overflow.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+                  "filename_short": "tests/mini_dataset/integer_overflow.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MarketPlace",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 166,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+                      "filename_relative": "tests/mini_dataset/integer_overflow.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+                      "filename_short": "tests/mini_dataset/integer_overflow.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transfer()"
+                }
+              }
+            }
+          },
+          {
+            "type": "node",
+            "name": "a += 10",
+            "source_mapping": {
+              "start": 141,
+              "length": 7,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+              "filename_relative": "tests/mini_dataset/integer_overflow.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+              "filename_short": "tests/mini_dataset/integer_overflow.sol",
+              "is_dependency": false,
+              "lines": [
+                6
+              ],
+              "starting_column": 9,
+              "ending_column": 16
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 27,
+                  "length": 136,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+                  "filename_relative": "tests/mini_dataset/integer_overflow.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+                  "filename_short": "tests/mini_dataset/integer_overflow.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MarketPlace",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 166,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+                      "filename_relative": "tests/mini_dataset/integer_overflow.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+                      "filename_short": "tests/mini_dataset/integer_overflow.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transfer()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "MarketPlace.transfer() (tests/mini_dataset/integer_overflow.sol#2-7) may have integer overflow\n\tPossible nodes:\n\t- a = x + 1 (tests/mini_dataset/integer_overflow.sol#4)\n\t- b = 2 * x (tests/mini_dataset/integer_overflow.sol#5)\n\t- a += 10 (tests/mini_dataset/integer_overflow.sol#6)\n",
+        "markdown": "[MarketPlace.transfer()](tests/mini_dataset/integer_overflow.sol#L2-L7) may have integer overflow\n\tPossible nodes:\n\t- [a = x + 1](tests/mini_dataset/integer_overflow.sol#L4)\n\t- [b = 2 * x](tests/mini_dataset/integer_overflow.sol#L5)\n\t- [a += 10](tests/mini_dataset/integer_overflow.sol#L6)\n",
+        "id": "079f73d27f05fd714c72432c24737ed3e15911f8fd3d0c04aa6ce801b226f723",
+        "check": "integer-overflow",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 27,
+              "length": 136,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+              "filename_relative": "tests/mini_dataset/integer_overflow.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+              "filename_short": "tests/mini_dataset/integer_overflow.sol",
+              "is_dependency": false,
+              "lines": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MarketPlace",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 166,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+                  "filename_relative": "tests/mini_dataset/integer_overflow.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/integer_overflow.sol",
+                  "filename_short": "tests/mini_dataset/integer_overflow.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer()"
+            }
+          }
+        ],
+        "description": "transfer() should be declared external:\n\t- MarketPlace.transfer() (tests/mini_dataset/integer_overflow.sol#2-7)\n",
+        "markdown": "transfer() should be declared external:\n\t- [MarketPlace.transfer()](tests/mini_dataset/integer_overflow.sol#L2-L7)\n",
+        "id": "d64a6b573a03722e1e87b641b31ddbeb61d07550387a7455f16a112e22b753ed",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                2
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function transfer() { (tests/mini_dataset/integer_overflow.sol)#2\n",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

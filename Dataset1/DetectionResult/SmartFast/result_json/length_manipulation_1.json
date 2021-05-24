@@ -1,0 +1,842 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "refundAddresses",
+            "source_mapping": {
+              "start": 50,
+              "length": 25,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 2,
+              "ending_column": 27
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "PullPayment",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 391,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "refundAll",
+            "source_mapping": {
+              "start": 114,
+              "length": 301,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "PullPayment",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 391,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "refundAll()"
+            }
+          }
+        ],
+        "description": "PullPayment.refundAddresses (tests/mini_dataset/length_manipulation_1.sol#4) is never initialized. It is used in:\n\t- PullPayment.refundAll() (tests/mini_dataset/length_manipulation_1.sol#6-12)\n",
+        "markdown": "[PullPayment.refundAddresses](tests/mini_dataset/length_manipulation_1.sol#L4) is never initialized. It is used in:\n\t- [PullPayment.refundAll()](tests/mini_dataset/length_manipulation_1.sol#L6-L12)\n",
+        "id": "927d7402d556b117c48ceb37cc8667f7666e046372530e0b8e034208c1979109",
+        "check": "uninitialized-state",
+        "impact": "High",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "refunds",
+            "source_mapping": {
+              "start": 78,
+              "length": 33,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+              "is_dependency": false,
+              "lines": [
+                5
+              ],
+              "starting_column": 2,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "PullPayment",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 391,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "refundAll",
+            "source_mapping": {
+              "start": 114,
+              "length": 301,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "PullPayment",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 391,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "refundAll()"
+            }
+          }
+        ],
+        "description": "PullPayment.refunds (tests/mini_dataset/length_manipulation_1.sol#5) is never initialized. It is used in:\n\t- PullPayment.refundAll() (tests/mini_dataset/length_manipulation_1.sol#6-12)\n",
+        "markdown": "[PullPayment.refunds](tests/mini_dataset/length_manipulation_1.sol#L5) is never initialized. It is used in:\n\t- [PullPayment.refundAll()](tests/mini_dataset/length_manipulation_1.sol#L6-L12)\n",
+        "id": "c2086509c79bb15c3078ecc84c0d3a4dc614f6f3a57fa13c09bb5bf2c030cb81",
+        "check": "uninitialized-state",
+        "impact": "High",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "x",
+            "source_mapping": {
+              "start": 150,
+              "length": 6,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 7,
+              "ending_column": 13
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "refundAll",
+                "source_mapping": {
+                  "start": 114,
+                  "length": 301,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "PullPayment",
+                    "source_mapping": {
+                      "start": 26,
+                      "length": 391,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                      "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                      "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "refundAll()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "PullPayment.refundAll().x (tests/mini_dataset/length_manipulation_1.sol#7) is a local variable never initialized\n",
+        "markdown": "[PullPayment.refundAll().x](tests/mini_dataset/length_manipulation_1.sol#L7) is a local variable never initialized\n",
+        "id": "1442fa7826ec2a3f7ace5aff268d1f3a084e04be221ef1191b8157b22c6b0d75",
+        "check": "uninitialized-local",
+        "impact": "Medium",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "refundAll",
+            "source_mapping": {
+              "start": 114,
+              "length": 301,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "PullPayment",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 391,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "refundAll()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "refundAddresses[x].send(refunds[refundAddresses[x]])",
+            "source_mapping": {
+              "start": 270,
+              "length": 52,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+              "is_dependency": false,
+              "lines": [
+                8
+              ],
+              "starting_column": 7,
+              "ending_column": 59
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "refundAll",
+                "source_mapping": {
+                  "start": 114,
+                  "length": 301,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "PullPayment",
+                    "source_mapping": {
+                      "start": 26,
+                      "length": 391,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                      "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                      "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "refundAll()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "PullPayment.refundAll() (tests/mini_dataset/length_manipulation_1.sol#6-12) has external calls inside a loop: refundAddresses[x].send(refunds[refundAddresses[x]]) (tests/mini_dataset/length_manipulation_1.sol#8)\n",
+        "markdown": "[PullPayment.refundAll()](tests/mini_dataset/length_manipulation_1.sol#L6-L12) has external calls inside a loop: [refundAddresses[x].send(refunds[refundAddresses[x]])](tests/mini_dataset/length_manipulation_1.sol#L8)\n",
+        "id": "852a030cbaf28fe6c0e299046c622b26dfd2c0eb8639fbb93abd83161eb51767",
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 330,
+              "length": 5,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 5,
+              "ending_column": 10
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "refundAll",
+                "source_mapping": {
+                  "start": 114,
+                  "length": 301,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "PullPayment",
+                    "source_mapping": {
+                      "start": 26,
+                      "length": 391,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                      "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                      "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "refundAll()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (tests/mini_dataset/length_manipulation_1.sol#9):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](tests/mini_dataset/length_manipulation_1.sol#L9):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "9086ea4c95d9808da765ae7f206f4499249d9478e4140c021fe6ff368d42f2b2",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.11",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".11"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.11 (tests/mini_dataset/length_manipulation_1.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.11](tests/mini_dataset/length_manipulation_1.sol#L1) allows old versions\n",
+        "id": "f9a0aee8cd5733cecf110f6e4081d93cad2f1dd26c4685f8719e2a923f15b9c5",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "refundAll",
+            "source_mapping": {
+              "start": 114,
+              "length": 301,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "PullPayment",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 391,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "refundAll()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "refundAddresses[x].send(refunds[refundAddresses[x]])",
+            "source_mapping": {
+              "start": 270,
+              "length": 52,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+              "is_dependency": false,
+              "lines": [
+                8
+              ],
+              "starting_column": 7,
+              "ending_column": 59
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "refundAll",
+                "source_mapping": {
+                  "start": 114,
+                  "length": 301,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "PullPayment",
+                    "source_mapping": {
+                      "start": 26,
+                      "length": 391,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                      "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                      "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "refundAll()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in PullPayment.refundAll() (tests/mini_dataset/length_manipulation_1.sol#6-12):\n\t- refundAddresses[x].send(refunds[refundAddresses[x]]) (tests/mini_dataset/length_manipulation_1.sol#8)\n",
+        "markdown": "Low level call in [PullPayment.refundAll()](tests/mini_dataset/length_manipulation_1.sol#L6-L12):\n\t- [refundAddresses[x].send(refunds[refundAddresses[x]])](tests/mini_dataset/length_manipulation_1.sol#L8)\n",
+        "id": "e54b1365bc4371ef6edb998218a3c44280d9087c3ceb7d1937e7081c4ccf6647",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "refundAll",
+            "source_mapping": {
+              "start": 114,
+              "length": 301,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+              "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "PullPayment",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 391,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_relative": "tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation_1.sol",
+                  "filename_short": "tests/mini_dataset/length_manipulation_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "refundAll()"
+            }
+          }
+        ],
+        "description": "refundAll() should be declared external:\n\t- PullPayment.refundAll() (tests/mini_dataset/length_manipulation_1.sol#6-12)\n",
+        "markdown": "refundAll() should be declared external:\n\t- [PullPayment.refundAll()](tests/mini_dataset/length_manipulation_1.sol#L6-L12)\n",
+        "id": "d93b2a1b07e911c917dead91abde77814986b97de3efe84fa71f14570d006205",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                7
+              ],
+              "starting_column": 2
+            }
+          }
+        ],
+        "impact": "Optimization",
+        "check": "extra-gas-inloops",
+        "description": "for(uint x; x < refundAddresses.length; x++) { // arbitrary length iteration based on how many addresses participated (tests/mini_dataset/length_manipulation_1.sol)#7\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                7
+              ],
+              "starting_column": 2
+            }
+          }
+        ],
+        "impact": "Medium",
+        "check": "costly-loop",
+        "description": "for(uint x; x < refundAddresses.length; x++) { // arbitrary length iteration based on how many addresses participated (tests/mini_dataset/length_manipulation_1.sol)#7\n",
+        "confidence": "possibly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                8
+              ],
+              "starting_column": 3
+            }
+          }
+        ],
+        "impact": "Optimization",
+        "check": "revert-require",
+        "description": "if(refundAddresses[x].send(refunds[refundAddresses[x]])) { (tests/mini_dataset/length_manipulation_1.sol)#8\n",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

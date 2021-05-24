@@ -1,0 +1,16 @@
+{
+ "vulnerabilities": {
+  "callstack": [], 
+  "time_dependency": [], 
+  "reentrancy": [], 
+  "integer_overflow": [
+   "/dataset/tests/mini_dataset/private_not_hidedata.sol:19:9: Warning: Integer Overflow.\n        wallets[_wallet].balance", 
+   "/dataset/tests/mini_dataset/private_not_hidedata.sol:19:9: Warning: Integer Overflow.\n        wallets[_wallet].balance += msg.value\nInteger Overflow occurs if:\n    wallets[_wallet].balance = 1"
+  ], 
+  "parity_multisig_bug_2": [], 
+  "integer_underflow": [], 
+  "money_concurrency": [], 
+  "assertion_failure": []
+ }, 
+ "evm_code_coverage": "97.9"
+}

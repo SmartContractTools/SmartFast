@@ -1,0 +1,1226 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "destinations1",
+            "source_mapping": {
+              "start": 329,
+              "length": 23,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_relative": "tests/mini_dataset/calls_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_short": "tests/mini_dataset/calls_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                19
+              ],
+              "starting_column": 5,
+              "ending_column": 28
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "B",
+                "source_mapping": {
+                  "start": 293,
+                  "length": 368,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_relative": "tests/mini_dataset/calls_loop.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_short": "tests/mini_dataset/calls_loop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "bad1",
+            "source_mapping": {
+              "start": 359,
+              "length": 138,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_relative": "tests/mini_dataset/calls_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_short": "tests/mini_dataset/calls_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                21,
+                22,
+                23,
+                24,
+                25
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "B",
+                "source_mapping": {
+                  "start": 293,
+                  "length": 368,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_relative": "tests/mini_dataset/calls_loop.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_short": "tests/mini_dataset/calls_loop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad1()"
+            }
+          },
+          {
+            "type": "function",
+            "name": "bad2",
+            "source_mapping": {
+              "start": 503,
+              "length": 156,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_relative": "tests/mini_dataset/calls_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_short": "tests/mini_dataset/calls_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "B",
+                "source_mapping": {
+                  "start": 293,
+                  "length": 368,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_relative": "tests/mini_dataset/calls_loop.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_short": "tests/mini_dataset/calls_loop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad2()"
+            }
+          }
+        ],
+        "description": "B.destinations1 (tests/mini_dataset/calls_loop.sol#19) is never initialized. It is used in:\n\t- B.bad1() (tests/mini_dataset/calls_loop.sol#21-25)\n\t- B.bad2() (tests/mini_dataset/calls_loop.sol#27-33)\n",
+        "markdown": "[B.destinations1](tests/mini_dataset/calls_loop.sol#L19) is never initialized. It is used in:\n\t- [B.bad1()](tests/mini_dataset/calls_loop.sol#L21-L25)\n\t- [B.bad2()](tests/mini_dataset/calls_loop.sol#L27-L33)\n",
+        "id": "37415b48352bc504b0633a6e1fe659e18b1c9ae5eda8db1bca1c77b9a56ec46c",
+        "check": "uninitialized-state",
+        "impact": "High",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad2",
+            "source_mapping": {
+              "start": 503,
+              "length": 156,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_relative": "tests/mini_dataset/calls_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_short": "tests/mini_dataset/calls_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "B",
+                "source_mapping": {
+                  "start": 293,
+                  "length": 368,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_relative": "tests/mini_dataset/calls_loop.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_short": "tests/mini_dataset/calls_loop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad2()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "a <= destinations.length",
+            "source_mapping": {
+              "start": 567,
+              "length": 22,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_relative": "tests/mini_dataset/calls_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_short": "tests/mini_dataset/calls_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                29
+              ],
+              "starting_column": 13,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad2",
+                "source_mapping": {
+                  "start": 503,
+                  "length": 156,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_relative": "tests/mini_dataset/calls_loop.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_short": "tests/mini_dataset/calls_loop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "B",
+                    "source_mapping": {
+                      "start": 293,
+                      "length": 368,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                      "filename_relative": "tests/mini_dataset/calls_loop.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                      "filename_short": "tests/mini_dataset/calls_loop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad2()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "B.bad2() (tests/mini_dataset/calls_loop.sol#27-33) contains a tautology or contradiction:\n\t- a <= destinations.length (tests/mini_dataset/calls_loop.sol#29)\n",
+        "markdown": "[B.bad2()](tests/mini_dataset/calls_loop.sol#L27-L33) contains a tautology or contradiction:\n\t- [a <= destinations.length](tests/mini_dataset/calls_loop.sol#L29)\n",
+        "id": "276f52c6dc13eea87b59a4850ab49773ffe038e3c743660ffcc3fdcf72cf0d6c",
+        "check": "tautology",
+        "impact": "Medium",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad2",
+            "source_mapping": {
+              "start": 503,
+              "length": 156,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_relative": "tests/mini_dataset/calls_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_short": "tests/mini_dataset/calls_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "B",
+                "source_mapping": {
+                  "start": 293,
+                  "length": 368,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_relative": "tests/mini_dataset/calls_loop.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_short": "tests/mini_dataset/calls_loop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad2()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "destinations1[a].send(a)",
+            "source_mapping": {
+              "start": 604,
+              "length": 24,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_relative": "tests/mini_dataset/calls_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_short": "tests/mini_dataset/calls_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                30
+              ],
+              "starting_column": 13,
+              "ending_column": 37
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad2",
+                "source_mapping": {
+                  "start": 503,
+                  "length": 156,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_relative": "tests/mini_dataset/calls_loop.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_short": "tests/mini_dataset/calls_loop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "B",
+                    "source_mapping": {
+                      "start": 293,
+                      "length": 368,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                      "filename_relative": "tests/mini_dataset/calls_loop.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                      "filename_short": "tests/mini_dataset/calls_loop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad2()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "B.bad2() (tests/mini_dataset/calls_loop.sol#27-33) unchecks send return value:\n\t- destinations1[a].send(a) (tests/mini_dataset/calls_loop.sol#30)\n",
+        "markdown": "[B.bad2()](tests/mini_dataset/calls_loop.sol#L27-L33) unchecks send return value:\n\t- [destinations1[a].send(a)](tests/mini_dataset/calls_loop.sol#L30)\n",
+        "id": "252027b15c3fd265fd378cea82ac2eb0a288521ae992618731f6fbb60e064db7",
+        "check": "unchecked-send",
+        "impact": "Medium",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad",
+            "source_mapping": {
+              "start": 153,
+              "length": 135,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_relative": "tests/mini_dataset/calls_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_short": "tests/mini_dataset/calls_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "CallInLoop",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 291,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_relative": "tests/mini_dataset/calls_loop.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_short": "tests/mini_dataset/calls_loop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "destinations[i].transfer(i)",
+            "source_mapping": {
+              "start": 244,
+              "length": 27,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_relative": "tests/mini_dataset/calls_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_short": "tests/mini_dataset/calls_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 13,
+              "ending_column": 40
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad",
+                "source_mapping": {
+                  "start": 153,
+                  "length": 135,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_relative": "tests/mini_dataset/calls_loop.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_short": "tests/mini_dataset/calls_loop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "CallInLoop",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 291,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                      "filename_relative": "tests/mini_dataset/calls_loop.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                      "filename_short": "tests/mini_dataset/calls_loop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "CallInLoop.bad() (tests/mini_dataset/calls_loop.sol#9-13) has external calls inside a loop: destinations[i].transfer(i) (tests/mini_dataset/calls_loop.sol#11)\n",
+        "markdown": "[CallInLoop.bad()](tests/mini_dataset/calls_loop.sol#L9-L13) has external calls inside a loop: [destinations[i].transfer(i)](tests/mini_dataset/calls_loop.sol#L11)\n",
+        "id": "874d47de43b4ec16a2e4c193d7681e8345f3b674672b78c75fb1dda3e911026a",
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad1",
+            "source_mapping": {
+              "start": 359,
+              "length": 138,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_relative": "tests/mini_dataset/calls_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_short": "tests/mini_dataset/calls_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                21,
+                22,
+                23,
+                24,
+                25
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "B",
+                "source_mapping": {
+                  "start": 293,
+                  "length": 368,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_relative": "tests/mini_dataset/calls_loop.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_short": "tests/mini_dataset/calls_loop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad1()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "destinations1[i].transfer(i)",
+            "source_mapping": {
+              "start": 452,
+              "length": 28,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_relative": "tests/mini_dataset/calls_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_short": "tests/mini_dataset/calls_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                23
+              ],
+              "starting_column": 13,
+              "ending_column": 41
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad1",
+                "source_mapping": {
+                  "start": 359,
+                  "length": 138,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_relative": "tests/mini_dataset/calls_loop.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_short": "tests/mini_dataset/calls_loop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "B",
+                    "source_mapping": {
+                      "start": 293,
+                      "length": 368,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                      "filename_relative": "tests/mini_dataset/calls_loop.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                      "filename_short": "tests/mini_dataset/calls_loop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad1()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "B.bad1() (tests/mini_dataset/calls_loop.sol#21-25) has external calls inside a loop: destinations1[i].transfer(i) (tests/mini_dataset/calls_loop.sol#23)\n",
+        "markdown": "[B.bad1()](tests/mini_dataset/calls_loop.sol#L21-L25) has external calls inside a loop: [destinations1[i].transfer(i)](tests/mini_dataset/calls_loop.sol#L23)\n",
+        "id": "4ed23ed13fe0b47dc511b726a94dece8429be782814ed65ff349e3933a6e6169",
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad2",
+            "source_mapping": {
+              "start": 503,
+              "length": 156,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_relative": "tests/mini_dataset/calls_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_short": "tests/mini_dataset/calls_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "B",
+                "source_mapping": {
+                  "start": 293,
+                  "length": 368,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_relative": "tests/mini_dataset/calls_loop.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_short": "tests/mini_dataset/calls_loop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad2()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "destinations1[a].send(a)",
+            "source_mapping": {
+              "start": 604,
+              "length": 24,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_relative": "tests/mini_dataset/calls_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_short": "tests/mini_dataset/calls_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                30
+              ],
+              "starting_column": 13,
+              "ending_column": 37
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad2",
+                "source_mapping": {
+                  "start": 503,
+                  "length": 156,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_relative": "tests/mini_dataset/calls_loop.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_short": "tests/mini_dataset/calls_loop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "B",
+                    "source_mapping": {
+                      "start": 293,
+                      "length": 368,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                      "filename_relative": "tests/mini_dataset/calls_loop.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                      "filename_short": "tests/mini_dataset/calls_loop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad2()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "B.bad2() (tests/mini_dataset/calls_loop.sol#27-33) has external calls inside a loop: destinations1[a].send(a) (tests/mini_dataset/calls_loop.sol#30)\n",
+        "markdown": "[B.bad2()](tests/mini_dataset/calls_loop.sol#L27-L33) has external calls inside a loop: [destinations1[a].send(a)](tests/mini_dataset/calls_loop.sol#L30)\n",
+        "id": "81891fb59d8f6df64bb824c90e8ff8b116433f04c3196d0ac495f93e5bb2ada7",
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad2",
+            "source_mapping": {
+              "start": 503,
+              "length": 156,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_relative": "tests/mini_dataset/calls_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_short": "tests/mini_dataset/calls_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "B",
+                "source_mapping": {
+                  "start": 293,
+                  "length": 368,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_relative": "tests/mini_dataset/calls_loop.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_short": "tests/mini_dataset/calls_loop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad2()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "destinations1[a].send(a)",
+            "source_mapping": {
+              "start": 604,
+              "length": 24,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_relative": "tests/mini_dataset/calls_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+              "filename_short": "tests/mini_dataset/calls_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                30
+              ],
+              "starting_column": 13,
+              "ending_column": 37
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad2",
+                "source_mapping": {
+                  "start": 503,
+                  "length": 156,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_relative": "tests/mini_dataset/calls_loop.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                  "filename_short": "tests/mini_dataset/calls_loop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "B",
+                    "source_mapping": {
+                      "start": 293,
+                      "length": 368,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                      "filename_relative": "tests/mini_dataset/calls_loop.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/calls_loop.sol",
+                      "filename_short": "tests/mini_dataset/calls_loop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad2()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in B.bad2() (tests/mini_dataset/calls_loop.sol#27-33):\n\t- destinations1[a].send(a) (tests/mini_dataset/calls_loop.sol#30)\n",
+        "markdown": "Low level call in [B.bad2()](tests/mini_dataset/calls_loop.sol#L27-L33):\n\t- [destinations1[a].send(a)](tests/mini_dataset/calls_loop.sol#L30)\n",
+        "id": "a728fdecccd26de19b282ba0821364cdecb37c93b0047eadd39a42241a1306cd",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                10
+              ],
+              "starting_column": 8
+            }
+          }
+        ],
+        "impact": "Optimization",
+        "check": "extra-gas-inloops",
+        "description": "for (uint i=0; i < destinations.length; i++){ (tests/mini_dataset/calls_loop.sol)#10\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                22
+              ],
+              "starting_column": 8
+            }
+          }
+        ],
+        "impact": "Optimization",
+        "check": "extra-gas-inloops",
+        "description": "for (uint i=0; i < destinations.length; i++){ (tests/mini_dataset/calls_loop.sol)#22\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                29
+              ],
+              "starting_column": 5
+            }
+          }
+        ],
+        "impact": "Optimization",
+        "check": "extra-gas-inloops",
+        "description": "while (a<=destinations.length){ (tests/mini_dataset/calls_loop.sol)#29\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                10
+              ],
+              "starting_column": 8
+            }
+          }
+        ],
+        "impact": "Medium",
+        "check": "costly-loop",
+        "description": "for (uint i=0; i < destinations.length; i++){ (tests/mini_dataset/calls_loop.sol)#10\n",
+        "confidence": "possibly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                22
+              ],
+              "starting_column": 8
+            }
+          }
+        ],
+        "impact": "Medium",
+        "check": "costly-loop",
+        "description": "for (uint i=0; i < destinations.length; i++){ (tests/mini_dataset/calls_loop.sol)#22\n",
+        "confidence": "possibly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                29
+              ],
+              "starting_column": 12
+            }
+          }
+        ],
+        "impact": "Medium",
+        "check": "costly-loop",
+        "description": "a<=destinations.length){ (tests/mini_dataset/calls_loop.sol)#29\n",
+        "confidence": "possibly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                5
+              ],
+              "starting_column": 16
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "upgrade-050",
+        "description": "address[] newDestinations) public{ (tests/mini_dataset/calls_loop.sol)#5\n",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

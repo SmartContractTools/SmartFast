@@ -1,0 +1,93 @@
+{
+  "tests/mini_dataset/reentrancy_eth.sol:PullPayment": {
+    "version": "unknown_version",
+    "results": {
+      "DAO": {
+        "violations": [
+          14
+        ],
+        "warnings": [],
+        "safe": [],
+        "conflicts": []
+      },
+      "DAOConstantGas": {
+        "violations": [],
+        "warnings": [],
+        "safe": [],
+        "conflicts": []
+      },
+      "LockedEther": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          2
+        ],
+        "conflicts": []
+      },
+      "MissingInputValidation": {
+        "violations": [
+          5
+        ],
+        "warnings": [],
+        "safe": [
+          12
+        ],
+        "conflicts": []
+      },
+      "RepeatedCall": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          14
+        ],
+        "conflicts": []
+      },
+      "TODAmount": {
+        "violations": [],
+        "warnings": [
+          14
+        ],
+        "safe": [],
+        "conflicts": []
+      },
+      "TODReceiver": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          14
+        ],
+        "conflicts": []
+      },
+      "UnhandledException": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          14
+        ],
+        "conflicts": []
+      },
+      "UnrestrictedEtherFlow": {
+        "violations": [],
+        "warnings": [
+          14
+        ],
+        "safe": [],
+        "conflicts": []
+      },
+      "UnrestrictedWrite": {
+        "violations": [],
+        "warnings": [
+          7
+        ],
+        "safe": [
+          8,
+          15
+        ],
+        "conflicts": []
+      }
+    },
+    "securifyErrors": {
+      "errors": []
+    }
+  }
+}

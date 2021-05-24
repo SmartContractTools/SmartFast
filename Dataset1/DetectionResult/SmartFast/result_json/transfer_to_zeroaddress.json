@@ -1,0 +1,2050 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "owner",
+            "source_mapping": {
+              "start": 37,
+              "length": 13,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 5,
+              "ending_column": 18
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Transfertozeroaddress",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 760,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "good1",
+            "source_mapping": {
+              "start": 521,
+              "length": 127,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "is_dependency": false,
+              "lines": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Transfertozeroaddress",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 760,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "good1()"
+            }
+          }
+        ],
+        "description": "Transfertozeroaddress.owner (tests/mini_dataset/transfer_to_zeroaddress.sol#2) is never initialized. It is used in:\n\t- Transfertozeroaddress.good1() (tests/mini_dataset/transfer_to_zeroaddress.sol#26-30)\n",
+        "markdown": "[Transfertozeroaddress.owner](tests/mini_dataset/transfer_to_zeroaddress.sol#L2) is never initialized. It is used in:\n\t- [Transfertozeroaddress.good1()](tests/mini_dataset/transfer_to_zeroaddress.sol#L26-L30)\n",
+        "id": "1b21a2cfcd6d669afdba44be4329f5cb8be497bd6e4c7e37ed1d31c7f7538178",
+        "check": "uninitialized-state",
+        "impact": "High",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad1",
+            "source_mapping": {
+              "start": 129,
+              "length": 78,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "is_dependency": false,
+              "lines": [
+                7,
+                8,
+                9,
+                10
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Transfertozeroaddress",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 760,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad1()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "aa.transfer(msg.value)",
+            "source_mapping": {
+              "start": 178,
+              "length": 22,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 3,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad1",
+                "source_mapping": {
+                  "start": 129,
+                  "length": 78,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Transfertozeroaddress",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 760,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                      "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                      "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad1()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Transfertozeroaddress.bad1() (tests/mini_dataset/transfer_to_zeroaddress.sol#7-10) transfers money to zero address\n\tDangerous transfers:\n\t- aa.transfer(msg.value) (tests/mini_dataset/transfer_to_zeroaddress.sol#9)\n",
+        "markdown": "[Transfertozeroaddress.bad1()](tests/mini_dataset/transfer_to_zeroaddress.sol#L7-L10) transfers money to zero address\n\tDangerous transfers:\n\t- [aa.transfer(msg.value)](tests/mini_dataset/transfer_to_zeroaddress.sol#L9)\n",
+        "id": "1a196b5369ad1065a5b481632ef29f05cbec8c2bed248625e006b695124873e7",
+        "check": "transfer-to-zeroaddress",
+        "impact": "Low",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad3",
+            "source_mapping": {
+              "start": 293,
+              "length": 57,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "is_dependency": false,
+              "lines": [
+                15,
+                16,
+                17
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Transfertozeroaddress",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 760,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad3()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "address(0).transfer(msg.value)",
+            "source_mapping": {
+              "start": 313,
+              "length": 30,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "is_dependency": false,
+              "lines": [
+                16
+              ],
+              "starting_column": 3,
+              "ending_column": 33
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad3",
+                "source_mapping": {
+                  "start": 293,
+                  "length": 57,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Transfertozeroaddress",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 760,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                      "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                      "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad3()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Transfertozeroaddress.bad3() (tests/mini_dataset/transfer_to_zeroaddress.sol#15-17) transfers money to zero address\n\tDangerous transfers:\n\t- address(0).transfer(msg.value) (tests/mini_dataset/transfer_to_zeroaddress.sol#16)\n",
+        "markdown": "[Transfertozeroaddress.bad3()](tests/mini_dataset/transfer_to_zeroaddress.sol#L15-L17) transfers money to zero address\n\tDangerous transfers:\n\t- [address(0).transfer(msg.value)](tests/mini_dataset/transfer_to_zeroaddress.sol#L16)\n",
+        "id": "b32ea17b6fa9b158a1c2198129f4f28ab34168e2f775481392b4742bde7c0364",
+        "check": "transfer-to-zeroaddress",
+        "impact": "Low",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad",
+            "source_mapping": {
+              "start": 56,
+              "length": 68,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Transfertozeroaddress",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 760,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "aa.transfer(msg.value)",
+            "source_mapping": {
+              "start": 95,
+              "length": 22,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "is_dependency": false,
+              "lines": [
+                5
+              ],
+              "starting_column": 3,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad",
+                "source_mapping": {
+                  "start": 56,
+                  "length": 68,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Transfertozeroaddress",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 760,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                      "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                      "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Transfertozeroaddress.bad() (tests/mini_dataset/transfer_to_zeroaddress.sol#3-6) transfers money to zero address\n\tDangerous transfers:\n\t- aa.transfer(msg.value) (tests/mini_dataset/transfer_to_zeroaddress.sol#5)\n",
+        "markdown": "[Transfertozeroaddress.bad()](tests/mini_dataset/transfer_to_zeroaddress.sol#L3-L6) transfers money to zero address\n\tDangerous transfers:\n\t- [aa.transfer(msg.value)](tests/mini_dataset/transfer_to_zeroaddress.sol#L5)\n",
+        "id": "4a760ae599b0a207d5d2bf2463b101df168392482d3237d225732bf2e0b84e26",
+        "check": "transfer-to-zeroaddress",
+        "impact": "Low",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad2",
+            "source_mapping": {
+              "start": 212,
+              "length": 76,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "is_dependency": false,
+              "lines": [
+                11,
+                12,
+                13,
+                14
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Transfertozeroaddress",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 760,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad2()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "aa.transfer(msg.value)",
+            "source_mapping": {
+              "start": 259,
+              "length": 22,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "is_dependency": false,
+              "lines": [
+                13
+              ],
+              "starting_column": 3,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad2",
+                "source_mapping": {
+                  "start": 212,
+                  "length": 76,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    11,
+                    12,
+                    13,
+                    14
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Transfertozeroaddress",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 760,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                      "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                      "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad2()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Transfertozeroaddress.bad2() (tests/mini_dataset/transfer_to_zeroaddress.sol#11-14) transfers money to zero address\n\tDangerous transfers:\n\t- aa.transfer(msg.value) (tests/mini_dataset/transfer_to_zeroaddress.sol#13)\n",
+        "markdown": "[Transfertozeroaddress.bad2()](tests/mini_dataset/transfer_to_zeroaddress.sol#L11-L14) transfers money to zero address\n\tDangerous transfers:\n\t- [aa.transfer(msg.value)](tests/mini_dataset/transfer_to_zeroaddress.sol#L13)\n",
+        "id": "fe84300a0682057e224894f8760105841d85e15ff221eb902be24a1d4d3a773d",
+        "check": "transfer-to-zeroaddress",
+        "impact": "Low",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad4",
+            "source_mapping": {
+              "start": 355,
+              "length": 59,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "is_dependency": false,
+              "lines": [
+                18,
+                19,
+                20
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Transfertozeroaddress",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 760,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad4()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "address(0x0).transfer(msg.value)",
+            "source_mapping": {
+              "start": 375,
+              "length": 32,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "is_dependency": false,
+              "lines": [
+                19
+              ],
+              "starting_column": 3,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad4",
+                "source_mapping": {
+                  "start": 355,
+                  "length": 59,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Transfertozeroaddress",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 760,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                      "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                      "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad4()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Transfertozeroaddress.bad4() (tests/mini_dataset/transfer_to_zeroaddress.sol#18-20) transfers money to zero address\n\tDangerous transfers:\n\t- address(0x0).transfer(msg.value) (tests/mini_dataset/transfer_to_zeroaddress.sol#19)\n",
+        "markdown": "[Transfertozeroaddress.bad4()](tests/mini_dataset/transfer_to_zeroaddress.sol#L18-L20) transfers money to zero address\n\tDangerous transfers:\n\t- [address(0x0).transfer(msg.value)](tests/mini_dataset/transfer_to_zeroaddress.sol#L19)\n",
+        "id": "26930a098903900dceb1ae61314d22ad0e93192ab95d104bbe3dcdbe7b7806be",
+        "check": "transfer-to-zeroaddress",
+        "impact": "Low",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "owner",
+            "source_mapping": {
+              "start": 37,
+              "length": 13,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 5,
+              "ending_column": 18
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Transfertozeroaddress",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 760,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "Transfertozeroaddress.owner (tests/mini_dataset/transfer_to_zeroaddress.sol#2) should be constant\n",
+        "markdown": "[Transfertozeroaddress.owner](tests/mini_dataset/transfer_to_zeroaddress.sol#L2) should be constant\n",
+        "id": "0a70329649111df457d91035393ec92e179b29c406f01234c7e0a0b2a0398127",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad",
+            "source_mapping": {
+              "start": 56,
+              "length": 68,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Transfertozeroaddress",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 760,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad()"
+            }
+          }
+        ],
+        "description": "bad() should be declared external:\n\t- Transfertozeroaddress.bad() (tests/mini_dataset/transfer_to_zeroaddress.sol#3-6)\n",
+        "markdown": "bad() should be declared external:\n\t- [Transfertozeroaddress.bad()](tests/mini_dataset/transfer_to_zeroaddress.sol#L3-L6)\n",
+        "id": "3594674085aa759bd56f0a85a90a8daaca86caa9e9794414e5723c6e4ea836a4",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad1",
+            "source_mapping": {
+              "start": 129,
+              "length": 78,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "is_dependency": false,
+              "lines": [
+                7,
+                8,
+                9,
+                10
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Transfertozeroaddress",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 760,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad1()"
+            }
+          }
+        ],
+        "description": "bad1() should be declared external:\n\t- Transfertozeroaddress.bad1() (tests/mini_dataset/transfer_to_zeroaddress.sol#7-10)\n",
+        "markdown": "bad1() should be declared external:\n\t- [Transfertozeroaddress.bad1()](tests/mini_dataset/transfer_to_zeroaddress.sol#L7-L10)\n",
+        "id": "db7859f440070ca24364c72ad6716e57ae0d107c92fd2e0721dabef533ad91ee",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad2",
+            "source_mapping": {
+              "start": 212,
+              "length": 76,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "is_dependency": false,
+              "lines": [
+                11,
+                12,
+                13,
+                14
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Transfertozeroaddress",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 760,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad2()"
+            }
+          }
+        ],
+        "description": "bad2() should be declared external:\n\t- Transfertozeroaddress.bad2() (tests/mini_dataset/transfer_to_zeroaddress.sol#11-14)\n",
+        "markdown": "bad2() should be declared external:\n\t- [Transfertozeroaddress.bad2()](tests/mini_dataset/transfer_to_zeroaddress.sol#L11-L14)\n",
+        "id": "83680e6625889910750152afda29caef338d627482594b499da3d2fa9e1f5beb",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad3",
+            "source_mapping": {
+              "start": 293,
+              "length": 57,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "is_dependency": false,
+              "lines": [
+                15,
+                16,
+                17
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Transfertozeroaddress",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 760,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad3()"
+            }
+          }
+        ],
+        "description": "bad3() should be declared external:\n\t- Transfertozeroaddress.bad3() (tests/mini_dataset/transfer_to_zeroaddress.sol#15-17)\n",
+        "markdown": "bad3() should be declared external:\n\t- [Transfertozeroaddress.bad3()](tests/mini_dataset/transfer_to_zeroaddress.sol#L15-L17)\n",
+        "id": "bf6c4a4ddbe1e6e220df520ef51e01159a525578710f0abf0e9c9a4beca3a3f1",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad4",
+            "source_mapping": {
+              "start": 355,
+              "length": 59,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "is_dependency": false,
+              "lines": [
+                18,
+                19,
+                20
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Transfertozeroaddress",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 760,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad4()"
+            }
+          }
+        ],
+        "description": "bad4() should be declared external:\n\t- Transfertozeroaddress.bad4() (tests/mini_dataset/transfer_to_zeroaddress.sol#18-20)\n",
+        "markdown": "bad4() should be declared external:\n\t- [Transfertozeroaddress.bad4()](tests/mini_dataset/transfer_to_zeroaddress.sol#L18-L20)\n",
+        "id": "c988d6d37a89c74636ecd24a0c4f5ba0941ba063224c3c96367a2aae91801e6f",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "good",
+            "source_mapping": {
+              "start": 419,
+              "length": 97,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "is_dependency": false,
+              "lines": [
+                21,
+                22,
+                23,
+                24,
+                25
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Transfertozeroaddress",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 760,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "good()"
+            }
+          }
+        ],
+        "description": "good() should be declared external:\n\t- Transfertozeroaddress.good() (tests/mini_dataset/transfer_to_zeroaddress.sol#21-25)\n",
+        "markdown": "good() should be declared external:\n\t- [Transfertozeroaddress.good()](tests/mini_dataset/transfer_to_zeroaddress.sol#L21-L25)\n",
+        "id": "f86786774a5446f042f536e19c8b3de08f9c5ada0eb876cd9b3b39c980542aa2",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "good1",
+            "source_mapping": {
+              "start": 521,
+              "length": 127,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "is_dependency": false,
+              "lines": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Transfertozeroaddress",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 760,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "good1()"
+            }
+          }
+        ],
+        "description": "good1() should be declared external:\n\t- Transfertozeroaddress.good1() (tests/mini_dataset/transfer_to_zeroaddress.sol#26-30)\n",
+        "markdown": "good1() should be declared external:\n\t- [Transfertozeroaddress.good1()](tests/mini_dataset/transfer_to_zeroaddress.sol#L26-L30)\n",
+        "id": "710ab9bb5b906771bf3fb275aec73a434d582e900ddee7f58981748fb2c4438a",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "good2",
+            "source_mapping": {
+              "start": 653,
+              "length": 105,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+              "is_dependency": false,
+              "lines": [
+                31,
+                32,
+                33,
+                34,
+                35
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Transfertozeroaddress",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 760,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_relative": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "filename_short": "tests/mini_dataset/transfer_to_zeroaddress.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "good2()"
+            }
+          }
+        ],
+        "description": "good2() should be declared external:\n\t- Transfertozeroaddress.good2() (tests/mini_dataset/transfer_to_zeroaddress.sol#31-35)\n",
+        "markdown": "good2() should be declared external:\n\t- [Transfertozeroaddress.good2()](tests/mini_dataset/transfer_to_zeroaddress.sol#L31-L35)\n",
+        "id": "223bcf30ff9f761bb11c5b093e1104e963f88de428c588744e16a612943382ee",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                23
+              ],
+              "starting_column": 2
+            }
+          }
+        ],
+        "impact": "Optimization",
+        "check": "revert-require",
+        "description": "if(aa != 0x0) {revert();} (tests/mini_dataset/transfer_to_zeroaddress.sol)#23\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                28
+              ],
+              "starting_column": 2
+            }
+          }
+        ],
+        "impact": "Optimization",
+        "check": "revert-require",
+        "description": "if(aa != address(0x0)) {address pp = owner; revert();} (tests/mini_dataset/transfer_to_zeroaddress.sol)#28\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                33
+              ],
+              "starting_column": 2
+            }
+          }
+        ],
+        "impact": "Optimization",
+        "check": "revert-require",
+        "description": "if(aa != address(0)) {revert();} (tests/mini_dataset/transfer_to_zeroaddress.sol)#33\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                3
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function bad() { (tests/mini_dataset/transfer_to_zeroaddress.sol)#3\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                7
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function bad1() { (tests/mini_dataset/transfer_to_zeroaddress.sol)#7\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                11
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function bad2() { (tests/mini_dataset/transfer_to_zeroaddress.sol)#11\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                15
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function bad3() { (tests/mini_dataset/transfer_to_zeroaddress.sol)#15\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                18
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function bad4() { (tests/mini_dataset/transfer_to_zeroaddress.sol)#18\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                21
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function good() { (tests/mini_dataset/transfer_to_zeroaddress.sol)#21\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                26
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function good1() { (tests/mini_dataset/transfer_to_zeroaddress.sol)#26\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                31
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function good2() { (tests/mini_dataset/transfer_to_zeroaddress.sol)#31\n",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

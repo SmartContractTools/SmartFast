@@ -1,0 +1,1960 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "not_constant_2",
+            "source_mapping": {
+              "start": 990,
+              "length": 33,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                46
+              ],
+              "starting_column": 5,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 817,
+                  "length": 386,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "MyConc.not_constant_2 (tests/mini_dataset/constable-states_1.sol#46) is set pre-construction with a non-constant function or state variable:\n\t- getNumber()\n",
+        "markdown": "[MyConc.not_constant_2](tests/mini_dataset/constable-states_1.sol#L46) is set pre-construction with a non-constant function or state variable:\n\t- getNumber()\n",
+        "id": "a63115add2e7a8f1f2fbb2883bd593337943f6b887799416a0b907c2cdec543d",
+        "check": "function-init-state",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "constant_1",
+            "source_mapping": {
+              "start": 1074,
+              "length": 38,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                48
+              ],
+              "starting_column": 5,
+              "ending_column": 43
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 817,
+                  "length": 386,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "MyConc.constant_1 (tests/mini_dataset/constable-states_1.sol#48) is set pre-construction with a non-constant function or state variable:\n\t- getNumber()\n",
+        "markdown": "[MyConc.constant_1](tests/mini_dataset/constable-states_1.sol#L48) is set pre-construction with a non-constant function or state variable:\n\t- getNumber()\n",
+        "id": "ce5184d1a6603d0b07a84c4d381f95c5cdde82be8a001f4d24576614290c705d",
+        "check": "function-init-state",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "should_be_constant",
+            "source_mapping": {
+              "start": 864,
+              "length": 42,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                43
+              ],
+              "starting_column": 5,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 817,
+                  "length": 386,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable MyConc.should_be_constant (tests/mini_dataset/constable-states_1.sol#43) is not in mixedCase\n",
+        "markdown": "Variable [MyConc.should_be_constant](tests/mini_dataset/constable-states_1.sol#L43) is not in mixedCase\n",
+        "id": "210e65b75ab0d958d927b87544329b8c0082b86f3425462683dbd4532a71fcd4",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "should_be_constant_2",
+            "source_mapping": {
+              "start": 912,
+              "length": 33,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                44
+              ],
+              "starting_column": 5,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 817,
+                  "length": 386,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable MyConc.should_be_constant_2 (tests/mini_dataset/constable-states_1.sol#44) is not in mixedCase\n",
+        "markdown": "Variable [MyConc.should_be_constant_2](tests/mini_dataset/constable-states_1.sol#L44) is not in mixedCase\n",
+        "id": "4b1b9f4ae413e27f1348156ba6ad684cdfe5be00718c8626772c59ad952b2a24",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "not_constant",
+            "source_mapping": {
+              "start": 951,
+              "length": 33,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                45
+              ],
+              "starting_column": 5,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 817,
+                  "length": 386,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable MyConc.not_constant (tests/mini_dataset/constable-states_1.sol#45) is not in mixedCase\n",
+        "markdown": "Variable [MyConc.not_constant](tests/mini_dataset/constable-states_1.sol#L45) is not in mixedCase\n",
+        "id": "db6fc9d2172b387e5ba2aa2501b87e2fbbe430b2a9fc4aae77b486177ebdddee",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "not_constant_2",
+            "source_mapping": {
+              "start": 990,
+              "length": 33,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                46
+              ],
+              "starting_column": 5,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 817,
+                  "length": 386,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable MyConc.not_constant_2 (tests/mini_dataset/constable-states_1.sol#46) is not in mixedCase\n",
+        "markdown": "Variable [MyConc.not_constant_2](tests/mini_dataset/constable-states_1.sol#L46) is not in mixedCase\n",
+        "id": "3460ce2c10ed0b6e7026c3d6acee420717004ff51ef5fb75d838f75334c4c4d0",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "not_constant_3",
+            "source_mapping": {
+              "start": 1029,
+              "length": 39,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                47
+              ],
+              "starting_column": 5,
+              "ending_column": 44
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 817,
+                  "length": 386,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable MyConc.not_constant_3 (tests/mini_dataset/constable-states_1.sol#47) is not in mixedCase\n",
+        "markdown": "Variable [MyConc.not_constant_3](tests/mini_dataset/constable-states_1.sol#L47) is not in mixedCase\n",
+        "id": "effa2dd5945ed3a52abdb495bfa2751b18dd6ce737f2d8ef3815fbb3bdc8c0b6",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "constant_1",
+            "source_mapping": {
+              "start": 1074,
+              "length": 38,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                48
+              ],
+              "starting_column": 5,
+              "ending_column": 43
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 817,
+                  "length": 386,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable_constant",
+              "convention": "UPPER_CASE_WITH_UNDERSCORES"
+            }
+          }
+        ],
+        "description": "Constant MyConc.constant_1 (tests/mini_dataset/constable-states_1.sol#48) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+        "markdown": "Constant [MyConc.constant_1](tests/mini_dataset/constable-states_1.sol#L48) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+        "id": "a40404505b18f187327b706dc38db6cfe5fa5b595c2b5f1b5aa97c45dc07db94",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "not_constant_2",
+            "source_mapping": {
+              "start": 990,
+              "length": 33,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                46
+              ],
+              "starting_column": 5,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 817,
+                  "length": 386,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "not_constant_3",
+            "source_mapping": {
+              "start": 1029,
+              "length": 39,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                47
+              ],
+              "starting_column": 5,
+              "ending_column": 44
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 817,
+                  "length": 386,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "Variable MyConc.not_constant_2 (tests/mini_dataset/constable-states_1.sol#46) is too similar to MyConc.not_constant_3 (tests/mini_dataset/constable-states_1.sol#47)\n",
+        "markdown": "Variable [MyConc.not_constant_2](tests/mini_dataset/constable-states_1.sol#L46) is too similar to [MyConc.not_constant_3](tests/mini_dataset/constable-states_1.sol#L47)\n",
+        "id": "53688bc46b8352c4b8f3179fa7d941ef5950f2e151cfcd81f210e6f0a94f66e9",
+        "check": "similar-names",
+        "impact": "Informational",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "X",
+            "source_mapping": {
+              "start": 264,
+              "length": 28,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                12
+              ],
+              "starting_column": 5,
+              "ending_column": 33
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 29,
+                  "length": 441,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "contract",
+            "name": "B",
+            "source_mapping": {
+              "start": 473,
+              "length": 342,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          }
+        ],
+        "description": "A.X (tests/mini_dataset/constable-states_1.sol#12) is never used in B (tests/mini_dataset/constable-states_1.sol#24-38)\n",
+        "markdown": "[A.X](tests/mini_dataset/constable-states_1.sol#L12) is never used in [B](tests/mini_dataset/constable-states_1.sol#L24-L38)\n",
+        "id": "d9fedd517eed58c3548ecb6c6af6538d50ad48d0dd2981b4fab14b51a7ea1a24",
+        "check": "unused-state",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "TEXT1",
+            "source_mapping": {
+              "start": 298,
+              "length": 29,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                13
+              ],
+              "starting_column": 5,
+              "ending_column": 34
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 29,
+                  "length": 441,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "contract",
+            "name": "B",
+            "source_mapping": {
+              "start": 473,
+              "length": 342,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          }
+        ],
+        "description": "A.TEXT1 (tests/mini_dataset/constable-states_1.sol#13) is never used in B (tests/mini_dataset/constable-states_1.sol#24-38)\n",
+        "markdown": "[A.TEXT1](tests/mini_dataset/constable-states_1.sol#L13) is never used in [B](tests/mini_dataset/constable-states_1.sol#L24-L38)\n",
+        "id": "ba10176b4ca1982f87a4368152e5ad9065f56e9e2e53e2bbab80b67bf2a4858e",
+        "check": "unused-state",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "text2",
+            "source_mapping": {
+              "start": 333,
+              "length": 20,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                14
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 29,
+                  "length": 441,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "contract",
+            "name": "B",
+            "source_mapping": {
+              "start": 473,
+              "length": 342,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          }
+        ],
+        "description": "A.text2 (tests/mini_dataset/constable-states_1.sol#14) is never used in B (tests/mini_dataset/constable-states_1.sol#24-38)\n",
+        "markdown": "[A.text2](tests/mini_dataset/constable-states_1.sol#L14) is never used in [B](tests/mini_dataset/constable-states_1.sol#L24-L38)\n",
+        "id": "da213e82b8d54c9c5500a522041c793d2e28142f14111ce3bdbd75e11955b436",
+        "check": "unused-state",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "should_be_constant",
+            "source_mapping": {
+              "start": 864,
+              "length": 42,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                43
+              ],
+              "starting_column": 5,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 817,
+                  "length": 386,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "contract",
+            "name": "MyConc",
+            "source_mapping": {
+              "start": 817,
+              "length": 386,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          }
+        ],
+        "description": "MyConc.should_be_constant (tests/mini_dataset/constable-states_1.sol#43) is never used in MyConc (tests/mini_dataset/constable-states_1.sol#40-54)\n",
+        "markdown": "[MyConc.should_be_constant](tests/mini_dataset/constable-states_1.sol#L43) is never used in [MyConc](tests/mini_dataset/constable-states_1.sol#L40-L54)\n",
+        "id": "8c3f6a4de875ebb274e6af76748d117473c9c1096dd595b09f8cf9c98569d88c",
+        "check": "unused-state",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "should_be_constant_2",
+            "source_mapping": {
+              "start": 912,
+              "length": 33,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                44
+              ],
+              "starting_column": 5,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 817,
+                  "length": 386,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "contract",
+            "name": "MyConc",
+            "source_mapping": {
+              "start": 817,
+              "length": 386,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          }
+        ],
+        "description": "MyConc.should_be_constant_2 (tests/mini_dataset/constable-states_1.sol#44) is never used in MyConc (tests/mini_dataset/constable-states_1.sol#40-54)\n",
+        "markdown": "[MyConc.should_be_constant_2](tests/mini_dataset/constable-states_1.sol#L44) is never used in [MyConc](tests/mini_dataset/constable-states_1.sol#L40-L54)\n",
+        "id": "d43e992866163a7debf8b1ca8af6da2fb2fe0327a0964f0d5dfafa56a41632b3",
+        "check": "unused-state",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "not_constant",
+            "source_mapping": {
+              "start": 951,
+              "length": 33,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                45
+              ],
+              "starting_column": 5,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 817,
+                  "length": 386,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "contract",
+            "name": "MyConc",
+            "source_mapping": {
+              "start": 817,
+              "length": 386,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          }
+        ],
+        "description": "MyConc.not_constant (tests/mini_dataset/constable-states_1.sol#45) is never used in MyConc (tests/mini_dataset/constable-states_1.sol#40-54)\n",
+        "markdown": "[MyConc.not_constant](tests/mini_dataset/constable-states_1.sol#L45) is never used in [MyConc](tests/mini_dataset/constable-states_1.sol#L40-L54)\n",
+        "id": "78203447b89c6a590d33582c083979008bec9a4e5a1ff05d6c54def4bba735d3",
+        "check": "unused-state",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "not_constant_2",
+            "source_mapping": {
+              "start": 990,
+              "length": 33,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                46
+              ],
+              "starting_column": 5,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 817,
+                  "length": 386,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "contract",
+            "name": "MyConc",
+            "source_mapping": {
+              "start": 817,
+              "length": 386,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          }
+        ],
+        "description": "MyConc.not_constant_2 (tests/mini_dataset/constable-states_1.sol#46) is never used in MyConc (tests/mini_dataset/constable-states_1.sol#40-54)\n",
+        "markdown": "[MyConc.not_constant_2](tests/mini_dataset/constable-states_1.sol#L46) is never used in [MyConc](tests/mini_dataset/constable-states_1.sol#L40-L54)\n",
+        "id": "e74f0579b2ed55c57a6e1c4f060fd11eb045843df4c83f7bc16b154b0f581750",
+        "check": "unused-state",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "not_constant_3",
+            "source_mapping": {
+              "start": 1029,
+              "length": 39,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                47
+              ],
+              "starting_column": 5,
+              "ending_column": 44
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 817,
+                  "length": 386,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "contract",
+            "name": "MyConc",
+            "source_mapping": {
+              "start": 817,
+              "length": 386,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          }
+        ],
+        "description": "MyConc.not_constant_3 (tests/mini_dataset/constable-states_1.sol#47) is never used in MyConc (tests/mini_dataset/constable-states_1.sol#40-54)\n",
+        "markdown": "[MyConc.not_constant_3](tests/mini_dataset/constable-states_1.sol#L47) is never used in [MyConc](tests/mini_dataset/constable-states_1.sol#L40-L54)\n",
+        "id": "a9cec4479002d28cbcba7b4c5cc1a9eefe790fe49f150b77f074785e6b6e63d7",
+        "check": "unused-state",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "constant_1",
+            "source_mapping": {
+              "start": 1074,
+              "length": 38,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                48
+              ],
+              "starting_column": 5,
+              "ending_column": 43
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 817,
+                  "length": 386,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "contract",
+            "name": "MyConc",
+            "source_mapping": {
+              "start": 817,
+              "length": 386,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          }
+        ],
+        "description": "MyConc.constant_1 (tests/mini_dataset/constable-states_1.sol#48) is never used in MyConc (tests/mini_dataset/constable-states_1.sol#40-54)\n",
+        "markdown": "[MyConc.constant_1](tests/mini_dataset/constable-states_1.sol#L48) is never used in [MyConc](tests/mini_dataset/constable-states_1.sol#L40-L54)\n",
+        "id": "48994ae5c9cc72cf1ed6969d0ede3c08783c1be08e31e5a8eb744d45e5c729f4",
+        "check": "unused-state",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "test",
+            "source_mapping": {
+              "start": 237,
+              "length": 20,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 29,
+                  "length": 441,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "A.test (tests/mini_dataset/constable-states_1.sol#10) should be constant\n",
+        "markdown": "[A.test](tests/mini_dataset/constable-states_1.sol#L10) should be constant\n",
+        "id": "5d9e3fb413322b71a93e90f7e89bd8c83cd4884d577d039598c681fe9db38b1d",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "text2",
+            "source_mapping": {
+              "start": 333,
+              "length": 20,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                14
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 29,
+                  "length": 441,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "A.text2 (tests/mini_dataset/constable-states_1.sol#14) should be constant\n",
+        "markdown": "[A.text2](tests/mini_dataset/constable-states_1.sol#L14) should be constant\n",
+        "id": "df11e6201c4558a8c5cd90b55b134b9ca8f07203b2264d3aa93bd7745e8cb4ba",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "mySistersAddress",
+            "source_mapping": {
+              "start": 496,
+              "length": 76,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                26
+              ],
+              "starting_column": 5,
+              "ending_column": 81
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "B",
+                "source_mapping": {
+                  "start": 473,
+                  "length": 342,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "B.mySistersAddress (tests/mini_dataset/constable-states_1.sol#26) should be constant\n",
+        "markdown": "[B.mySistersAddress](tests/mini_dataset/constable-states_1.sol#L26) should be constant\n",
+        "id": "bee93a722c8eae4a48aade67d8ef537d84c106f48fc9eb738c795fce10d3bc63",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "should_be_constant",
+            "source_mapping": {
+              "start": 864,
+              "length": 42,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                43
+              ],
+              "starting_column": 5,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 817,
+                  "length": 386,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "MyConc.should_be_constant (tests/mini_dataset/constable-states_1.sol#43) should be constant\n",
+        "markdown": "[MyConc.should_be_constant](tests/mini_dataset/constable-states_1.sol#L43) should be constant\n",
+        "id": "cbcafa2a3efba4d21ac1b51b4b823e5082d556bc3d6cf3fd2ab3188f9f218fc1",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "should_be_constant_2",
+            "source_mapping": {
+              "start": 912,
+              "length": 33,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                44
+              ],
+              "starting_column": 5,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 817,
+                  "length": 386,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "MyConc.should_be_constant_2 (tests/mini_dataset/constable-states_1.sol#44) should be constant\n",
+        "markdown": "[MyConc.should_be_constant_2](tests/mini_dataset/constable-states_1.sol#L44) should be constant\n",
+        "id": "9a48a4122de1a6a4774a9f1e0d4917bd0fa08f17b4af41b86ba07689e51bf711",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "setUsed",
+            "source_mapping": {
+              "start": 360,
+              "length": 108,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 29,
+                  "length": 441,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "setUsed()"
+            }
+          }
+        ],
+        "description": "setUsed() should be declared external:\n\t- A.setUsed() (tests/mini_dataset/constable-states_1.sol#16-20)\n",
+        "markdown": "setUsed() should be declared external:\n\t- [A.setUsed()](tests/mini_dataset/constable-states_1.sol#L16-L20)\n",
+        "id": "c7d589770678169007435df05c83ac1974d7180ceab3dca1674bfe50e5c3dc65",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "setUsed",
+            "source_mapping": {
+              "start": 631,
+              "length": 182,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+              "filename_short": "tests/mini_dataset/constable-states_1.sol",
+              "is_dependency": false,
+              "lines": [
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "B",
+                "source_mapping": {
+                  "start": 473,
+                  "length": 342,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_relative": "tests/mini_dataset/constable-states_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/constable-states_1.sol",
+                  "filename_short": "tests/mini_dataset/constable-states_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "setUsed(uint256)"
+            }
+          }
+        ],
+        "description": "setUsed(uint256) should be declared external:\n\t- B.setUsed(uint256) (tests/mini_dataset/constable-states_1.sol#32-37)\n",
+        "markdown": "setUsed(uint256) should be declared external:\n\t- [B.setUsed(uint256)](tests/mini_dataset/constable-states_1.sol#L32-L37)\n",
+        "id": "babbeeb0ab2aac79115c4515e165ded2245f71e3a433c417f23d398733f0551f",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

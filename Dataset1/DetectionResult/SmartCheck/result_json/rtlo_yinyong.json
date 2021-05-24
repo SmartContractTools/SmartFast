@@ -1,0 +1,1 @@
+[{"severity":1,"argument":"SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL","starting_column":4,"description_val":"function test() public pure (tests/mini_dataset/rtlo_yinyong.sol)#5\n","context_ling":5,"text":"function"}]

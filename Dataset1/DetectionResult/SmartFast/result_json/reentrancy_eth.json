@@ -1,0 +1,1061 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawBalance",
+            "source_mapping": {
+              "start": 268,
+              "length": 258,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+              "is_dependency": false,
+              "lines": [
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "PullPayment",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 502,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "withdrawBalance()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "! (msg.sender.call.value(amountToWithdraw)())",
+            "source_mapping": {
+              "start": 362,
+              "length": 44,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+              "is_dependency": false,
+              "lines": [
+                15
+              ],
+              "starting_column": 7,
+              "ending_column": 51
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawBalance",
+                "source_mapping": {
+                  "start": 268,
+                  "length": 258,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "PullPayment",
+                    "source_mapping": {
+                      "start": 26,
+                      "length": 502,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                      "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                      "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "withdrawBalance()"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "userBalances[msg.sender] = 0",
+            "source_mapping": {
+              "start": 494,
+              "length": 28,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+              "is_dependency": false,
+              "lines": [
+                16
+              ],
+              "starting_column": 3,
+              "ending_column": 31
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawBalance",
+                "source_mapping": {
+                  "start": 268,
+                  "length": 258,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "PullPayment",
+                    "source_mapping": {
+                      "start": 26,
+                      "length": 502,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                      "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                      "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "withdrawBalance()"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "variables_written",
+              "variable_name": "userBalances"
+            }
+          }
+        ],
+        "description": "Reentrancy in PullPayment.withdrawBalance() (tests/mini_dataset/reentrancy_eth.sol#13-17):\n\tExternal calls:\n\t- ! (msg.sender.call.value(amountToWithdraw)()) (tests/mini_dataset/reentrancy_eth.sol#15)\n\tState variables written after the call(s):\n\t- userBalances[msg.sender] = 0 (tests/mini_dataset/reentrancy_eth.sol#16)\n",
+        "markdown": "Reentrancy in [PullPayment.withdrawBalance()](tests/mini_dataset/reentrancy_eth.sol#L13-L17):\n\tExternal calls:\n\t- [! (msg.sender.call.value(amountToWithdraw)())](tests/mini_dataset/reentrancy_eth.sol#L15)\n\tState variables written after the call(s):\n\t- [userBalances[msg.sender] = 0](tests/mini_dataset/reentrancy_eth.sol#L16)\n",
+        "id": "7e3792e0f5d2502b944c134e442d6e33bce06eb039082075a7d6e508e6329dde",
+        "check": "reentrancy-eth",
+        "impact": "High",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "PullPayment",
+            "source_mapping": {
+              "start": 26,
+              "length": 502,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "starting_column": 1,
+              "ending_column": 0
+            }
+          },
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 100,
+              "length": 165,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "PullPayment",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 502,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          }
+        ],
+        "description": "PullPayment (tests/mini_dataset/reentrancy_eth.sol#3-19) has incorrect ERC20 function interface:PullPayment.transfer(address,uint256) (tests/mini_dataset/reentrancy_eth.sol#6-11)\n",
+        "markdown": "[PullPayment](tests/mini_dataset/reentrancy_eth.sol#L3-L19) has incorrect ERC20 function interface:[PullPayment.transfer(address,uint256)](tests/mini_dataset/reentrancy_eth.sol#L6-L11)\n",
+        "id": "f772b6c32439576b71754a1313bdddfd4d6cacdfa3e3694f478ee38450f9188f",
+        "check": "erc20-interface",
+        "impact": "Medium",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 100,
+              "length": 165,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "PullPayment",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 502,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "userBalances[to] += amount",
+            "source_mapping": {
+              "start": 192,
+              "length": 26,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+              "is_dependency": false,
+              "lines": [
+                8
+              ],
+              "starting_column": 4,
+              "ending_column": 30
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 100,
+                  "length": 165,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "PullPayment",
+                    "source_mapping": {
+                      "start": 26,
+                      "length": 502,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                      "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                      "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            }
+          },
+          {
+            "type": "node",
+            "name": "userBalances[msg.sender] -= amount",
+            "source_mapping": {
+              "start": 223,
+              "length": 34,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 4,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 100,
+                  "length": 165,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "PullPayment",
+                    "source_mapping": {
+                      "start": 26,
+                      "length": 502,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                      "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                      "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "PullPayment.transfer(address,uint256) (tests/mini_dataset/reentrancy_eth.sol#6-11) may have integer overflow\n\tPossible nodes:\n\t- userBalances[to] += amount (tests/mini_dataset/reentrancy_eth.sol#8)\n\t- userBalances[msg.sender] -= amount (tests/mini_dataset/reentrancy_eth.sol#9)\n",
+        "markdown": "[PullPayment.transfer(address,uint256)](tests/mini_dataset/reentrancy_eth.sol#L6-L11) may have integer overflow\n\tPossible nodes:\n\t- [userBalances[to] += amount](tests/mini_dataset/reentrancy_eth.sol#L8)\n\t- [userBalances[msg.sender] -= amount](tests/mini_dataset/reentrancy_eth.sol#L9)\n",
+        "id": "0ac9f7310c4743abae5e9501ac8850e5e88431df6a2802aaafb31745867eb94a",
+        "check": "integer-overflow",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 410,
+              "length": 5,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+              "is_dependency": false,
+              "lines": [
+                15
+              ],
+              "starting_column": 55,
+              "ending_column": 60
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawBalance",
+                "source_mapping": {
+                  "start": 268,
+                  "length": 258,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "PullPayment",
+                    "source_mapping": {
+                      "start": 26,
+                      "length": 502,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                      "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                      "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "withdrawBalance()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (tests/mini_dataset/reentrancy_eth.sol#15):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](tests/mini_dataset/reentrancy_eth.sol#L15):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "d809c2c79e7f1b1941a3834921d877c343d29e444506e4522f691ea05d1dc54c",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.11",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".11"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.11 (tests/mini_dataset/reentrancy_eth.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.11](tests/mini_dataset/reentrancy_eth.sol#L1) allows old versions\n",
+        "id": "2ee88ac85c2b6f393e67a6350ddec0731fae4635c1295425d5241918e6099954",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawBalance",
+            "source_mapping": {
+              "start": 268,
+              "length": 258,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+              "is_dependency": false,
+              "lines": [
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "PullPayment",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 502,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "withdrawBalance()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "! (msg.sender.call.value(amountToWithdraw)())",
+            "source_mapping": {
+              "start": 362,
+              "length": 44,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+              "is_dependency": false,
+              "lines": [
+                15
+              ],
+              "starting_column": 7,
+              "ending_column": 51
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawBalance",
+                "source_mapping": {
+                  "start": 268,
+                  "length": 258,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "PullPayment",
+                    "source_mapping": {
+                      "start": 26,
+                      "length": 502,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                      "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                      "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "withdrawBalance()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in PullPayment.withdrawBalance() (tests/mini_dataset/reentrancy_eth.sol#13-17):\n\t- ! (msg.sender.call.value(amountToWithdraw)()) (tests/mini_dataset/reentrancy_eth.sol#15)\n",
+        "markdown": "Low level call in [PullPayment.withdrawBalance()](tests/mini_dataset/reentrancy_eth.sol#L13-L17):\n\t- [! (msg.sender.call.value(amountToWithdraw)())](tests/mini_dataset/reentrancy_eth.sol#L15)\n",
+        "id": "19bd4b4463d68c3b9687d86a2a58e9c22c8fe5129b9c5d37dc488652b0dfbbc6",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 100,
+              "length": 165,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "PullPayment",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 502,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          }
+        ],
+        "description": "transfer(address,uint256) should be declared external:\n\t- PullPayment.transfer(address,uint256) (tests/mini_dataset/reentrancy_eth.sol#6-11)\n",
+        "markdown": "transfer(address,uint256) should be declared external:\n\t- [PullPayment.transfer(address,uint256)](tests/mini_dataset/reentrancy_eth.sol#L6-L11)\n",
+        "id": "1471d5fd50730b731b369e9981fdda3336799e1fda8a62d8cf156151432179a9",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawBalance",
+            "source_mapping": {
+              "start": 268,
+              "length": 258,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+              "is_dependency": false,
+              "lines": [
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "PullPayment",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 502,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/reentrancy_eth.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "withdrawBalance()"
+            }
+          }
+        ],
+        "description": "withdrawBalance() should be declared external:\n\t- PullPayment.withdrawBalance() (tests/mini_dataset/reentrancy_eth.sol#13-17)\n",
+        "markdown": "withdrawBalance() should be declared external:\n\t- [PullPayment.withdrawBalance()](tests/mini_dataset/reentrancy_eth.sol#L13-L17)\n",
+        "id": "d6fce1fcb17733b751a3d980a813da98ce99cf31fc9b9b1e988ff7417e471189",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                4
+              ],
+              "starting_column": 27
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "private-not-hidedata",
+        "description": "private userBalances; (tests/mini_dataset/reentrancy_eth.sol)#4\n",
+        "confidence": "possibly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                15
+              ],
+              "starting_column": 2
+            }
+          }
+        ],
+        "impact": "Optimization",
+        "check": "revert-require",
+        "description": "if (!(msg.sender.call.value(amountToWithdraw)())) { throw; } // At this point, the caller's code is executed, and can call transfer() (tests/mini_dataset/reentrancy_eth.sol)#15\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                15
+              ],
+              "starting_column": 19
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "upgrade-050",
+        "description": "call.value(amountToWithdraw)())) { throw; } // At this point, the caller's code is executed, and can call transfer() (tests/mini_dataset/reentrancy_eth.sol)#15\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                6
+              ],
+              "starting_column": 1
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function transfer(address to, uint amount) { (tests/mini_dataset/reentrancy_eth.sol)#6\n",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

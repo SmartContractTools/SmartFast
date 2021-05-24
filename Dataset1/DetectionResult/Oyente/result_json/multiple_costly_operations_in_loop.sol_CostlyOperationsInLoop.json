@@ -1,0 +1,16 @@
+{
+ "vulnerabilities": {
+  "callstack": [], 
+  "time_dependency": [], 
+  "reentrancy": [], 
+  "integer_overflow": [
+   "/dataset/tests/mini_dataset/multiple_costly_operations_in_loop.sol:31:7: Warning: Integer Overflow.\n      local_variable++\nInteger Overflow occurs if:\n    state_variable = 115792089237316195423570985008687907853269984665640564039457584007913129639935\n    loop_count = 115792089237316195423570985008687907853269984665640564039457584007913129639935", 
+   "/dataset/tests/mini_dataset/multiple_costly_operations_in_loop.sol:12:7: Warning: Integer Overflow.\n      state_variable++\nInteger Overflow occurs if:\n    state_variable = 115792089237316195423570985008687907853269984665640564039457584007913129639935\n    loop_count = 115792089237316195423570985008687907853269984665640564039457584007913129639935"
+  ], 
+  "parity_multisig_bug_2": [], 
+  "integer_underflow": [], 
+  "money_concurrency": [], 
+  "assertion_failure": []
+ }, 
+ "evm_code_coverage": "95.7"
+}

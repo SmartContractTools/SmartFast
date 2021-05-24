@@ -1,0 +1,175 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.5.5",
+            "source_mapping": {
+              "start": 63,
+              "length": 23,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/pragma_0.5.0.sol",
+              "filename_relative": "tests/mini_dataset/pragma_0.5.0.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/pragma_0.5.0.sol",
+              "filename_short": "tests/mini_dataset/pragma_0.5.0.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.5",
+                ".5"
+              ]
+            }
+          },
+          {
+            "type": "pragma",
+            "name": "0.5.7",
+            "source_mapping": {
+              "start": 87,
+              "length": 22,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/pragma_0.5.0.sol",
+              "filename_relative": "tests/mini_dataset/pragma_0.5.0.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/pragma_0.5.0.sol",
+              "filename_short": "tests/mini_dataset/pragma_0.5.0.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 1,
+              "ending_column": 23
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "0.5",
+                ".7"
+              ]
+            }
+          }
+        ],
+        "description": "Different versions of Solidity is used in :\n\t- Version used: ['0.5.7', '^0.5.5']\n\t- ^0.5.5 (tests/mini_dataset/pragma_0.5.0.sol#2)\n\t- 0.5.7 (tests/mini_dataset/pragma_0.5.0.sol#3)\n",
+        "markdown": "Different versions of Solidity is used in :\n\t- Version used: ['0.5.7', '^0.5.5']\n\t- [^0.5.5](tests/mini_dataset/pragma_0.5.0.sol#L2)\n\t- [0.5.7](tests/mini_dataset/pragma_0.5.0.sol#L3)\n",
+        "id": "111b457f769e73e332245a0c3cc29278b2b59dcb62c9294bc0c4f37b8558bfe7",
+        "check": "pragma",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.5.5",
+            "source_mapping": {
+              "start": 63,
+              "length": 23,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/pragma_0.5.0.sol",
+              "filename_relative": "tests/mini_dataset/pragma_0.5.0.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/pragma_0.5.0.sol",
+              "filename_short": "tests/mini_dataset/pragma_0.5.0.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.5",
+                ".5"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.5.5 (tests/mini_dataset/pragma_0.5.0.sol#2) is known to contain severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)\n",
+        "markdown": "Pragma version[^0.5.5](tests/mini_dataset/pragma_0.5.0.sol#L2) is known to contain severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)\n",
+        "id": "736c581806f2705d2133551e4de4a3a66905b496e766563e3706c278e65ab556",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "0.5.7",
+            "source_mapping": {
+              "start": 87,
+              "length": 22,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/pragma_0.5.0.sol",
+              "filename_relative": "tests/mini_dataset/pragma_0.5.0.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/pragma_0.5.0.sol",
+              "filename_short": "tests/mini_dataset/pragma_0.5.0.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 1,
+              "ending_column": 23
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "0.5",
+                ".7"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version0.5.7 (tests/mini_dataset/pragma_0.5.0.sol#3) allows old versions\n",
+        "markdown": "Pragma version[0.5.7](tests/mini_dataset/pragma_0.5.0.sol#L3) allows old versions\n",
+        "id": "2bf563c5c1101f5943969a8c8463f11edb2ef929e8f0ad00ff48bfa278537a6d",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "0.5.7",
+            "source_mapping": {
+              "start": 87,
+              "length": 22,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/pragma_0.5.0.sol",
+              "filename_relative": "tests/mini_dataset/pragma_0.5.0.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/pragma_0.5.0.sol",
+              "filename_short": "tests/mini_dataset/pragma_0.5.0.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 1,
+              "ending_column": 23
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "0.5",
+                ".7"
+              ]
+            }
+          }
+        ],
+        "description": "solc-0.5.7 is not recommended for deployment\n",
+        "markdown": "solc-0.5.7 is not recommended for deployment\n",
+        "id": "198d7f1df469662424720d03245311877e3b860e9b1ef666447ec8b3c03d557b",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

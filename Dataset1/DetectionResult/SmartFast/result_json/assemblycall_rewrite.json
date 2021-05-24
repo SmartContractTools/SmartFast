@@ -1,0 +1,329 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                17
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Medium",
+        "check": "constant-function-state",
+        "description": "function isValidWalletSignature( (tests/mini_dataset/assemblycall_rewrite.sol)#17\n",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "isValidWalletSignature",
+            "source_mapping": {
+              "start": 409,
+              "length": 1066,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/assemblycall_rewrite.sol",
+              "filename_relative": "tests/mini_dataset/assemblycall_rewrite.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/assemblycall_rewrite.sol",
+              "filename_short": "tests/mini_dataset/assemblycall_rewrite.sol",
+              "is_dependency": false,
+              "lines": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MixinSignatureValidator",
+                "source_mapping": {
+                  "start": 369,
+                  "length": 1109,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/assemblycall_rewrite.sol",
+                  "filename_relative": "tests/mini_dataset/assemblycall_rewrite.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/assemblycall_rewrite.sol",
+                  "filename_short": "tests/mini_dataset/assemblycall_rewrite.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "isValidWalletSignature(bytes32,address,bytes)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "calldata = abi.encodeWithSelector(IWallet(walletAddress).isValidSignature.selector,hash,signature)",
+            "source_mapping": {
+              "start": 609,
+              "length": 163,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/assemblycall_rewrite.sol",
+              "filename_relative": "tests/mini_dataset/assemblycall_rewrite.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/assemblycall_rewrite.sol",
+              "filename_short": "tests/mini_dataset/assemblycall_rewrite.sol",
+              "is_dependency": false,
+              "lines": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "starting_column": 9,
+              "ending_column": 10
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "isValidWalletSignature",
+                "source_mapping": {
+                  "start": 409,
+                  "length": 1066,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/assemblycall_rewrite.sol",
+                  "filename_relative": "tests/mini_dataset/assemblycall_rewrite.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/assemblycall_rewrite.sol",
+                  "filename_short": "tests/mini_dataset/assemblycall_rewrite.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MixinSignatureValidator",
+                    "source_mapping": {
+                      "start": 369,
+                      "length": 1109,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/assemblycall_rewrite.sol",
+                      "filename_relative": "tests/mini_dataset/assemblycall_rewrite.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/assemblycall_rewrite.sol",
+                      "filename_short": "tests/mini_dataset/assemblycall_rewrite.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "isValidWalletSignature(bytes32,address,bytes)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "MixinSignatureValidator.isValidWalletSignature(bytes32,address,bytes) (tests/mini_dataset/assemblycall_rewrite.sol#17-50) ignores return value by calldata = abi.encodeWithSelector(IWallet(walletAddress).isValidSignature.selector,hash,signature) (tests/mini_dataset/assemblycall_rewrite.sol#26-30)\n",
+        "markdown": "[MixinSignatureValidator.isValidWalletSignature(bytes32,address,bytes)](tests/mini_dataset/assemblycall_rewrite.sol#L17-L50) ignores return value by [calldata = abi.encodeWithSelector(IWallet(walletAddress).isValidSignature.selector,hash,signature)](tests/mini_dataset/assemblycall_rewrite.sol#L26-L30)\n",
+        "id": "dd18a972ee68fbef131612a84cbc7a20a9cab2c880680bccebf5bdb2c4360207",
+        "check": "unused-return",
+        "impact": "Medium",
+        "confidence": "probably"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                33
+              ],
+              "starting_column": 12
+            }
+          }
+        ],
+        "impact": "Low",
+        "check": "assemblycall-rewrite",
+        "description": "let success := staticcall( (tests/mini_dataset/assemblycall_rewrite.sol)#33\n",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                20
+              ],
+              "starting_column": 8
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "upgrade-050",
+        "description": "bytes signature (tests/mini_dataset/assemblycall_rewrite.sol)#20\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                31
+              ],
+              "starting_column": 8
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "assembly",
+        "description": "assembly { (tests/mini_dataset/assemblycall_rewrite.sol)#31\n",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

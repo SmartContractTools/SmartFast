@@ -1,0 +1,1048 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 162,
+              "length": 191,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "NEW",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 700,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "withdraw(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "! (recipient.call.value(amountToWithdraw)())",
+            "source_mapping": {
+              "start": 295,
+              "length": 43,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 7,
+              "ending_column": 50
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 162,
+                  "length": 191,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "NEW",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 700,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                      "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                      "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "withdraw(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "NEW.withdraw(address) (tests/mini_dataset/reentrancy_eth_1.sol#6-10) sends eth to arbitrary user\n\tDangerous calls:\n\t- ! (recipient.call.value(amountToWithdraw)()) (tests/mini_dataset/reentrancy_eth_1.sol#9)\n",
+        "markdown": "[NEW.withdraw(address)](tests/mini_dataset/reentrancy_eth_1.sol#L6-L10) sends eth to arbitrary user\n\tDangerous calls:\n\t- [! (recipient.call.value(amountToWithdraw)())](tests/mini_dataset/reentrancy_eth_1.sol#L9)\n",
+        "id": "8b762bc2f7f4300c48d69e2865395aa2b0caaeb1e67891565de9f9753749750b",
+        "check": "arbitrary-send",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "getFirstWithdrawalBonus",
+            "source_mapping": {
+              "start": 356,
+              "length": 342,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "is_dependency": false,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "NEW",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 700,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "getFirstWithdrawalBonus(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "withdraw(recipient)",
+            "source_mapping": {
+              "start": 557,
+              "length": 19,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "is_dependency": false,
+              "lines": [
+                16
+              ],
+              "starting_column": 3,
+              "ending_column": 22
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getFirstWithdrawalBonus",
+                "source_mapping": {
+                  "start": 356,
+                  "length": 342,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "NEW",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 700,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                      "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                      "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "getFirstWithdrawalBonus(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "! (recipient.call.value(amountToWithdraw)())",
+            "source_mapping": {
+              "start": 295,
+              "length": 43,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 7,
+              "ending_column": 50
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 162,
+                  "length": 191,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "NEW",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 700,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                      "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                      "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "withdraw(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls_sending_eth"
+            }
+          },
+          {
+            "type": "node",
+            "name": "claimedBonus[recipient] = true",
+            "source_mapping": {
+              "start": 664,
+              "length": 30,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "is_dependency": false,
+              "lines": [
+                17
+              ],
+              "starting_column": 3,
+              "ending_column": 33
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getFirstWithdrawalBonus",
+                "source_mapping": {
+                  "start": 356,
+                  "length": 342,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "NEW",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 700,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                      "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                      "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "getFirstWithdrawalBonus(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "variables_written",
+              "variable_name": "claimedBonus"
+            }
+          }
+        ],
+        "description": "Reentrancy in NEW.getFirstWithdrawalBonus(address) (tests/mini_dataset/reentrancy_eth_1.sol#12-18):\n\tExternal calls:\n\t- withdraw(recipient) (tests/mini_dataset/reentrancy_eth_1.sol#16)\n\t\t- ! (recipient.call.value(amountToWithdraw)()) (tests/mini_dataset/reentrancy_eth_1.sol#9)\n\tState variables written after the call(s):\n\t- claimedBonus[recipient] = true (tests/mini_dataset/reentrancy_eth_1.sol#17)\n",
+        "markdown": "Reentrancy in [NEW.getFirstWithdrawalBonus(address)](tests/mini_dataset/reentrancy_eth_1.sol#L12-L18):\n\tExternal calls:\n\t- [withdraw(recipient)](tests/mini_dataset/reentrancy_eth_1.sol#L16)\n\t\t- [! (recipient.call.value(amountToWithdraw)())](tests/mini_dataset/reentrancy_eth_1.sol#L9)\n\tState variables written after the call(s):\n\t- [claimedBonus[recipient] = true](tests/mini_dataset/reentrancy_eth_1.sol#L17)\n",
+        "id": "bf01c3c6262fa60af242d18e226e3fbaa3b7087cfae74dd5c48e9b200cfd5948",
+        "check": "reentrancy-eth",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "userBalances",
+            "source_mapping": {
+              "start": 15,
+              "length": 46,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 2,
+              "ending_column": 48
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "NEW",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 700,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 162,
+              "length": 191,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "NEW",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 700,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "withdraw(address)"
+            }
+          }
+        ],
+        "description": "NEW.userBalances (tests/mini_dataset/reentrancy_eth_1.sol#2) is never initialized. It is used in:\n\t- NEW.withdraw(address) (tests/mini_dataset/reentrancy_eth_1.sol#6-10)\n",
+        "markdown": "[NEW.userBalances](tests/mini_dataset/reentrancy_eth_1.sol#L2) is never initialized. It is used in:\n\t- [NEW.withdraw(address)](tests/mini_dataset/reentrancy_eth_1.sol#L6-L10)\n",
+        "id": "e20052f551761c6867c16f146bf3ffb94407b0023c641431c757378386356d17",
+        "check": "uninitialized-state",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 342,
+              "length": 5,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 54,
+              "ending_column": 59
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 162,
+                  "length": 191,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "NEW",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 700,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                      "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                      "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "withdraw(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (tests/mini_dataset/reentrancy_eth_1.sol#9):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](tests/mini_dataset/reentrancy_eth_1.sol#L9):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "e054b08fc6a412aa14c8fff1d72e7f7101f392c262eda1dd05feec6a730bdff0",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 450,
+              "length": 5,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "is_dependency": false,
+              "lines": [
+                13
+              ],
+              "starting_column": 34,
+              "ending_column": 39
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getFirstWithdrawalBonus",
+                "source_mapping": {
+                  "start": 356,
+                  "length": 342,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "NEW",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 700,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                      "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                      "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "getFirstWithdrawalBonus(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (tests/mini_dataset/reentrancy_eth_1.sol#13):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](tests/mini_dataset/reentrancy_eth_1.sol#L13):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "53c6063605bcee3b7669b328713efd6cd5e7833b208e074b90ea0521d857cf0d",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 162,
+              "length": 191,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "NEW",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 700,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "withdraw(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "! (recipient.call.value(amountToWithdraw)())",
+            "source_mapping": {
+              "start": 295,
+              "length": 43,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 7,
+              "ending_column": 50
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 162,
+                  "length": 191,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "NEW",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 700,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                      "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                      "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "withdraw(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in NEW.withdraw(address) (tests/mini_dataset/reentrancy_eth_1.sol#6-10):\n\t- ! (recipient.call.value(amountToWithdraw)()) (tests/mini_dataset/reentrancy_eth_1.sol#9)\n",
+        "markdown": "Low level call in [NEW.withdraw(address)](tests/mini_dataset/reentrancy_eth_1.sol#L6-L10):\n\t- [! (recipient.call.value(amountToWithdraw)())](tests/mini_dataset/reentrancy_eth_1.sol#L9)\n",
+        "id": "6f5c29d56c089532f029989da9b7cffdc24cb85fc74d4807e5fad68daf3642f5",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "getFirstWithdrawalBonus",
+            "source_mapping": {
+              "start": 356,
+              "length": 342,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+              "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+              "is_dependency": false,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "NEW",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 700,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_relative": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/reentrancy_eth_1.sol",
+                  "filename_short": "tests/mini_dataset/reentrancy_eth_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "getFirstWithdrawalBonus(address)"
+            }
+          }
+        ],
+        "description": "getFirstWithdrawalBonus(address) should be declared external:\n\t- NEW.getFirstWithdrawalBonus(address) (tests/mini_dataset/reentrancy_eth_1.sol#12-18)\n",
+        "markdown": "getFirstWithdrawalBonus(address) should be declared external:\n\t- [NEW.getFirstWithdrawalBonus(address)](tests/mini_dataset/reentrancy_eth_1.sol#L12-L18)\n",
+        "id": "83558df92ec7a63d72b0b7cf268f33162bda4fe773a4d40a2158f345152bf75f",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

@@ -1,0 +1,861 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 206,
+              "length": 157,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+              "filename_relative": "tests/mini_dataset/revert_require.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+              "filename_short": "tests/mini_dataset/revert_require.sol",
+              "is_dependency": false,
+              "lines": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Holder",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 532,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                  "filename_relative": "tests/mini_dataset/revert_require.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                  "filename_short": "tests/mini_dataset/revert_require.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "withdraw(uint256,uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "holder.transfer(this.balance)",
+            "source_mapping": {
+              "start": 326,
+              "length": 29,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+              "filename_relative": "tests/mini_dataset/revert_require.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+              "filename_short": "tests/mini_dataset/revert_require.sol",
+              "is_dependency": false,
+              "lines": [
+                14
+              ],
+              "starting_column": 9,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 206,
+                  "length": 157,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                  "filename_relative": "tests/mini_dataset/revert_require.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                  "filename_short": "tests/mini_dataset/revert_require.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Holder",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 532,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                      "filename_relative": "tests/mini_dataset/revert_require.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                      "filename_short": "tests/mini_dataset/revert_require.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "withdraw(uint256,uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Holder.withdraw(uint256,uint256) (tests/mini_dataset/revert_require.sol#10-15) sends eth to arbitrary user\n\tDangerous calls:\n\t- holder.transfer(this.balance) (tests/mini_dataset/revert_require.sol#14)\n",
+        "markdown": "[Holder.withdraw(uint256,uint256)](tests/mini_dataset/revert_require.sol#L10-L15) sends eth to arbitrary user\n\tDangerous calls:\n\t- [holder.transfer(this.balance)](tests/mini_dataset/revert_require.sol#L14)\n",
+        "id": "e71ced5b05829f22a5b780fe68decdd270e8ed895c03c2b1d015df1495850c51",
+        "check": "arbitrary-send",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw_1",
+            "source_mapping": {
+              "start": 371,
+              "length": 156,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+              "filename_relative": "tests/mini_dataset/revert_require.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+              "filename_short": "tests/mini_dataset/revert_require.sol",
+              "is_dependency": false,
+              "lines": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Holder",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 532,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                  "filename_relative": "tests/mini_dataset/revert_require.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                  "filename_short": "tests/mini_dataset/revert_require.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "withdraw_1(uint256,uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "holder.transfer(this.balance)",
+            "source_mapping": {
+              "start": 490,
+              "length": 29,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+              "filename_relative": "tests/mini_dataset/revert_require.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+              "filename_short": "tests/mini_dataset/revert_require.sol",
+              "is_dependency": false,
+              "lines": [
+                21
+              ],
+              "starting_column": 9,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw_1",
+                "source_mapping": {
+                  "start": 371,
+                  "length": 156,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                  "filename_relative": "tests/mini_dataset/revert_require.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                  "filename_short": "tests/mini_dataset/revert_require.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Holder",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 532,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                      "filename_relative": "tests/mini_dataset/revert_require.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                      "filename_short": "tests/mini_dataset/revert_require.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "withdraw_1(uint256,uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Holder.withdraw_1(uint256,uint256) (tests/mini_dataset/revert_require.sol#17-22) sends eth to arbitrary user\n\tDangerous calls:\n\t- holder.transfer(this.balance) (tests/mini_dataset/revert_require.sol#21)\n",
+        "markdown": "[Holder.withdraw_1(uint256,uint256)](tests/mini_dataset/revert_require.sol#L17-L22) sends eth to arbitrary user\n\tDangerous calls:\n\t- [holder.transfer(this.balance)](tests/mini_dataset/revert_require.sol#L21)\n",
+        "id": "bf136fa24ae43f1b8e3291a55e3a7c7618373b17ed8de06b9a4b7641c4fd8cf1",
+        "check": "arbitrary-send",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 206,
+              "length": 157,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+              "filename_relative": "tests/mini_dataset/revert_require.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+              "filename_short": "tests/mini_dataset/revert_require.sol",
+              "is_dependency": false,
+              "lines": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Holder",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 532,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                  "filename_relative": "tests/mini_dataset/revert_require.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                  "filename_short": "tests/mini_dataset/revert_require.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "withdraw(uint256,uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "now < holdUntil",
+            "source_mapping": {
+              "start": 265,
+              "length": 15,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+              "filename_relative": "tests/mini_dataset/revert_require.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+              "filename_short": "tests/mini_dataset/revert_require.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 13,
+              "ending_column": 28
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 206,
+                  "length": 157,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                  "filename_relative": "tests/mini_dataset/revert_require.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                  "filename_short": "tests/mini_dataset/revert_require.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Holder",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 532,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                      "filename_relative": "tests/mini_dataset/revert_require.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                      "filename_short": "tests/mini_dataset/revert_require.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "withdraw(uint256,uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Holder.withdraw(uint256,uint256) (tests/mini_dataset/revert_require.sol#10-15) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- now < holdUntil (tests/mini_dataset/revert_require.sol#11)\n",
+        "markdown": "[Holder.withdraw(uint256,uint256)](tests/mini_dataset/revert_require.sol#L10-L15) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- [now < holdUntil](tests/mini_dataset/revert_require.sol#L11)\n",
+        "id": "b7a3aee603579f75789b46a31253249c5813e1e0aa01c07edb75c232fd333ac4",
+        "check": "timestamp",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw_1",
+            "source_mapping": {
+              "start": 371,
+              "length": 156,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+              "filename_relative": "tests/mini_dataset/revert_require.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+              "filename_short": "tests/mini_dataset/revert_require.sol",
+              "is_dependency": false,
+              "lines": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Holder",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 532,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                  "filename_relative": "tests/mini_dataset/revert_require.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                  "filename_short": "tests/mini_dataset/revert_require.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "withdraw_1(uint256,uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "now < holdUntil",
+            "source_mapping": {
+              "start": 432,
+              "length": 15,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+              "filename_relative": "tests/mini_dataset/revert_require.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+              "filename_short": "tests/mini_dataset/revert_require.sol",
+              "is_dependency": false,
+              "lines": [
+                18
+              ],
+              "starting_column": 13,
+              "ending_column": 28
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw_1",
+                "source_mapping": {
+                  "start": 371,
+                  "length": 156,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                  "filename_relative": "tests/mini_dataset/revert_require.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                  "filename_short": "tests/mini_dataset/revert_require.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Holder",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 532,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                      "filename_relative": "tests/mini_dataset/revert_require.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                      "filename_short": "tests/mini_dataset/revert_require.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "withdraw_1(uint256,uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Holder.withdraw_1(uint256,uint256) (tests/mini_dataset/revert_require.sol#17-22) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- now < holdUntil (tests/mini_dataset/revert_require.sol#18)\n",
+        "markdown": "[Holder.withdraw_1(uint256,uint256)](tests/mini_dataset/revert_require.sol#L17-L22) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- [now < holdUntil](tests/mini_dataset/revert_require.sol#L18)\n",
+        "id": "26cc4db6fb879c3e8893d2427bcbf61b25b05768d708c34244e4199da8cac9fb",
+        "check": "timestamp",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 463,
+              "length": 5,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+              "filename_relative": "tests/mini_dataset/revert_require.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+              "filename_short": "tests/mini_dataset/revert_require.sol",
+              "is_dependency": false,
+              "lines": [
+                19
+              ],
+              "starting_column": 13,
+              "ending_column": 18
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw_1",
+                "source_mapping": {
+                  "start": 371,
+                  "length": 156,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                  "filename_relative": "tests/mini_dataset/revert_require.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                  "filename_short": "tests/mini_dataset/revert_require.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Holder",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 532,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                      "filename_relative": "tests/mini_dataset/revert_require.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                      "filename_short": "tests/mini_dataset/revert_require.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "withdraw_1(uint256,uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (tests/mini_dataset/revert_require.sol#19):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](tests/mini_dataset/revert_require.sol#L19):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "2a6f651ee92e9462db8c2db367b4db39cce54e00144c5ca0da3b402d2fb37801",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw_1",
+            "source_mapping": {
+              "start": 371,
+              "length": 156,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+              "filename_relative": "tests/mini_dataset/revert_require.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+              "filename_short": "tests/mini_dataset/revert_require.sol",
+              "is_dependency": false,
+              "lines": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Holder",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 532,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                  "filename_relative": "tests/mini_dataset/revert_require.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/revert_require.sol",
+                  "filename_short": "tests/mini_dataset/revert_require.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "withdraw_1(uint256,uint256)"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function Holder.withdraw_1(uint256,uint256) (tests/mini_dataset/revert_require.sol#17-22) is not in mixedCase\n",
+        "markdown": "Function [Holder.withdraw_1(uint256,uint256)](tests/mini_dataset/revert_require.sol#L17-L22) is not in mixedCase\n",
+        "id": "3d733d2ed9432578d5e5e1eafd6afd10259bd69ed23e919405350d88c5d086ae",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      }
+    ]
+  }
+}

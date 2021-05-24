@@ -1,0 +1,119 @@
+{
+  "tests/mini_dataset/reentrancy_eth_0.5.1.sol:Reentrancy": {
+    "version": "unknown_version",
+    "results": {
+      "DAO": {
+        "violations": [
+          16,
+          48
+        ],
+        "warnings": [],
+        "safe": [
+          28
+        ],
+        "conflicts": []
+      },
+      "DAOConstantGas": {
+        "violations": [
+          39
+        ],
+        "warnings": [],
+        "safe": [],
+        "conflicts": []
+      },
+      "LockedEther": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          2
+        ],
+        "conflicts": []
+      },
+      "MissingInputValidation": {
+        "violations": [
+          5
+        ],
+        "warnings": [],
+        "safe": [
+          9,
+          13,
+          23,
+          34,
+          43
+        ],
+        "conflicts": []
+      },
+      "RepeatedCall": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          16,
+          28,
+          39,
+          48
+        ],
+        "conflicts": []
+      },
+      "TODAmount": {
+        "violations": [],
+        "warnings": [
+          16,
+          28,
+          39,
+          48
+        ],
+        "safe": [],
+        "conflicts": []
+      },
+      "TODReceiver": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          16,
+          28,
+          39,
+          48
+        ],
+        "conflicts": []
+      },
+      "UnhandledException": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          16,
+          28,
+          39,
+          48
+        ],
+        "conflicts": []
+      },
+      "UnrestrictedEtherFlow": {
+        "violations": [],
+        "warnings": [
+          16,
+          28,
+          39,
+          48
+        ],
+        "safe": [],
+        "conflicts": []
+      },
+      "UnrestrictedWrite": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          10,
+          20,
+          27,
+          40,
+          47,
+          50
+        ],
+        "conflicts": []
+      }
+    },
+    "securifyErrors": {
+      "errors": []
+    }
+  }
+}

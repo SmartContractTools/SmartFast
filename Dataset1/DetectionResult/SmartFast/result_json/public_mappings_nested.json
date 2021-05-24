@@ -1,0 +1,439 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "testMapping",
+            "source_mapping": {
+              "start": 265,
+              "length": 47,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+              "filename_relative": "tests/mini_dataset/public_mappings_nested.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+              "filename_short": "tests/mini_dataset/public_mappings_nested.sol",
+              "is_dependency": false,
+              "lines": [
+                14
+              ],
+              "starting_column": 5,
+              "ending_column": 52
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Bug",
+                "source_mapping": {
+                  "start": 138,
+                  "length": 345,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+                  "filename_relative": "tests/mini_dataset/public_mappings_nested.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+                  "filename_short": "tests/mini_dataset/public_mappings_nested.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "Bug.testMapping (tests/mini_dataset/public_mappings_nested.sol#14) is a public mapping with nested variables\n",
+        "markdown": "[Bug.testMapping](tests/mini_dataset/public_mappings_nested.sol#L14) is a public mapping with nested variables\n",
+        "id": "100978112524def620b003331f34b2b51eb78cae6f7eb2793d9671b4b7bb858a",
+        "check": "public-mappings-nested",
+        "impact": "High",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.0",
+            "source_mapping": {
+              "start": 113,
+              "length": 23,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+              "filename_relative": "tests/mini_dataset/public_mappings_nested.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+              "filename_short": "tests/mini_dataset/public_mappings_nested.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".0"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.0 (tests/mini_dataset/public_mappings_nested.sol#2) allows old versions\n",
+        "markdown": "Pragma version[^0.4.0](tests/mini_dataset/public_mappings_nested.sol#L2) allows old versions\n",
+        "id": "96e0d0763503914e56531b3bd9714518ad2031b1520384098a46d1a82722440b",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "struct",
+            "name": "innerStruct",
+            "source_mapping": {
+              "start": 158,
+              "length": 42,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+              "filename_relative": "tests/mini_dataset/public_mappings_nested.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+              "filename_short": "tests/mini_dataset/public_mappings_nested.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Bug",
+                "source_mapping": {
+                  "start": 138,
+                  "length": 345,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+                  "filename_relative": "tests/mini_dataset/public_mappings_nested.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+                  "filename_short": "tests/mini_dataset/public_mappings_nested.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "structure",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Struct Bug.innerStruct (tests/mini_dataset/public_mappings_nested.sol#6-8) is not in CapWords\n",
+        "markdown": "Struct [Bug.innerStruct](tests/mini_dataset/public_mappings_nested.sol#L6-L8) is not in CapWords\n",
+        "id": "85b2acb4dfda2259e99d9b42925b2f1387ff5a6656043957652a216fe1d2caee",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "struct",
+            "name": "outerStruct",
+            "source_mapping": {
+              "start": 206,
+              "length": 53,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+              "filename_relative": "tests/mini_dataset/public_mappings_nested.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+              "filename_short": "tests/mini_dataset/public_mappings_nested.sol",
+              "is_dependency": false,
+              "lines": [
+                10,
+                11,
+                12
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Bug",
+                "source_mapping": {
+                  "start": 138,
+                  "length": 345,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+                  "filename_relative": "tests/mini_dataset/public_mappings_nested.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+                  "filename_short": "tests/mini_dataset/public_mappings_nested.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "structure",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Struct Bug.outerStruct (tests/mini_dataset/public_mappings_nested.sol#10-12) is not in CapWords\n",
+        "markdown": "Struct [Bug.outerStruct](tests/mini_dataset/public_mappings_nested.sol#L10-L12) is not in CapWords\n",
+        "id": "2a039f1dfc7cc2dcc97cdfe975b9f47ee09ff3d9b7d531e0e10ccf3db055d917",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "testMapping2",
+            "source_mapping": {
+              "start": 318,
+              "length": 41,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+              "filename_relative": "tests/mini_dataset/public_mappings_nested.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+              "filename_short": "tests/mini_dataset/public_mappings_nested.sol",
+              "is_dependency": false,
+              "lines": [
+                15
+              ],
+              "starting_column": 5,
+              "ending_column": 46
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Bug",
+                "source_mapping": {
+                  "start": 138,
+                  "length": 345,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+                  "filename_relative": "tests/mini_dataset/public_mappings_nested.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+                  "filename_short": "tests/mini_dataset/public_mappings_nested.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "testMapping3",
+            "source_mapping": {
+              "start": 365,
+              "length": 44,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+              "filename_relative": "tests/mini_dataset/public_mappings_nested.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+              "filename_short": "tests/mini_dataset/public_mappings_nested.sol",
+              "is_dependency": false,
+              "lines": [
+                16
+              ],
+              "starting_column": 5,
+              "ending_column": 49
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Bug",
+                "source_mapping": {
+                  "start": 138,
+                  "length": 345,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+                  "filename_relative": "tests/mini_dataset/public_mappings_nested.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+                  "filename_short": "tests/mini_dataset/public_mappings_nested.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "Variable Bug.testMapping2 (tests/mini_dataset/public_mappings_nested.sol#15) is too similar to Bug.testMapping3 (tests/mini_dataset/public_mappings_nested.sol#16)\n",
+        "markdown": "Variable [Bug.testMapping2](tests/mini_dataset/public_mappings_nested.sol#L15) is too similar to [Bug.testMapping3](tests/mini_dataset/public_mappings_nested.sol#L16)\n",
+        "id": "b7983f9f31b78ebec05498508bbb6bf7e36765ac7e6052352abdba0faeecd9b5",
+        "check": "similar-names",
+        "impact": "Informational",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "f",
+            "source_mapping": {
+              "start": 505,
+              "length": 102,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+              "filename_relative": "tests/mini_dataset/public_mappings_nested.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+              "filename_short": "tests/mini_dataset/public_mappings_nested.sol",
+              "is_dependency": false,
+              "lines": [
+                25,
+                26,
+                27,
+                28
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Test",
+                "source_mapping": {
+                  "start": 485,
+                  "length": 124,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+                  "filename_relative": "tests/mini_dataset/public_mappings_nested.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/public_mappings_nested.sol",
+                  "filename_short": "tests/mini_dataset/public_mappings_nested.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "f()"
+            }
+          }
+        ],
+        "description": "f() should be declared external:\n\t- Test.f() (tests/mini_dataset/public_mappings_nested.sol#25-28)\n",
+        "markdown": "f() should be declared external:\n\t- [Test.f()](tests/mini_dataset/public_mappings_nested.sol#L25-L28)\n",
+        "id": "1756d44c9d9671ce38b340e957a02d5fe9651628a5347cdb777b78c1e9bf32f3",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

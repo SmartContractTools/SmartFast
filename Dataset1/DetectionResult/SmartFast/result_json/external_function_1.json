@@ -1,0 +1,544 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "callFeed",
+            "source_mapping": {
+              "start": 279,
+              "length": 109,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+              "filename_relative": "tests/mini_dataset/external_function_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+              "filename_short": "tests/mini_dataset/external_function_1.sol",
+              "is_dependency": false,
+              "lines": [
+                14,
+                15,
+                16
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Consumer",
+                "source_mapping": {
+                  "start": 98,
+                  "length": 292,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+                  "filename_relative": "tests/mini_dataset/external_function_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+                  "filename_short": "tests/mini_dataset/external_function_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "callFeed(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "InfoFeed(addr).info.value(1).gas(8000)()",
+            "source_mapping": {
+              "start": 334,
+              "length": 47,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+              "filename_relative": "tests/mini_dataset/external_function_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+              "filename_short": "tests/mini_dataset/external_function_1.sol",
+              "is_dependency": false,
+              "lines": [
+                15
+              ],
+              "starting_column": 3,
+              "ending_column": 50
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "callFeed",
+                "source_mapping": {
+                  "start": 279,
+                  "length": 109,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+                  "filename_relative": "tests/mini_dataset/external_function_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+                  "filename_short": "tests/mini_dataset/external_function_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Consumer",
+                    "source_mapping": {
+                      "start": 98,
+                      "length": 292,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+                      "filename_relative": "tests/mini_dataset/external_function_1.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+                      "filename_short": "tests/mini_dataset/external_function_1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "callFeed(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Consumer.callFeed(address) (tests/mini_dataset/external_function_1.sol#14-16) sends eth to arbitrary user\n\tDangerous calls:\n\t- InfoFeed(addr).info.value(1).gas(8000)() (tests/mini_dataset/external_function_1.sol#15)\n",
+        "markdown": "[Consumer.callFeed(address)](tests/mini_dataset/external_function_1.sol#L14-L16) sends eth to arbitrary user\n\tDangerous calls:\n\t- [InfoFeed(addr).info.value(1).gas(8000)()](tests/mini_dataset/external_function_1.sol#L15)\n",
+        "id": "1a8c6d99b0bdcd5531c5b0b93fc929fe9826ed711c17a400151a2830c7a234b5",
+        "check": "arbitrary-send",
+        "impact": "High",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "InfoFeed",
+            "source_mapping": {
+              "start": 1,
+              "length": 96,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+              "filename_relative": "tests/mini_dataset/external_function_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+              "filename_short": "tests/mini_dataset/external_function_1.sol",
+              "is_dependency": false,
+              "lines": [
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          },
+          {
+            "type": "function",
+            "name": "info",
+            "source_mapping": {
+              "start": 25,
+              "length": 70,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+              "filename_relative": "tests/mini_dataset/external_function_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+              "filename_short": "tests/mini_dataset/external_function_1.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "InfoFeed",
+                "source_mapping": {
+                  "start": 1,
+                  "length": 96,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+                  "filename_relative": "tests/mini_dataset/external_function_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+                  "filename_short": "tests/mini_dataset/external_function_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "info()"
+            }
+          }
+        ],
+        "description": "Contract locking ether found in :\n\tContract InfoFeed (tests/mini_dataset/external_function_1.sol#2-6) has payable functions:\n\t - InfoFeed.info() (tests/mini_dataset/external_function_1.sol#3-5)\n\tBut does not have a function to withdraw the ether or the call value is 0\n",
+        "markdown": "Contract locking ether found in :\n\tContract [InfoFeed](tests/mini_dataset/external_function_1.sol#L2-L6) has payable functions:\n\t - [InfoFeed.info()](tests/mini_dataset/external_function_1.sol#L3-L5)\n\tBut does not have a function to withdraw the ether or the call value is 0\n",
+        "id": "9b073ed3d3e9f5d95ae00fd1c576ad854799434b544697bebbceb68ab63f3f7b",
+        "check": "locked-ether",
+        "impact": "Medium",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                11
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "deprecated-standards",
+        "description": "function left() constant returns (uint ret) { (tests/mini_dataset/external_function_1.sol)#11\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "info",
+            "source_mapping": {
+              "start": 25,
+              "length": 70,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+              "filename_relative": "tests/mini_dataset/external_function_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+              "filename_short": "tests/mini_dataset/external_function_1.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "InfoFeed",
+                "source_mapping": {
+                  "start": 1,
+                  "length": 96,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+                  "filename_relative": "tests/mini_dataset/external_function_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+                  "filename_short": "tests/mini_dataset/external_function_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "info()"
+            }
+          }
+        ],
+        "description": "info() should be declared external:\n\t- InfoFeed.info() (tests/mini_dataset/external_function_1.sol#3-5)\n",
+        "markdown": "info() should be declared external:\n\t- [InfoFeed.info()](tests/mini_dataset/external_function_1.sol#L3-L5)\n",
+        "id": "e6da3a6307f9eac2d1a144e4e10a9eb8eaf5ebf793e5e1aa3cbdb9b148d36bfc",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "deposit",
+            "source_mapping": {
+              "start": 122,
+              "length": 73,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+              "filename_relative": "tests/mini_dataset/external_function_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+              "filename_short": "tests/mini_dataset/external_function_1.sol",
+              "is_dependency": false,
+              "lines": [
+                8,
+                9,
+                10
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Consumer",
+                "source_mapping": {
+                  "start": 98,
+                  "length": 292,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+                  "filename_relative": "tests/mini_dataset/external_function_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+                  "filename_short": "tests/mini_dataset/external_function_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "deposit()"
+            }
+          }
+        ],
+        "description": "deposit() should be declared external:\n\t- Consumer.deposit() (tests/mini_dataset/external_function_1.sol#8-10)\n",
+        "markdown": "deposit() should be declared external:\n\t- [Consumer.deposit()](tests/mini_dataset/external_function_1.sol#L8-L10)\n",
+        "id": "273e1c3ab7d6b3a82e8daa9e4bf0180a2605680be0aca0e816a08dd3fe955601",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "left",
+            "source_mapping": {
+              "start": 200,
+              "length": 74,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+              "filename_relative": "tests/mini_dataset/external_function_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+              "filename_short": "tests/mini_dataset/external_function_1.sol",
+              "is_dependency": false,
+              "lines": [
+                11,
+                12,
+                13
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Consumer",
+                "source_mapping": {
+                  "start": 98,
+                  "length": 292,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+                  "filename_relative": "tests/mini_dataset/external_function_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+                  "filename_short": "tests/mini_dataset/external_function_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "left()"
+            }
+          }
+        ],
+        "description": "left() should be declared external:\n\t- Consumer.left() (tests/mini_dataset/external_function_1.sol#11-13)\n",
+        "markdown": "left() should be declared external:\n\t- [Consumer.left()](tests/mini_dataset/external_function_1.sol#L11-L13)\n",
+        "id": "33ec7bc3680a9348d28ea9a1cade738e13e16a30f5577bd9706b5b1d0578263c",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "callFeed",
+            "source_mapping": {
+              "start": 279,
+              "length": 109,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+              "filename_relative": "tests/mini_dataset/external_function_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+              "filename_short": "tests/mini_dataset/external_function_1.sol",
+              "is_dependency": false,
+              "lines": [
+                14,
+                15,
+                16
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Consumer",
+                "source_mapping": {
+                  "start": 98,
+                  "length": 292,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+                  "filename_relative": "tests/mini_dataset/external_function_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/external_function_1.sol",
+                  "filename_short": "tests/mini_dataset/external_function_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "callFeed(address)"
+            }
+          }
+        ],
+        "description": "callFeed(address) should be declared external:\n\t- Consumer.callFeed(address) (tests/mini_dataset/external_function_1.sol#14-16)\n",
+        "markdown": "callFeed(address) should be declared external:\n\t- [Consumer.callFeed(address)](tests/mini_dataset/external_function_1.sol#L14-L16)\n",
+        "id": "02e6ba92a0629bbe004b1fc3e824dc9efd10ed46ffe585e184df30969424b120",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                3
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function info() payable returns (uint ret) { (tests/mini_dataset/external_function_1.sol)#3\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                8
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function deposit() payable returns (uint ret) { (tests/mini_dataset/external_function_1.sol)#8\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                11
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function left() constant returns (uint ret) { (tests/mini_dataset/external_function_1.sol)#11\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                14
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function callFeed(address addr) returns (uint ret) { (tests/mini_dataset/external_function_1.sol)#14\n",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

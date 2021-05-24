@@ -1,0 +1,25 @@
+{"MyConc":{
+ "execution_paths": "7", 
+ "callstack": false, 
+ "reentrancy": "\n/dataset/tests/mini_dataset/unchecked_lowlevel.sol:MyConc:11:17\ndst.call.value(msg.value)()\n^\n/dataset/tests/mini_dataset/unchecked_lowlevel.sol:MyConc:15:12\ndst.call.value(msg.value)()\n^\n/dataset/tests/mini_dataset/unchecked_lowlevel.sol:MyConc:7:9\nmsg.sender.call.value(msg.value)(\"\")\n^\n/dataset/tests/mini_dataset/unchecked_lowlevel.sol:MyConc:3:9\ndst.call.value(msg.value)(\"\")\n^", 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "1.37171888351", 
+ "signedness": false, 
+ "evm_code_coverage": "97.6", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP ", 
+  "JUMPDEST ", 
+  "POP ", 
+  "JUMP ", 
+  "JUMPDEST ", 
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": "\nFlow 1:\n/dataset/tests/mini_dataset/unchecked_lowlevel.sol:MyConc:7:9\nmsg.sender.call.value(msg.value)(\"\")\n^\nFlow 2:\n/dataset/tests/mini_dataset/unchecked_lowlevel.sol:MyConc:3:9\ndst.call.value(msg.value)(\"\")\n^", 
+ "truncation": false
+}}

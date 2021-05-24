@@ -1,0 +1,331 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "f",
+            "source_mapping": {
+              "start": 17,
+              "length": 134,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/shift_parameter_mixup.sol",
+              "filename_relative": "tests/mini_dataset/shift_parameter_mixup.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/shift_parameter_mixup.sol",
+              "filename_short": "tests/mini_dataset/shift_parameter_mixup.sol",
+              "is_dependency": false,
+              "lines": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "C",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 288,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/shift_parameter_mixup.sol",
+                  "filename_relative": "tests/mini_dataset/shift_parameter_mixup.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/shift_parameter_mixup.sol",
+                  "filename_short": "tests/mini_dataset/shift_parameter_mixup.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "f()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 76,
+              "length": 66,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/shift_parameter_mixup.sol",
+              "filename_relative": "tests/mini_dataset/shift_parameter_mixup.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/shift_parameter_mixup.sol",
+              "filename_short": "tests/mini_dataset/shift_parameter_mixup.sol",
+              "is_dependency": false,
+              "lines": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "starting_column": 3,
+              "ending_column": 9
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "f",
+                "source_mapping": {
+                  "start": 17,
+                  "length": 134,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/shift_parameter_mixup.sol",
+                  "filename_relative": "tests/mini_dataset/shift_parameter_mixup.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/shift_parameter_mixup.sol",
+                  "filename_short": "tests/mini_dataset/shift_parameter_mixup.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "C",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 288,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/shift_parameter_mixup.sol",
+                      "filename_relative": "tests/mini_dataset/shift_parameter_mixup.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/shift_parameter_mixup.sol",
+                      "filename_short": "tests/mini_dataset/shift_parameter_mixup.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "f()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "C.f() (tests/mini_dataset/shift_parameter_mixup.sol#2-8) uses assembly\n\t- INLINE ASM (tests/mini_dataset/shift_parameter_mixup.sol#4-7)\n",
+        "markdown": "[C.f()](tests/mini_dataset/shift_parameter_mixup.sol#L2-L8) uses assembly\n\t- [INLINE ASM](tests/mini_dataset/shift_parameter_mixup.sol#L4-L7)\n",
+        "id": "fedcc685aab0d479a48f2b4ec7efb0eeacc1bffe4c07812d3978a16249cd701e",
+        "check": "assembly",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "g",
+            "source_mapping": {
+              "start": 155,
+              "length": 131,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/shift_parameter_mixup.sol",
+              "filename_relative": "tests/mini_dataset/shift_parameter_mixup.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/shift_parameter_mixup.sol",
+              "filename_short": "tests/mini_dataset/shift_parameter_mixup.sol",
+              "is_dependency": false,
+              "lines": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+              ],
+              "starting_column": 2,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "C",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 288,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/shift_parameter_mixup.sol",
+                  "filename_relative": "tests/mini_dataset/shift_parameter_mixup.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/shift_parameter_mixup.sol",
+                  "filename_short": "tests/mini_dataset/shift_parameter_mixup.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "g()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 214,
+              "length": 63,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/shift_parameter_mixup.sol",
+              "filename_relative": "tests/mini_dataset/shift_parameter_mixup.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/shift_parameter_mixup.sol",
+              "filename_short": "tests/mini_dataset/shift_parameter_mixup.sol",
+              "is_dependency": false,
+              "lines": [
+                12,
+                13,
+                14,
+                15
+              ],
+              "starting_column": 3,
+              "ending_column": 9
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "g",
+                "source_mapping": {
+                  "start": 155,
+                  "length": 131,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/shift_parameter_mixup.sol",
+                  "filename_relative": "tests/mini_dataset/shift_parameter_mixup.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/shift_parameter_mixup.sol",
+                  "filename_short": "tests/mini_dataset/shift_parameter_mixup.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "C",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 288,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/shift_parameter_mixup.sol",
+                      "filename_relative": "tests/mini_dataset/shift_parameter_mixup.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/shift_parameter_mixup.sol",
+                      "filename_short": "tests/mini_dataset/shift_parameter_mixup.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "g()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "C.g() (tests/mini_dataset/shift_parameter_mixup.sol#10-16) uses assembly\n\t- INLINE ASM (tests/mini_dataset/shift_parameter_mixup.sol#12-15)\n",
+        "markdown": "[C.g()](tests/mini_dataset/shift_parameter_mixup.sol#L10-L16) uses assembly\n\t- [INLINE ASM](tests/mini_dataset/shift_parameter_mixup.sol#L12-L15)\n",
+        "id": "c7054e8b286df1a3fed54650f4a8eed57433c56b8925d2f614f9166339e8f392",
+        "check": "assembly",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      }
+    ]
+  }
+}

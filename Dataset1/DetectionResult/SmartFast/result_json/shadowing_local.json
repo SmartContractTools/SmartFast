@@ -1,0 +1,2197 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "x",
+            "source_mapping": {
+              "start": 435,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                24
+              ],
+              "starting_column": 5,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FurtherExtendedContract",
+                "source_mapping": {
+                  "start": 376,
+                  "length": 234,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "x",
+            "source_mapping": {
+              "start": 295,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                13
+              ],
+              "starting_column": 5,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ExtendedContract",
+                "source_mapping": {
+                  "start": 247,
+                  "length": 127,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "FurtherExtendedContract.x (tests/mini_dataset/shadowing_local.sol#24) shadows:\n\t- ExtendedContract.x (tests/mini_dataset/shadowing_local.sol#13)\n",
+        "markdown": "[FurtherExtendedContract.x](tests/mini_dataset/shadowing_local.sol#L24) shadows:\n\t- [ExtendedContract.x](tests/mini_dataset/shadowing_local.sol#L13)\n",
+        "id": "1e54bd11c6fb338b6bd0ff0b346c2e2188fd38c95cb892a1de4d2ba335124bc3",
+        "check": "shadowing-state",
+        "impact": "High",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "x",
+            "source_mapping": {
+              "start": 295,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                13
+              ],
+              "starting_column": 5,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ExtendedContract",
+                "source_mapping": {
+                  "start": 247,
+                  "length": 127,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "x",
+            "source_mapping": {
+              "start": 54,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 5,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BaseContract",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 219,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "ExtendedContract.x (tests/mini_dataset/shadowing_local.sol#13) shadows:\n\t- BaseContract.x (tests/mini_dataset/shadowing_local.sol#4)\n",
+        "markdown": "[ExtendedContract.x](tests/mini_dataset/shadowing_local.sol#L13) shadows:\n\t- [BaseContract.x](tests/mini_dataset/shadowing_local.sol#L4)\n",
+        "id": "2b6961e5b7f7fe9e35b47e047b3406f61276c99278b9701590991f572997cb88",
+        "check": "shadowing-abstract",
+        "impact": "Medium",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "x",
+            "source_mapping": {
+              "start": 435,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                24
+              ],
+              "starting_column": 5,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FurtherExtendedContract",
+                "source_mapping": {
+                  "start": 376,
+                  "length": 234,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "x",
+            "source_mapping": {
+              "start": 54,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 5,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BaseContract",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 219,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "FurtherExtendedContract.x (tests/mini_dataset/shadowing_local.sol#24) shadows:\n\t- BaseContract.x (tests/mini_dataset/shadowing_local.sol#4)\n",
+        "markdown": "[FurtherExtendedContract.x](tests/mini_dataset/shadowing_local.sol#L24) shadows:\n\t- [BaseContract.x](tests/mini_dataset/shadowing_local.sol#L4)\n",
+        "id": "fb5ef18c1776cd6a1dcc7b4d0864e3898a738aa8eb5c59f3941c92f008b5d476",
+        "check": "shadowing-abstract",
+        "impact": "Medium",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "x",
+            "source_mapping": {
+              "start": 180,
+              "length": 5,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                8
+              ],
+              "starting_column": 48,
+              "ending_column": 53
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "shadowingParent_1",
+                "source_mapping": {
+                  "start": 137,
+                  "length": 50,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    8
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 55
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "BaseContract",
+                    "source_mapping": {
+                      "start": 26,
+                      "length": 219,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                      "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                      "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "shadowingParent_1()"
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "x",
+            "source_mapping": {
+              "start": 54,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 5,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BaseContract",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 219,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "BaseContract.shadowingParent_1().x (tests/mini_dataset/shadowing_local.sol#8) shadows:\n\t- BaseContract.x (tests/mini_dataset/shadowing_local.sol#4) (state variable)\n",
+        "markdown": "[BaseContract.shadowingParent_1().x](tests/mini_dataset/shadowing_local.sol#L8) shadows:\n\t- [BaseContract.x](tests/mini_dataset/shadowing_local.sol#L4) (state variable)\n",
+        "id": "b480d082966e5a52cc1add5a1751cfba67f7d61caccac5ec46afbf5368a19066",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "y",
+            "source_mapping": {
+              "start": 235,
+              "length": 6,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 48,
+              "ending_column": 54
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "shadowingParent_2",
+                "source_mapping": {
+                  "start": 192,
+                  "length": 51,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 56
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "BaseContract",
+                    "source_mapping": {
+                      "start": 26,
+                      "length": 219,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                      "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                      "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "shadowingParent_2()"
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "y",
+            "source_mapping": {
+              "start": 70,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                5
+              ],
+              "starting_column": 5,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BaseContract",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 219,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "BaseContract.shadowingParent_2().y (tests/mini_dataset/shadowing_local.sol#9) shadows:\n\t- BaseContract.y (tests/mini_dataset/shadowing_local.sol#5) (state variable)\n",
+        "markdown": "[BaseContract.shadowingParent_2().y](tests/mini_dataset/shadowing_local.sol#L9) shadows:\n\t- [BaseContract.y](tests/mini_dataset/shadowing_local.sol#L5) (state variable)\n",
+        "id": "d803a4e82d6933e516e21ecd334ad5ba7411da13c6aabdde9221d4153e466847",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "x",
+            "source_mapping": {
+              "start": 554,
+              "length": 6,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                31
+              ],
+              "starting_column": 30,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "shadowingParent",
+                "source_mapping": {
+                  "start": 529,
+                  "length": 79,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    31
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 84
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "FurtherExtendedContract",
+                    "source_mapping": {
+                      "start": 376,
+                      "length": 234,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                      "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                      "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "shadowingParent(uint256)"
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "x",
+            "source_mapping": {
+              "start": 435,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                24
+              ],
+              "starting_column": 5,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FurtherExtendedContract",
+                "source_mapping": {
+                  "start": 376,
+                  "length": 234,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "x",
+            "source_mapping": {
+              "start": 295,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                13
+              ],
+              "starting_column": 5,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ExtendedContract",
+                "source_mapping": {
+                  "start": 247,
+                  "length": 127,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "x",
+            "source_mapping": {
+              "start": 54,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 5,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BaseContract",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 219,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "FurtherExtendedContract.shadowingParent(uint256).x (tests/mini_dataset/shadowing_local.sol#31) shadows:\n\t- FurtherExtendedContract.x (tests/mini_dataset/shadowing_local.sol#24) (state variable)\n\t- ExtendedContract.x (tests/mini_dataset/shadowing_local.sol#13) (state variable)\n\t- BaseContract.x (tests/mini_dataset/shadowing_local.sol#4) (state variable)\n",
+        "markdown": "[FurtherExtendedContract.shadowingParent(uint256).x](tests/mini_dataset/shadowing_local.sol#L31) shadows:\n\t- [FurtherExtendedContract.x](tests/mini_dataset/shadowing_local.sol#L24) (state variable)\n\t- [ExtendedContract.x](tests/mini_dataset/shadowing_local.sol#L13) (state variable)\n\t- [BaseContract.x](tests/mini_dataset/shadowing_local.sol#L4) (state variable)\n",
+        "id": "0991435c12aa2d6f15e8da2a00a18e9c58ef65dcf31137cdb561655317353247",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "y",
+            "source_mapping": {
+              "start": 576,
+              "length": 5,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                31
+              ],
+              "starting_column": 52,
+              "ending_column": 57
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "shadowingParent",
+                "source_mapping": {
+                  "start": 529,
+                  "length": 79,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    31
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 84
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "FurtherExtendedContract",
+                    "source_mapping": {
+                      "start": 376,
+                      "length": 234,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                      "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                      "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "shadowingParent(uint256)"
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "y",
+            "source_mapping": {
+              "start": 70,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                5
+              ],
+              "starting_column": 5,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BaseContract",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 219,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "FurtherExtendedContract.shadowingParent(uint256).y (tests/mini_dataset/shadowing_local.sol#31) shadows:\n\t- BaseContract.y (tests/mini_dataset/shadowing_local.sol#5) (state variable)\n",
+        "markdown": "[FurtherExtendedContract.shadowingParent(uint256).y](tests/mini_dataset/shadowing_local.sol#L31) shadows:\n\t- [BaseContract.y](tests/mini_dataset/shadowing_local.sol#L5) (state variable)\n",
+        "id": "465bd81cbb09a3d2cc84ea6102fb059296f1970e85e2d86a171f8219f1a34508",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "z",
+            "source_mapping": {
+              "start": 583,
+              "length": 6,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                31
+              ],
+              "starting_column": 59,
+              "ending_column": 65
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "shadowingParent",
+                "source_mapping": {
+                  "start": 529,
+                  "length": 79,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    31
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 84
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "FurtherExtendedContract",
+                    "source_mapping": {
+                      "start": 376,
+                      "length": 234,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                      "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                      "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "shadowingParent(uint256)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "z",
+            "source_mapping": {
+              "start": 312,
+              "length": 44,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                15,
+                16,
+                17,
+                18
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ExtendedContract",
+                "source_mapping": {
+                  "start": 247,
+                  "length": 127,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "z()"
+            }
+          }
+        ],
+        "description": "FurtherExtendedContract.shadowingParent(uint256).z (tests/mini_dataset/shadowing_local.sol#31) shadows:\n\t- ExtendedContract.z() (tests/mini_dataset/shadowing_local.sol#15-18) (modifier)\n",
+        "markdown": "[FurtherExtendedContract.shadowingParent(uint256).z](tests/mini_dataset/shadowing_local.sol#L31) shadows:\n\t- [ExtendedContract.z()](tests/mini_dataset/shadowing_local.sol#L15-L18) (modifier)\n",
+        "id": "a25c11190c91ead6db4adc7190be0248fe5dff5c6017edb20121f83f2e42206e",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "w",
+            "source_mapping": {
+              "start": 591,
+              "length": 6,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                31
+              ],
+              "starting_column": 67,
+              "ending_column": 73
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "shadowingParent",
+                "source_mapping": {
+                  "start": 529,
+                  "length": 79,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    31
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 84
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "FurtherExtendedContract",
+                    "source_mapping": {
+                      "start": 376,
+                      "length": 234,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                      "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                      "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "shadowingParent(uint256)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "w",
+            "source_mapping": {
+              "start": 452,
+              "length": 71,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                26,
+                27,
+                28,
+                29
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FurtherExtendedContract",
+                "source_mapping": {
+                  "start": 376,
+                  "length": 234,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "w()"
+            }
+          }
+        ],
+        "description": "FurtherExtendedContract.shadowingParent(uint256).w (tests/mini_dataset/shadowing_local.sol#31) shadows:\n\t- FurtherExtendedContract.w() (tests/mini_dataset/shadowing_local.sol#26-29) (modifier)\n",
+        "markdown": "[FurtherExtendedContract.shadowingParent(uint256).w](tests/mini_dataset/shadowing_local.sol#L31) shadows:\n\t- [FurtherExtendedContract.w()](tests/mini_dataset/shadowing_local.sol#L26-L29) (modifier)\n",
+        "id": "a94a2b9331482c75582868e6d3cc5c9b01487e7505f219abcf36a20d76e0b089",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "v",
+            "source_mapping": {
+              "start": 599,
+              "length": 6,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                31
+              ],
+              "starting_column": 75,
+              "ending_column": 81
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "shadowingParent",
+                "source_mapping": {
+                  "start": 529,
+                  "length": 79,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    31
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 84
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "FurtherExtendedContract",
+                    "source_mapping": {
+                      "start": 376,
+                      "length": 234,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                      "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                      "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "shadowingParent(uint256)"
+                }
+              }
+            }
+          },
+          {
+            "type": "event",
+            "name": "v",
+            "source_mapping": {
+              "start": 362,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                20
+              ],
+              "starting_column": 5,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ExtendedContract",
+                "source_mapping": {
+                  "start": 247,
+                  "length": 127,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "v()"
+            }
+          }
+        ],
+        "description": "FurtherExtendedContract.shadowingParent(uint256).v (tests/mini_dataset/shadowing_local.sol#31) shadows:\n\t- ExtendedContractv() (tests/mini_dataset/shadowing_local.sol#20) (event)\n",
+        "markdown": "[FurtherExtendedContract.shadowingParent(uint256).v](tests/mini_dataset/shadowing_local.sol#L31) shadows:\n\t- [ExtendedContractv()](tests/mini_dataset/shadowing_local.sol#L20) (event)\n",
+        "id": "973e31cc30dc7a3e1f089dfa5848234075f237f78fa492c772b1083e12c79054",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.24",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".24"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.24 (tests/mini_dataset/shadowing_local.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.24](tests/mini_dataset/shadowing_local.sol#L1) allows old versions\n",
+        "id": "781cc28c90355fa57e239bd44534de41a7e79cb272c4232df071f42f8d508aac",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.24",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".24"
+              ]
+            }
+          }
+        ],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "shadowingParent_1",
+            "source_mapping": {
+              "start": 137,
+              "length": 50,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                8
+              ],
+              "starting_column": 5,
+              "ending_column": 55
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BaseContract",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 219,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "shadowingParent_1()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function BaseContract.shadowingParent_1() (tests/mini_dataset/shadowing_local.sol#8) is not in mixedCase\n",
+        "markdown": "Function [BaseContract.shadowingParent_1()](tests/mini_dataset/shadowing_local.sol#L8) is not in mixedCase\n",
+        "id": "85af93e0505d8c9701399db4b8c5d8917374f541aa2eb2c6b968022f99993d91",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "shadowingParent_2",
+            "source_mapping": {
+              "start": 192,
+              "length": 51,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 5,
+              "ending_column": 56
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BaseContract",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 219,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "shadowingParent_2()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function BaseContract.shadowingParent_2() (tests/mini_dataset/shadowing_local.sol#9) is not in mixedCase\n",
+        "markdown": "Function [BaseContract.shadowingParent_2()](tests/mini_dataset/shadowing_local.sol#L9) is not in mixedCase\n",
+        "id": "7b76f60a0686039a47a2e2e243b0740acaf33817678dee3472e768911a619c72",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "event",
+            "name": "v",
+            "source_mapping": {
+              "start": 362,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                20
+              ],
+              "starting_column": 5,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ExtendedContract",
+                "source_mapping": {
+                  "start": 247,
+                  "length": 127,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "v()"
+            },
+            "additional_fields": {
+              "target": "event",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Event ExtendedContractv() (tests/mini_dataset/shadowing_local.sol#20) is not in CapWords\n",
+        "markdown": "Event [ExtendedContractv()](tests/mini_dataset/shadowing_local.sol#L20) is not in CapWords\n",
+        "id": "98ef2827a554428ef69e4b237db231af60e3216c887b33795c96824b4cc9b0dd",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "FurtherExtendedContract",
+            "source_mapping": {
+              "start": 376,
+              "length": 234,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          },
+          {
+            "type": "function",
+            "name": "yy",
+            "source_mapping": {
+              "start": 86,
+              "length": 26,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                6
+              ],
+              "starting_column": 5,
+              "ending_column": 31
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BaseContract",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 219,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "yy()"
+            }
+          }
+        ],
+        "description": "FurtherExtendedContract (tests/mini_dataset/shadowing_local.sol#23-32) does not implement functions:\n\t- BaseContract.yy() (tests/mini_dataset/shadowing_local.sol#6)\n",
+        "markdown": "[FurtherExtendedContract](tests/mini_dataset/shadowing_local.sol#L23-L32) does not implement functions:\n\t- [BaseContract.yy()](tests/mini_dataset/shadowing_local.sol#L6)\n",
+        "id": "398738fd13c0f08900f2453ae92cde378813937a1d82d0d05483c9aac17996af",
+        "check": "unimplemented-functions",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "x",
+            "source_mapping": {
+              "start": 54,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 5,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BaseContract",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 219,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "BaseContract.x (tests/mini_dataset/shadowing_local.sol#4) should be constant\n",
+        "markdown": "[BaseContract.x](tests/mini_dataset/shadowing_local.sol#L4) should be constant\n",
+        "id": "758cd34ff254c8dc26159bef4645a2831853d45d043da251cc6019b122aee148",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "y",
+            "source_mapping": {
+              "start": 70,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                5
+              ],
+              "starting_column": 5,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BaseContract",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 219,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "BaseContract.y (tests/mini_dataset/shadowing_local.sol#5) should be constant\n",
+        "markdown": "[BaseContract.y](tests/mini_dataset/shadowing_local.sol#L5) should be constant\n",
+        "id": "8498aa7b0258acfa11f8b426a87bb1792e9f995f869f9858c00b320e32cbeac2",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "x",
+            "source_mapping": {
+              "start": 295,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                13
+              ],
+              "starting_column": 5,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ExtendedContract",
+                "source_mapping": {
+                  "start": 247,
+                  "length": 127,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "ExtendedContract.x (tests/mini_dataset/shadowing_local.sol#13) should be constant\n",
+        "markdown": "[ExtendedContract.x](tests/mini_dataset/shadowing_local.sol#L13) should be constant\n",
+        "id": "a7bc4283472b86598127fc563423a969db64067dc05128f6261aa51fd5174326",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "x",
+            "source_mapping": {
+              "start": 435,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                24
+              ],
+              "starting_column": 5,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FurtherExtendedContract",
+                "source_mapping": {
+                  "start": 376,
+                  "length": 234,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "FurtherExtendedContract.x (tests/mini_dataset/shadowing_local.sol#24) should be constant\n",
+        "markdown": "[FurtherExtendedContract.x](tests/mini_dataset/shadowing_local.sol#L24) should be constant\n",
+        "id": "32ba90515dd2c5a27e685c51fa3788b949583ca707cc8af83b9e782f47755518",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "yy",
+            "source_mapping": {
+              "start": 86,
+              "length": 26,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                6
+              ],
+              "starting_column": 5,
+              "ending_column": 31
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BaseContract",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 219,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "yy()"
+            }
+          }
+        ],
+        "description": "yy() should be declared external:\n\t- BaseContract.yy() (tests/mini_dataset/shadowing_local.sol#6)\n",
+        "markdown": "yy() should be declared external:\n\t- [BaseContract.yy()](tests/mini_dataset/shadowing_local.sol#L6)\n",
+        "id": "9fba49f04173916c0d6093922889101d83c54de77bdcdc699a572eea4d7c6fd3",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "shadowingParent_1",
+            "source_mapping": {
+              "start": 137,
+              "length": 50,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                8
+              ],
+              "starting_column": 5,
+              "ending_column": 55
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BaseContract",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 219,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "shadowingParent_1()"
+            }
+          }
+        ],
+        "description": "shadowingParent_1() should be declared external:\n\t- BaseContract.shadowingParent_1() (tests/mini_dataset/shadowing_local.sol#8)\n",
+        "markdown": "shadowingParent_1() should be declared external:\n\t- [BaseContract.shadowingParent_1()](tests/mini_dataset/shadowing_local.sol#L8)\n",
+        "id": "5764735d0ad57e1f04a07d3dfa483b71a8a243f218f30699f16ac5e68890488f",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "shadowingParent_2",
+            "source_mapping": {
+              "start": 192,
+              "length": 51,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 5,
+              "ending_column": 56
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BaseContract",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 219,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "shadowingParent_2()"
+            }
+          }
+        ],
+        "description": "shadowingParent_2() should be declared external:\n\t- BaseContract.shadowingParent_2() (tests/mini_dataset/shadowing_local.sol#9)\n",
+        "markdown": "shadowingParent_2() should be declared external:\n\t- [BaseContract.shadowingParent_2()](tests/mini_dataset/shadowing_local.sol#L9)\n",
+        "id": "62dfdf146386eb745a81abf4a349906ed7dae28f73e885ec467a51545f94c7c1",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "shadowingParent",
+            "source_mapping": {
+              "start": 529,
+              "length": 79,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                31
+              ],
+              "starting_column": 5,
+              "ending_column": 84
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FurtherExtendedContract",
+                "source_mapping": {
+                  "start": 376,
+                  "length": 234,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "shadowingParent(uint256)"
+            }
+          }
+        ],
+        "description": "shadowingParent(uint256) should be declared external:\n\t- FurtherExtendedContract.shadowingParent(uint256) (tests/mini_dataset/shadowing_local.sol#31)\n",
+        "markdown": "shadowingParent(uint256) should be declared external:\n\t- [FurtherExtendedContract.shadowingParent(uint256)](tests/mini_dataset/shadowing_local.sol#L31)\n",
+        "id": "446642bf33ffd013db8b903562273c8e7c022241363c0f8c5c0c6075eb9e7604",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "x",
+            "source_mapping": {
+              "start": 435,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                24
+              ],
+              "starting_column": 5,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FurtherExtendedContract",
+                "source_mapping": {
+                  "start": 376,
+                  "length": 234,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "FurtherExtendedContract.x (tests/mini_dataset/shadowing_local.sol#24) is never used\n",
+        "markdown": "[FurtherExtendedContract.x](tests/mini_dataset/shadowing_local.sol#L24) is never used\n",
+        "id": "55f23e61720217cfecb4a6fea34b435dd5a1bda4130fd48ed6c69766fb16544f",
+        "check": "unused-state",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "y",
+            "source_mapping": {
+              "start": 70,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+              "filename_short": "tests/mini_dataset/shadowing_local.sol",
+              "is_dependency": false,
+              "lines": [
+                5
+              ],
+              "starting_column": 5,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BaseContract",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 219,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_relative": "tests/mini_dataset/shadowing_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/shadowing_local.sol",
+                  "filename_short": "tests/mini_dataset/shadowing_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "BaseContract.y (tests/mini_dataset/shadowing_local.sol#5) is never used\n",
+        "markdown": "[BaseContract.y](tests/mini_dataset/shadowing_local.sol#L5) is never used\n",
+        "id": "4c50184dfba6929da8b64e434cd0ce6877c6c4b63f639e7c3319fb4a9552c57f",
+        "check": "unused-state",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                7
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "constructor(){} (tests/mini_dataset/shadowing_local.sol)#7\n",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

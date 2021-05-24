@@ -1,0 +1,749 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "ss",
+            "source_mapping": {
+              "start": 42,
+              "length": 133,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+              "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+              "filename_short": "tests/mini_dataset/length_manipulation.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Hardaddress",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 177,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                  "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                  "filename_short": "tests/mini_dataset/length_manipulation.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "ss()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "aa.length ++",
+            "source_mapping": {
+              "start": 75,
+              "length": 11,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+              "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+              "filename_short": "tests/mini_dataset/length_manipulation.sol",
+              "is_dependency": false,
+              "lines": [
+                5
+              ],
+              "starting_column": 2,
+              "ending_column": 13
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "ss",
+                "source_mapping": {
+                  "start": 42,
+                  "length": 133,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                  "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                  "filename_short": "tests/mini_dataset/length_manipulation.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Hardaddress",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 177,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                      "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                      "filename_short": "tests/mini_dataset/length_manipulation.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "ss()"
+                }
+              }
+            }
+          },
+          {
+            "type": "node",
+            "name": "aa.length --",
+            "source_mapping": {
+              "start": 89,
+              "length": 11,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+              "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+              "filename_short": "tests/mini_dataset/length_manipulation.sol",
+              "is_dependency": false,
+              "lines": [
+                6
+              ],
+              "starting_column": 2,
+              "ending_column": 13
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "ss",
+                "source_mapping": {
+                  "start": 42,
+                  "length": 133,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                  "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                  "filename_short": "tests/mini_dataset/length_manipulation.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Hardaddress",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 177,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                      "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                      "filename_short": "tests/mini_dataset/length_manipulation.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "ss()"
+                }
+              }
+            }
+          },
+          {
+            "type": "node",
+            "name": "aa.length += 5",
+            "source_mapping": {
+              "start": 103,
+              "length": 14,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+              "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+              "filename_short": "tests/mini_dataset/length_manipulation.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 2,
+              "ending_column": 16
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "ss",
+                "source_mapping": {
+                  "start": 42,
+                  "length": 133,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                  "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                  "filename_short": "tests/mini_dataset/length_manipulation.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Hardaddress",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 177,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                      "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                      "filename_short": "tests/mini_dataset/length_manipulation.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "ss()"
+                }
+              }
+            }
+          },
+          {
+            "type": "node",
+            "name": "aa.length -= 5",
+            "source_mapping": {
+              "start": 120,
+              "length": 14,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+              "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+              "filename_short": "tests/mini_dataset/length_manipulation.sol",
+              "is_dependency": false,
+              "lines": [
+                8
+              ],
+              "starting_column": 2,
+              "ending_column": 16
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "ss",
+                "source_mapping": {
+                  "start": 42,
+                  "length": 133,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                  "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                  "filename_short": "tests/mini_dataset/length_manipulation.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Hardaddress",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 177,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                      "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                      "filename_short": "tests/mini_dataset/length_manipulation.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "ss()"
+                }
+              }
+            }
+          },
+          {
+            "type": "node",
+            "name": "aa.length *= 5",
+            "source_mapping": {
+              "start": 137,
+              "length": 14,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+              "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+              "filename_short": "tests/mini_dataset/length_manipulation.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 2,
+              "ending_column": 16
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "ss",
+                "source_mapping": {
+                  "start": 42,
+                  "length": 133,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                  "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                  "filename_short": "tests/mini_dataset/length_manipulation.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Hardaddress",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 177,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                      "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                      "filename_short": "tests/mini_dataset/length_manipulation.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "ss()"
+                }
+              }
+            }
+          },
+          {
+            "type": "node",
+            "name": "aa.length /= 5",
+            "source_mapping": {
+              "start": 154,
+              "length": 14,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+              "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+              "filename_short": "tests/mini_dataset/length_manipulation.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 2,
+              "ending_column": 16
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "ss",
+                "source_mapping": {
+                  "start": 42,
+                  "length": 133,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                  "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                  "filename_short": "tests/mini_dataset/length_manipulation.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Hardaddress",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 177,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                      "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                      "filename_short": "tests/mini_dataset/length_manipulation.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "ss()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Hardaddress.ss() (tests/mini_dataset/length_manipulation.sol#3-11) may have integer overflow\n\tPossible nodes:\n\t- aa.length ++ (tests/mini_dataset/length_manipulation.sol#5)\n\t- aa.length -- (tests/mini_dataset/length_manipulation.sol#6)\n\t- aa.length += 5 (tests/mini_dataset/length_manipulation.sol#7)\n\t- aa.length -= 5 (tests/mini_dataset/length_manipulation.sol#8)\n\t- aa.length *= 5 (tests/mini_dataset/length_manipulation.sol#9)\n\t- aa.length /= 5 (tests/mini_dataset/length_manipulation.sol#10)\n",
+        "markdown": "[Hardaddress.ss()](tests/mini_dataset/length_manipulation.sol#L3-L11) may have integer overflow\n\tPossible nodes:\n\t- [aa.length ++](tests/mini_dataset/length_manipulation.sol#L5)\n\t- [aa.length --](tests/mini_dataset/length_manipulation.sol#L6)\n\t- [aa.length += 5](tests/mini_dataset/length_manipulation.sol#L7)\n\t- [aa.length -= 5](tests/mini_dataset/length_manipulation.sol#L8)\n\t- [aa.length *= 5](tests/mini_dataset/length_manipulation.sol#L9)\n\t- [aa.length /= 5](tests/mini_dataset/length_manipulation.sol#L10)\n",
+        "id": "beeb14fe65e1b1b09dbc072aa88548a40fc6b72e8fec9cbea2732427a03d6eff",
+        "check": "integer-overflow",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "ss",
+            "source_mapping": {
+              "start": 42,
+              "length": 133,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+              "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+              "filename_short": "tests/mini_dataset/length_manipulation.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Hardaddress",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 177,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                  "filename_relative": "tests/mini_dataset/length_manipulation.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/length_manipulation.sol",
+                  "filename_short": "tests/mini_dataset/length_manipulation.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "ss()"
+            }
+          }
+        ],
+        "description": "ss() should be declared external:\n\t- Hardaddress.ss() (tests/mini_dataset/length_manipulation.sol#3-11)\n",
+        "markdown": "ss() should be declared external:\n\t- [Hardaddress.ss()](tests/mini_dataset/length_manipulation.sol#L3-L11)\n",
+        "id": "b61fac360ae23e0ce050915bc430add4c2e6941925d4faeb7b2df75f9592ae14",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                4
+              ],
+              "starting_column": 1
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "length-manipulation",
+        "description": "aa.length = 5; (tests/mini_dataset/length_manipulation.sol)#4\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                5
+              ],
+              "starting_column": 1
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "length-manipulation",
+        "description": "aa.length++; (tests/mini_dataset/length_manipulation.sol)#5\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                6
+              ],
+              "starting_column": 1
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "length-manipulation",
+        "description": "aa.length--; (tests/mini_dataset/length_manipulation.sol)#6\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                7
+              ],
+              "starting_column": 1
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "length-manipulation",
+        "description": "aa.length += 5; (tests/mini_dataset/length_manipulation.sol)#7\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                8
+              ],
+              "starting_column": 1
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "length-manipulation",
+        "description": "aa.length -= 5; (tests/mini_dataset/length_manipulation.sol)#8\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                9
+              ],
+              "starting_column": 1
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "length-manipulation",
+        "description": "aa.length *= 5; (tests/mini_dataset/length_manipulation.sol)#9\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                10
+              ],
+              "starting_column": 1
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "length-manipulation",
+        "description": "aa.length /= 5; (tests/mini_dataset/length_manipulation.sol)#10\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                3
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function ss() { (tests/mini_dataset/length_manipulation.sol)#3\n",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

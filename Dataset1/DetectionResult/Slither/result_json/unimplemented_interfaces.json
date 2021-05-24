@@ -1,0 +1,579 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [],
+        "description": "solc-0.5.1 is not recommended for deployment\n",
+        "markdown": "solc-0.5.1 is not recommended for deployment\n",
+        "id": "2f7166358983c53be8a0b31ac26286250fbef36e0c8d78a7a30c0db035fb7c79",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "bad0",
+            "source_mapping": {
+              "start": 589,
+              "length": 138,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_relative": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_short": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "is_dependency": false,
+              "lines": [
+                35,
+                36,
+                37,
+                38
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          },
+          {
+            "type": "contract",
+            "name": "ISomething1",
+            "source_mapping": {
+              "start": 79,
+              "length": 102,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_relative": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_short": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          }
+        ],
+        "description": "bad0 (tests/mini_dataset/unimplemented_interfaces.sol#35-38) should inherit from ISomething1 (tests/mini_dataset/unimplemented_interfaces.sol#6-9)\n",
+        "markdown": "[bad0](tests/mini_dataset/unimplemented_interfaces.sol#L35-L38) should inherit from [ISomething1](tests/mini_dataset/unimplemented_interfaces.sol#L6-L9)\n",
+        "id": "092aa5443f7da6f76a6b4710b62d9feb5e2a63b9d37f04a259699e53395181b0",
+        "check": "missing-inheritance",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "bad1",
+            "source_mapping": {
+              "start": 729,
+              "length": 174,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_relative": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_short": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "is_dependency": false,
+              "lines": [
+                40,
+                41,
+                42,
+                43,
+                44
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          },
+          {
+            "type": "contract",
+            "name": "ISomething4",
+            "source_mapping": {
+              "start": 338,
+              "length": 134,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_relative": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_short": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "is_dependency": false,
+              "lines": [
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          }
+        ],
+        "description": "bad1 (tests/mini_dataset/unimplemented_interfaces.sol#40-44) should inherit from ISomething4 (tests/mini_dataset/unimplemented_interfaces.sol#20-24)\n",
+        "markdown": "[bad1](tests/mini_dataset/unimplemented_interfaces.sol#L40-L44) should inherit from [ISomething4](tests/mini_dataset/unimplemented_interfaces.sol#L20-L24)\n",
+        "id": "db2e6104ac5db743981773f7e83bad13198b3d9c6979c9629605541a9317ff92",
+        "check": "missing-inheritance",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "bad2",
+            "source_mapping": {
+              "start": 905,
+              "length": 224,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_relative": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_short": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "is_dependency": false,
+              "lines": [
+                46,
+                47,
+                48,
+                49,
+                50
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          },
+          {
+            "type": "contract",
+            "name": "ISomething4",
+            "source_mapping": {
+              "start": 338,
+              "length": 134,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_relative": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_short": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "is_dependency": false,
+              "lines": [
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          }
+        ],
+        "description": "bad2 (tests/mini_dataset/unimplemented_interfaces.sol#46-50) should inherit from ISomething4 (tests/mini_dataset/unimplemented_interfaces.sol#20-24)\n",
+        "markdown": "[bad2](tests/mini_dataset/unimplemented_interfaces.sol#L46-L50) should inherit from [ISomething4](tests/mini_dataset/unimplemented_interfaces.sol#L20-L24)\n",
+        "id": "732b6b0ecce8b4c3daa0404ff707f252d9c7b660fd40f875a378db0478096035",
+        "check": "missing-inheritance",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "bad3",
+            "source_mapping": {
+              "start": 1552,
+              "length": 93,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_relative": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_short": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "is_dependency": false,
+              "lines": [
+                68,
+                69,
+                70,
+                71
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          },
+          {
+            "type": "contract",
+            "name": "bad3_i",
+            "source_mapping": {
+              "start": 1459,
+              "length": 91,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_relative": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_short": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "is_dependency": false,
+              "lines": [
+                63,
+                64,
+                65,
+                66
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          }
+        ],
+        "description": "bad3 (tests/mini_dataset/unimplemented_interfaces.sol#68-71) should inherit from bad3_i (tests/mini_dataset/unimplemented_interfaces.sol#63-66)\n",
+        "markdown": "[bad3](tests/mini_dataset/unimplemented_interfaces.sol#L68-L71) should inherit from [bad3_i](tests/mini_dataset/unimplemented_interfaces.sol#L63-L66)\n",
+        "id": "f11dfcfaf848a967b094ed19e26d6fe3da71b711620d01b865638a8506bb1038",
+        "check": "missing-inheritance",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "bad0",
+            "source_mapping": {
+              "start": 589,
+              "length": 138,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_relative": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_short": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "is_dependency": false,
+              "lines": [
+                35,
+                36,
+                37,
+                38
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract bad0 (tests/mini_dataset/unimplemented_interfaces.sol#35-38) is not in CapWords\n",
+        "markdown": "Contract [bad0](tests/mini_dataset/unimplemented_interfaces.sol#L35-L38) is not in CapWords\n",
+        "id": "ef5c9cbae8aaf40544e26cd941a8e22374acd52f1bad4b8f17387bbbbaa6f727",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "bad1",
+            "source_mapping": {
+              "start": 729,
+              "length": 174,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_relative": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_short": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "is_dependency": false,
+              "lines": [
+                40,
+                41,
+                42,
+                43,
+                44
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract bad1 (tests/mini_dataset/unimplemented_interfaces.sol#40-44) is not in CapWords\n",
+        "markdown": "Contract [bad1](tests/mini_dataset/unimplemented_interfaces.sol#L40-L44) is not in CapWords\n",
+        "id": "e6491e50ed9dd2795d3deac0ec2478a91be5c745830b17d8f854d37c52245ac2",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "bad2",
+            "source_mapping": {
+              "start": 905,
+              "length": 224,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_relative": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_short": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "is_dependency": false,
+              "lines": [
+                46,
+                47,
+                48,
+                49,
+                50
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract bad2 (tests/mini_dataset/unimplemented_interfaces.sol#46-50) is not in CapWords\n",
+        "markdown": "Contract [bad2](tests/mini_dataset/unimplemented_interfaces.sol#L46-L50) is not in CapWords\n",
+        "id": "c1330d19ffa1d8fc855ca6945b993355e51f57405aa5999d41e07c79016a7094",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "good0",
+            "source_mapping": {
+              "start": 1131,
+              "length": 71,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_relative": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_short": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "is_dependency": false,
+              "lines": [
+                52,
+                53,
+                54
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract good0 (tests/mini_dataset/unimplemented_interfaces.sol#52-54) is not in CapWords\n",
+        "markdown": "Contract [good0](tests/mini_dataset/unimplemented_interfaces.sol#L52-L54) is not in CapWords\n",
+        "id": "acf86e7bc68775c02a04e6af1f48238bd71ee640d9b104517366aa1dde638f26",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "good1",
+            "source_mapping": {
+              "start": 1284,
+              "length": 110,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_relative": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_short": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "is_dependency": false,
+              "lines": [
+                57,
+                58,
+                59,
+                60
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract good1 (tests/mini_dataset/unimplemented_interfaces.sol#57-60) is not in CapWords\n",
+        "markdown": "Contract [good1](tests/mini_dataset/unimplemented_interfaces.sol#L57-L60) is not in CapWords\n",
+        "id": "d4dbcf147dd9b13fc6d0c7b08a77247c7fde1d117eb07f9f2cc5b819a41373e3",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "bad3_i",
+            "source_mapping": {
+              "start": 1459,
+              "length": 91,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_relative": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_short": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "is_dependency": false,
+              "lines": [
+                63,
+                64,
+                65,
+                66
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract bad3_i (tests/mini_dataset/unimplemented_interfaces.sol#63-66) is not in CapWords\n",
+        "markdown": "Contract [bad3_i](tests/mini_dataset/unimplemented_interfaces.sol#L63-L66) is not in CapWords\n",
+        "id": "2748c4a4a065c97659f452ad0af84933b8e79384997e221ac187f997183aae8f",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "bad3",
+            "source_mapping": {
+              "start": 1552,
+              "length": 93,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_relative": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_short": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "is_dependency": false,
+              "lines": [
+                68,
+                69,
+                70,
+                71
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract bad3 (tests/mini_dataset/unimplemented_interfaces.sol#68-71) is not in CapWords\n",
+        "markdown": "Contract [bad3](tests/mini_dataset/unimplemented_interfaces.sol#L68-L71) is not in CapWords\n",
+        "id": "1483c7e01836c17b9ecf7ad1f539a871674d66fd979cc462b1b783b3966f3205",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "sth5",
+            "source_mapping": {
+              "start": 1516,
+              "length": 32,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_relative": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_short": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "is_dependency": false,
+              "lines": [
+                65
+              ],
+              "starting_column": 3,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "bad3_i",
+                "source_mapping": {
+                  "start": 1459,
+                  "length": 91,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+                  "filename_relative": "tests/mini_dataset/unimplemented_interfaces.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+                  "filename_short": "tests/mini_dataset/unimplemented_interfaces.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    63,
+                    64,
+                    65,
+                    66
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "sth5(uint256)"
+            }
+          }
+        ],
+        "description": "sth5(uint256) should be declared external:\n\t- bad3_i.sth5(uint256) (tests/mini_dataset/unimplemented_interfaces.sol#65)\n",
+        "markdown": "sth5(uint256) should be declared external:\n\t- [bad3_i.sth5(uint256)](tests/mini_dataset/unimplemented_interfaces.sol#L65)\n",
+        "id": "5f9b0ff21c92416d5d78357fc512bd2598c0b6fd9cde7872bd0ae4b6ce110828",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "sth5",
+            "source_mapping": {
+              "start": 1609,
+              "length": 34,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_relative": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+              "filename_short": "tests/mini_dataset/unimplemented_interfaces.sol",
+              "is_dependency": false,
+              "lines": [
+                70
+              ],
+              "starting_column": 3,
+              "ending_column": 37
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "bad3",
+                "source_mapping": {
+                  "start": 1552,
+                  "length": 93,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+                  "filename_relative": "tests/mini_dataset/unimplemented_interfaces.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unimplemented_interfaces.sol",
+                  "filename_short": "tests/mini_dataset/unimplemented_interfaces.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    68,
+                    69,
+                    70,
+                    71
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "sth5(uint256)"
+            }
+          }
+        ],
+        "description": "sth5(uint256) should be declared external:\n\t- bad3.sth5(uint256) (tests/mini_dataset/unimplemented_interfaces.sol#70)\n",
+        "markdown": "sth5(uint256) should be declared external:\n\t- [bad3.sth5(uint256)](tests/mini_dataset/unimplemented_interfaces.sol#L70)\n",
+        "id": "657554ff378ba8442300e2ae0c1268c086b6314122a45d112853e4d26a7c7a7d",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

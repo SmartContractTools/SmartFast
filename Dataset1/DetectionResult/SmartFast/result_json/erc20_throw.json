@@ -1,0 +1,662 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 179,
+              "length": 376,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+              "filename_relative": "tests/mini_dataset/erc20_throw.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+              "filename_short": "tests/mini_dataset/erc20_throw.sol",
+              "is_dependency": false,
+              "lines": [
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SomeToken",
+                "source_mapping": {
+                  "start": 27,
+                  "length": 531,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                  "filename_relative": "tests/mini_dataset/erc20_throw.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                  "filename_short": "tests/mini_dataset/erc20_throw.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "_value > balances[msg.sender] || _value > balances[_to] + _value",
+            "source_mapping": {
+              "start": 260,
+              "length": 64,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+              "filename_relative": "tests/mini_dataset/erc20_throw.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+              "filename_short": "tests/mini_dataset/erc20_throw.sol",
+              "is_dependency": false,
+              "lines": [
+                8
+              ],
+              "starting_column": 13,
+              "ending_column": 77
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 179,
+                  "length": 376,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                  "filename_relative": "tests/mini_dataset/erc20_throw.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                  "filename_short": "tests/mini_dataset/erc20_throw.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SomeToken",
+                    "source_mapping": {
+                      "start": 27,
+                      "length": 531,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                      "filename_relative": "tests/mini_dataset/erc20_throw.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                      "filename_short": "tests/mini_dataset/erc20_throw.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            }
+          },
+          {
+            "type": "node",
+            "name": "balances[msg.sender] = balances[msg.sender] - _value",
+            "source_mapping": {
+              "start": 375,
+              "length": 52,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+              "filename_relative": "tests/mini_dataset/erc20_throw.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+              "filename_short": "tests/mini_dataset/erc20_throw.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 9,
+              "ending_column": 61
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 179,
+                  "length": 376,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                  "filename_relative": "tests/mini_dataset/erc20_throw.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                  "filename_short": "tests/mini_dataset/erc20_throw.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SomeToken",
+                    "source_mapping": {
+                      "start": 27,
+                      "length": 531,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                      "filename_relative": "tests/mini_dataset/erc20_throw.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                      "filename_short": "tests/mini_dataset/erc20_throw.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            }
+          },
+          {
+            "type": "node",
+            "name": "balances[_to] = balances[_to] + _value",
+            "source_mapping": {
+              "start": 438,
+              "length": 38,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+              "filename_relative": "tests/mini_dataset/erc20_throw.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+              "filename_short": "tests/mini_dataset/erc20_throw.sol",
+              "is_dependency": false,
+              "lines": [
+                12
+              ],
+              "starting_column": 9,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 179,
+                  "length": 376,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                  "filename_relative": "tests/mini_dataset/erc20_throw.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                  "filename_short": "tests/mini_dataset/erc20_throw.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SomeToken",
+                    "source_mapping": {
+                      "start": 27,
+                      "length": 531,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                      "filename_relative": "tests/mini_dataset/erc20_throw.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                      "filename_short": "tests/mini_dataset/erc20_throw.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "SomeToken.transfer(address,uint256) (tests/mini_dataset/erc20_throw.sol#7-15) may have integer overflow\n\tPossible nodes:\n\t- _value > balances[msg.sender] || _value > balances[_to] + _value (tests/mini_dataset/erc20_throw.sol#8)\n\t- balances[msg.sender] = balances[msg.sender] - _value (tests/mini_dataset/erc20_throw.sol#11)\n\t- balances[_to] = balances[_to] + _value (tests/mini_dataset/erc20_throw.sol#12)\n",
+        "markdown": "[SomeToken.transfer(address,uint256)](tests/mini_dataset/erc20_throw.sol#L7-L15) may have integer overflow\n\tPossible nodes:\n\t- [_value > balances[msg.sender] || _value > balances[_to] + _value](tests/mini_dataset/erc20_throw.sol#L8)\n\t- [balances[msg.sender] = balances[msg.sender] - _value](tests/mini_dataset/erc20_throw.sol#L11)\n\t- [balances[_to] = balances[_to] + _value](tests/mini_dataset/erc20_throw.sol#L12)\n",
+        "id": "e8ee6361f9c60efcff7ac03f7064146ab2d1e482c6a12832b79051e5eba7a65d",
+        "check": "integer-overflow",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "0.4.24",
+            "source_mapping": {
+              "start": 0,
+              "length": 23,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+              "filename_relative": "tests/mini_dataset/erc20_throw.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+              "filename_short": "tests/mini_dataset/erc20_throw.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "0.4",
+                ".24"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version0.4.24 (tests/mini_dataset/erc20_throw.sol#1) allows old versions\n",
+        "markdown": "Pragma version[0.4.24](tests/mini_dataset/erc20_throw.sol#L1) allows old versions\n",
+        "id": "674c6ff741f7de2d3c7137a012ae2b76326e767e62d88e32e464d96dd586c6af",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "0.4.24",
+            "source_mapping": {
+              "start": 0,
+              "length": 23,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+              "filename_relative": "tests/mini_dataset/erc20_throw.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+              "filename_short": "tests/mini_dataset/erc20_throw.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "0.4",
+                ".24"
+              ]
+            }
+          }
+        ],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 197,
+              "length": 11,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+              "filename_relative": "tests/mini_dataset/erc20_throw.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+              "filename_short": "tests/mini_dataset/erc20_throw.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 23,
+              "ending_column": 34
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 179,
+                  "length": 376,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                  "filename_relative": "tests/mini_dataset/erc20_throw.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                  "filename_short": "tests/mini_dataset/erc20_throw.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SomeToken",
+                    "source_mapping": {
+                      "start": 27,
+                      "length": 531,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                      "filename_relative": "tests/mini_dataset/erc20_throw.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                      "filename_short": "tests/mini_dataset/erc20_throw.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter SomeToken.transfer(address,uint256)._to (tests/mini_dataset/erc20_throw.sol#7) is not in mixedCase\n",
+        "markdown": "Parameter [SomeToken.transfer(address,uint256)._to](tests/mini_dataset/erc20_throw.sol#L7) is not in mixedCase\n",
+        "id": "3f9f187a2260ebe3956b0a603ca3f7d1587b120431e152c7ea0bcd261e53d4e8",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 210,
+              "length": 11,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+              "filename_relative": "tests/mini_dataset/erc20_throw.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+              "filename_short": "tests/mini_dataset/erc20_throw.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 36,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 179,
+                  "length": 376,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                  "filename_relative": "tests/mini_dataset/erc20_throw.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                  "filename_short": "tests/mini_dataset/erc20_throw.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SomeToken",
+                    "source_mapping": {
+                      "start": 27,
+                      "length": 531,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                      "filename_relative": "tests/mini_dataset/erc20_throw.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                      "filename_short": "tests/mini_dataset/erc20_throw.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter SomeToken.transfer(address,uint256)._value (tests/mini_dataset/erc20_throw.sol#7) is not in mixedCase\n",
+        "markdown": "Parameter [SomeToken.transfer(address,uint256)._value](tests/mini_dataset/erc20_throw.sol#L7) is not in mixedCase\n",
+        "id": "a6bda3d609b88190428d5235f4e6a789cece631a5f6b865c02392fecc002f6d8",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 179,
+              "length": 376,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+              "filename_relative": "tests/mini_dataset/erc20_throw.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+              "filename_short": "tests/mini_dataset/erc20_throw.sol",
+              "is_dependency": false,
+              "lines": [
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SomeToken",
+                "source_mapping": {
+                  "start": 27,
+                  "length": 531,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                  "filename_relative": "tests/mini_dataset/erc20_throw.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/erc20_throw.sol",
+                  "filename_short": "tests/mini_dataset/erc20_throw.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          }
+        ],
+        "description": "transfer(address,uint256) should be declared external:\n\t- SomeToken.transfer(address,uint256) (tests/mini_dataset/erc20_throw.sol#7-15)\n",
+        "markdown": "transfer(address,uint256) should be declared external:\n\t- [SomeToken.transfer(address,uint256)](tests/mini_dataset/erc20_throw.sol#L7-L15)\n",
+        "id": "5bb04155c66e120435653df7e85dfb2b2f1cb238781a7589861bcfccbfd9b8db",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                7
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "erc20-throw",
+        "description": "function transfer(address _to, uint _value) public returns (bool) { (tests/mini_dataset/erc20_throw.sol)#7\n",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

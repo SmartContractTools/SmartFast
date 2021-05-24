@@ -1,0 +1,1187 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad",
+            "source_mapping": {
+              "start": 21,
+              "length": 88,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "is_dependency": false,
+              "lines": [
+                2,
+                3,
+                4
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 415,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "dst.call.value(msg.value)()",
+            "source_mapping": {
+              "start": 73,
+              "length": 29,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 9,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad",
+                "source_mapping": {
+                  "start": 21,
+                  "length": 88,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MyConc",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 415,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "MyConc.bad(address) (tests/mini_dataset/unchecked_lowlevel.sol#2-4) ignores return value by dst.call.value(msg.value)() (tests/mini_dataset/unchecked_lowlevel.sol#3)\n",
+        "markdown": "[MyConc.bad(address)](tests/mini_dataset/unchecked_lowlevel.sol#L2-L4) ignores return value by [dst.call.value(msg.value)()](tests/mini_dataset/unchecked_lowlevel.sol#L3)\n",
+        "id": "1d8281b8c93e2f6fec83ac6ea07e5dd59330cb5e4b0299bab789359b326356bd",
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad_1",
+            "source_mapping": {
+              "start": 115,
+              "length": 86,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 415,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad_1()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "msg.sender.call.value(msg.value)()",
+            "source_mapping": {
+              "start": 158,
+              "length": 36,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 9,
+              "ending_column": 45
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad_1",
+                "source_mapping": {
+                  "start": 115,
+                  "length": 86,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MyConc",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 415,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad_1()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "MyConc.bad_1() (tests/mini_dataset/unchecked_lowlevel.sol#6-8) ignores return value by msg.sender.call.value(msg.value)() (tests/mini_dataset/unchecked_lowlevel.sol#7)\n",
+        "markdown": "[MyConc.bad_1()](tests/mini_dataset/unchecked_lowlevel.sol#L6-L8) ignores return value by [msg.sender.call.value(msg.value)()](tests/mini_dataset/unchecked_lowlevel.sol#L7)\n",
+        "id": "0ff7b2eade6924cf1948cf1911086cff2e9ca552bd658269cd4d658e4ac093fe",
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "dst",
+            "source_mapping": {
+              "start": 34,
+              "length": 11,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 18,
+              "ending_column": 29
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad",
+                "source_mapping": {
+                  "start": 21,
+                  "length": 88,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MyConc",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 415,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad(address)"
+                }
+              }
+            }
+          },
+          {
+            "type": "node",
+            "name": "dst.call.value(msg.value)()",
+            "source_mapping": {
+              "start": 73,
+              "length": 29,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 9,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad",
+                "source_mapping": {
+                  "start": 21,
+                  "length": 88,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MyConc",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 415,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "MyConc.bad(address).dst (tests/mini_dataset/unchecked_lowlevel.sol#2) lacks a zero-check on :\n\t\t- dst.call.value(msg.value)() (tests/mini_dataset/unchecked_lowlevel.sol#3)\n",
+        "markdown": "[MyConc.bad(address).dst](tests/mini_dataset/unchecked_lowlevel.sol#L2) lacks a zero-check on :\n\t\t- [dst.call.value(msg.value)()](tests/mini_dataset/unchecked_lowlevel.sol#L3)\n",
+        "id": "43a5fd33c8ec9d8f623a1b5734b0a588d7bfebc162144e7ccb21585b1f4ff774",
+        "check": "missing-zero-check",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad",
+            "source_mapping": {
+              "start": 21,
+              "length": 88,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "is_dependency": false,
+              "lines": [
+                2,
+                3,
+                4
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 415,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "dst.call.value(msg.value)()",
+            "source_mapping": {
+              "start": 73,
+              "length": 29,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 9,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad",
+                "source_mapping": {
+                  "start": 21,
+                  "length": 88,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MyConc",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 415,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in MyConc.bad(address) (tests/mini_dataset/unchecked_lowlevel.sol#2-4):\n\t- dst.call.value(msg.value)() (tests/mini_dataset/unchecked_lowlevel.sol#3)\n",
+        "markdown": "Low level call in [MyConc.bad(address)](tests/mini_dataset/unchecked_lowlevel.sol#L2-L4):\n\t- [dst.call.value(msg.value)()](tests/mini_dataset/unchecked_lowlevel.sol#L3)\n",
+        "id": "8c4b58f2ac307c0ea8b41f6a2e23ac311b687d339cf0fdc9723192ff07eaaf29",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad_1",
+            "source_mapping": {
+              "start": 115,
+              "length": 86,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 415,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad_1()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "msg.sender.call.value(msg.value)()",
+            "source_mapping": {
+              "start": 158,
+              "length": 36,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 9,
+              "ending_column": 45
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad_1",
+                "source_mapping": {
+                  "start": 115,
+                  "length": 86,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MyConc",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 415,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad_1()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in MyConc.bad_1() (tests/mini_dataset/unchecked_lowlevel.sol#6-8):\n\t- msg.sender.call.value(msg.value)() (tests/mini_dataset/unchecked_lowlevel.sol#7)\n",
+        "markdown": "Low level call in [MyConc.bad_1()](tests/mini_dataset/unchecked_lowlevel.sol#L6-L8):\n\t- [msg.sender.call.value(msg.value)()](tests/mini_dataset/unchecked_lowlevel.sol#L7)\n",
+        "id": "38ac1adbc22643eaab7e03d165c85a76a2044edc6bee692f7df3a258562fd5b4",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "good",
+            "source_mapping": {
+              "start": 207,
+              "length": 96,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "is_dependency": false,
+              "lines": [
+                10,
+                11,
+                12
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 415,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "good(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "require(bool)(dst.call.value(msg.value)())",
+            "source_mapping": {
+              "start": 260,
+              "length": 36,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 9,
+              "ending_column": 45
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "good",
+                "source_mapping": {
+                  "start": 207,
+                  "length": 96,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MyConc",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 415,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "good(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in MyConc.good(address) (tests/mini_dataset/unchecked_lowlevel.sol#10-12):\n\t- require(bool)(dst.call.value(msg.value)()) (tests/mini_dataset/unchecked_lowlevel.sol#11)\n",
+        "markdown": "Low level call in [MyConc.good(address)](tests/mini_dataset/unchecked_lowlevel.sol#L10-L12):\n\t- [require(bool)(dst.call.value(msg.value)())](tests/mini_dataset/unchecked_lowlevel.sol#L11)\n",
+        "id": "d871453c567a7d4a67510aae257e38eb907bbb47617cb23e48a04d02f7c8f266",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "good_1",
+            "source_mapping": {
+              "start": 309,
+              "length": 104,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "is_dependency": false,
+              "lines": [
+                14,
+                15,
+                16
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 415,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "good_1(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "dst.call.value(msg.value)()",
+            "source_mapping": {
+              "start": 367,
+              "length": 27,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "is_dependency": false,
+              "lines": [
+                15
+              ],
+              "starting_column": 12,
+              "ending_column": 39
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "good_1",
+                "source_mapping": {
+                  "start": 309,
+                  "length": 104,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MyConc",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 415,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                      "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "good_1(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in MyConc.good_1(address) (tests/mini_dataset/unchecked_lowlevel.sol#14-16):\n\t- dst.call.value(msg.value)() (tests/mini_dataset/unchecked_lowlevel.sol#15)\n",
+        "markdown": "Low level call in [MyConc.good_1(address)](tests/mini_dataset/unchecked_lowlevel.sol#L14-L16):\n\t- [dst.call.value(msg.value)()](tests/mini_dataset/unchecked_lowlevel.sol#L15)\n",
+        "id": "d22f5a87c16a360a53b537f8d2eef6b491a0d241088f20f721e2a5a0034d192f",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad_1",
+            "source_mapping": {
+              "start": 115,
+              "length": 86,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 415,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad_1()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function MyConc.bad_1() (tests/mini_dataset/unchecked_lowlevel.sol#6-8) is not in mixedCase\n",
+        "markdown": "Function [MyConc.bad_1()](tests/mini_dataset/unchecked_lowlevel.sol#L6-L8) is not in mixedCase\n",
+        "id": "8033fc493eda4434a90b6f3070f7d0e5f614f5d254fbdd484bf1bdf2fe15b2dd",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "good_1",
+            "source_mapping": {
+              "start": 309,
+              "length": 104,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+              "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+              "is_dependency": false,
+              "lines": [
+                14,
+                15,
+                16
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyConc",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 415,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_relative": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/unchecked_lowlevel.sol",
+                  "filename_short": "tests/mini_dataset/unchecked_lowlevel.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "good_1(address)"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function MyConc.good_1(address) (tests/mini_dataset/unchecked_lowlevel.sol#14-16) is not in mixedCase\n",
+        "markdown": "Function [MyConc.good_1(address)](tests/mini_dataset/unchecked_lowlevel.sol#L14-L16) is not in mixedCase\n",
+        "id": "18f876ec2dcfea5f065d6913ba6f09f019963de972eb8cddda8e25004e59973a",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      }
+    ]
+  }
+}

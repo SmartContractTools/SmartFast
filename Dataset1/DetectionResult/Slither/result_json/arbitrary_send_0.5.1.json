@@ -1,0 +1,1727 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "direct",
+            "source_mapping": {
+              "start": 162,
+              "length": 79,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                11,
+                12,
+                13
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Test",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 884,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "direct()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "msg.sender.send(address(this).balance)",
+            "source_mapping": {
+              "start": 196,
+              "length": 38,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                12
+              ],
+              "starting_column": 9,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "direct",
+                "source_mapping": {
+                  "start": 162,
+                  "length": 79,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Test",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 884,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "direct()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Test.direct() (tests/mini_dataset/arbitrary_send_0.5.1.sol#11-13) sends eth to arbitrary user\n\tDangerous calls:\n\t- msg.sender.send(address(this).balance) (tests/mini_dataset/arbitrary_send_0.5.1.sol#12)\n",
+        "markdown": "[Test.direct()](tests/mini_dataset/arbitrary_send_0.5.1.sol#L11-L13) sends eth to arbitrary user\n\tDangerous calls:\n\t- [msg.sender.send(address(this).balance)](tests/mini_dataset/arbitrary_send_0.5.1.sol#L12)\n",
+        "id": "5c3213d0b05a6f1b92fe0d78a9d489fe955e260a358e1cba30dfae0ac6689735",
+        "check": "arbitrary-send",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "indirect",
+            "source_mapping": {
+              "start": 316,
+              "length": 82,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                19,
+                20,
+                21
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Test",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 884,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "indirect()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "destination.send(address(this).balance)",
+            "source_mapping": {
+              "start": 352,
+              "length": 39,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                20
+              ],
+              "starting_column": 9,
+              "ending_column": 48
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "indirect",
+                "source_mapping": {
+                  "start": 316,
+                  "length": 82,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Test",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 884,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "indirect()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Test.indirect() (tests/mini_dataset/arbitrary_send_0.5.1.sol#19-21) sends eth to arbitrary user\n\tDangerous calls:\n\t- destination.send(address(this).balance) (tests/mini_dataset/arbitrary_send_0.5.1.sol#20)\n",
+        "markdown": "[Test.indirect()](tests/mini_dataset/arbitrary_send_0.5.1.sol#L19-L21) sends eth to arbitrary user\n\tDangerous calls:\n\t- [destination.send(address(this).balance)](tests/mini_dataset/arbitrary_send_0.5.1.sol#L20)\n",
+        "id": "2afbc81c02cb0391a09bbd06eabcc40a7cf071178c5194788cb234f0a67ad5ec",
+        "check": "arbitrary-send",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "direct",
+            "source_mapping": {
+              "start": 162,
+              "length": 79,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                11,
+                12,
+                13
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Test",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 884,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "direct()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "msg.sender.send(address(this).balance)",
+            "source_mapping": {
+              "start": 196,
+              "length": 38,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                12
+              ],
+              "starting_column": 9,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "direct",
+                "source_mapping": {
+                  "start": 162,
+                  "length": 79,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Test",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 884,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "direct()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Test.direct() (tests/mini_dataset/arbitrary_send_0.5.1.sol#11-13) ignores return value by msg.sender.send(address(this).balance) (tests/mini_dataset/arbitrary_send_0.5.1.sol#12)\n",
+        "markdown": "[Test.direct()](tests/mini_dataset/arbitrary_send_0.5.1.sol#L11-L13) ignores return value by [msg.sender.send(address(this).balance)](tests/mini_dataset/arbitrary_send_0.5.1.sol#L12)\n",
+        "id": "29d1124ec19dfe7a8c87557fdde231b982e9bc5f1cd47b4df07fb5fa0a376b05",
+        "check": "unchecked-send",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "indirect",
+            "source_mapping": {
+              "start": 316,
+              "length": 82,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                19,
+                20,
+                21
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Test",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 884,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "indirect()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "destination.send(address(this).balance)",
+            "source_mapping": {
+              "start": 352,
+              "length": 39,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                20
+              ],
+              "starting_column": 9,
+              "ending_column": 48
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "indirect",
+                "source_mapping": {
+                  "start": 316,
+                  "length": 82,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Test",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 884,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "indirect()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Test.indirect() (tests/mini_dataset/arbitrary_send_0.5.1.sol#19-21) ignores return value by destination.send(address(this).balance) (tests/mini_dataset/arbitrary_send_0.5.1.sol#20)\n",
+        "markdown": "[Test.indirect()](tests/mini_dataset/arbitrary_send_0.5.1.sol#L19-L21) ignores return value by [destination.send(address(this).balance)](tests/mini_dataset/arbitrary_send_0.5.1.sol#L20)\n",
+        "id": "f85bde53617379d5760a6224c60810812f657c659bbf73f72863632611583dfc",
+        "check": "unchecked-send",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 556,
+              "length": 104,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                29,
+                30,
+                31,
+                32
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Test",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 884,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "withdraw()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "msg.sender.send(val)",
+            "source_mapping": {
+              "start": 633,
+              "length": 20,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                31
+              ],
+              "starting_column": 9,
+              "ending_column": 29
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 556,
+                  "length": 104,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    29,
+                    30,
+                    31,
+                    32
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Test",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 884,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "withdraw()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Test.withdraw() (tests/mini_dataset/arbitrary_send_0.5.1.sol#29-32) ignores return value by msg.sender.send(val) (tests/mini_dataset/arbitrary_send_0.5.1.sol#31)\n",
+        "markdown": "[Test.withdraw()](tests/mini_dataset/arbitrary_send_0.5.1.sol#L29-L32) ignores return value by [msg.sender.send(val)](tests/mini_dataset/arbitrary_send_0.5.1.sol#L31)\n",
+        "id": "52a4832cfeb9a945518e0dd59020df5cc3fbeade44ae234ebf6511ae09cc072e",
+        "check": "unchecked-send",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "buy",
+            "source_mapping": {
+              "start": 666,
+              "length": 215,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                34,
+                35,
+                36,
+                37,
+                38,
+                39
+              ],
+              "starting_column": 5,
+              "ending_column": 2
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Test",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 884,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "buy()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "msg.sender.send(remaining)",
+            "source_mapping": {
+              "start": 852,
+              "length": 26,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                38
+              ],
+              "starting_column": 9,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "buy",
+                "source_mapping": {
+                  "start": 666,
+                  "length": 215,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 2
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Test",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 884,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "buy()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Test.buy() (tests/mini_dataset/arbitrary_send_0.5.1.sol#34-39) ignores return value by msg.sender.send(remaining) (tests/mini_dataset/arbitrary_send_0.5.1.sol#38)\n",
+        "markdown": "[Test.buy()](tests/mini_dataset/arbitrary_send_0.5.1.sol#L34-L39) ignores return value by [msg.sender.send(remaining)](tests/mini_dataset/arbitrary_send_0.5.1.sol#L38)\n",
+        "id": "96f2bce2be8e50bf903c9a0f31dfe8b4ee83abd99b64f7d616d15780e73baa1e",
+        "check": "unchecked-send",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.5.0 is not recommended for deployment\n",
+        "markdown": "solc-0.5.0 is not recommended for deployment\n",
+        "id": "21539c75e015cde5bdae3a77b39cf5d17be24d0b87a05da1d6b5d5020b7aef22",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "direct",
+            "source_mapping": {
+              "start": 162,
+              "length": 79,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                11,
+                12,
+                13
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Test",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 884,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "direct()"
+            }
+          }
+        ],
+        "description": "direct() should be declared external:\n\t- Test.direct() (tests/mini_dataset/arbitrary_send_0.5.1.sol#11-13)\n",
+        "markdown": "direct() should be declared external:\n\t- [Test.direct()](tests/mini_dataset/arbitrary_send_0.5.1.sol#L11-L13)\n",
+        "id": "b89d0913b1dc81ad46840840fb8189d0f3634521c752da2bb67dd94b5ac7b9e1",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "init",
+            "source_mapping": {
+              "start": 247,
+              "length": 63,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                15,
+                16,
+                17
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Test",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 884,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "init()"
+            }
+          }
+        ],
+        "description": "init() should be declared external:\n\t- Test.init() (tests/mini_dataset/arbitrary_send_0.5.1.sol#15-17)\n",
+        "markdown": "init() should be declared external:\n\t- [Test.init()](tests/mini_dataset/arbitrary_send_0.5.1.sol#L15-L17)\n",
+        "id": "0b28e0cf62795f8b03041a8c501fe98e993e8ceb7e2d237e73f5309f471d7229",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "indirect",
+            "source_mapping": {
+              "start": 316,
+              "length": 82,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                19,
+                20,
+                21
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Test",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 884,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "indirect()"
+            }
+          }
+        ],
+        "description": "indirect() should be declared external:\n\t- Test.indirect() (tests/mini_dataset/arbitrary_send_0.5.1.sol#19-21)\n",
+        "markdown": "indirect() should be declared external:\n\t- [Test.indirect()](tests/mini_dataset/arbitrary_send_0.5.1.sol#L19-L21)\n",
+        "id": "1897cb190b626c37ddb63897697975998d060be76b3b6b0d583c477920695d2c",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "repay",
+            "source_mapping": {
+              "start": 472,
+              "length": 78,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                25,
+                26,
+                27
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Test",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 884,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "repay()"
+            }
+          }
+        ],
+        "description": "repay() should be declared external:\n\t- Test.repay() (tests/mini_dataset/arbitrary_send_0.5.1.sol#25-27)\n",
+        "markdown": "repay() should be declared external:\n\t- [Test.repay()](tests/mini_dataset/arbitrary_send_0.5.1.sol#L25-L27)\n",
+        "id": "029c462f8ace729272822e8aa053810c8195c6c5ec7001c7391585c449aa0f68",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 556,
+              "length": 104,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                29,
+                30,
+                31,
+                32
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Test",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 884,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "withdraw()"
+            }
+          }
+        ],
+        "description": "withdraw() should be declared external:\n\t- Test.withdraw() (tests/mini_dataset/arbitrary_send_0.5.1.sol#29-32)\n",
+        "markdown": "withdraw() should be declared external:\n\t- [Test.withdraw()](tests/mini_dataset/arbitrary_send_0.5.1.sol#L29-L32)\n",
+        "id": "edc967f2bc61ae7e4c6541127bd8fcd518b336287565935658b1d38ffbd777d6",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "buy",
+            "source_mapping": {
+              "start": 666,
+              "length": 215,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                34,
+                35,
+                36,
+                37,
+                38,
+                39
+              ],
+              "starting_column": 5,
+              "ending_column": 2
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Test",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 884,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/arbitrary_send_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "buy()"
+            }
+          }
+        ],
+        "description": "buy() should be declared external:\n\t- Test.buy() (tests/mini_dataset/arbitrary_send_0.5.1.sol#34-39)\n",
+        "markdown": "buy() should be declared external:\n\t- [Test.buy()](tests/mini_dataset/arbitrary_send_0.5.1.sol#L34-L39)\n",
+        "id": "3a891e891613b2223fc3ad8743b4c75159733a484e6f7ab96ae12263e72b3615",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

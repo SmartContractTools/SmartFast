@@ -1,0 +1,17 @@
+{
+ "vulnerabilities": {
+  "callstack": [], 
+  "time_dependency": [], 
+  "reentrancy": [], 
+  "integer_overflow": [
+   "/dataset/tests/mini_dataset/signature_malleability.sol:67:5: Warning: Integer Overflow.\n    function ecrecoverFromSig(bytes32 hash, bytes sig)\n    ^\nSpanning multiple lines.", 
+   "/dataset/tests/mini_dataset/signature_malleability.sol:35:5: Warning: Integer Overflow.\n    function recoverTransferPreSigned(\n    ^\nSpanning multiple lines.", 
+   "/dataset/tests/mini_dataset/signature_malleability.sol:14:3: Warning: Integer Overflow.\n  function transfer(\n  ^\nSpanning multiple lines."
+  ], 
+  "parity_multisig_bug_2": [], 
+  "integer_underflow": [], 
+  "money_concurrency": [], 
+  "assertion_failure": []
+ }, 
+ "evm_code_coverage": "34.5"
+}

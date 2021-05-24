@@ -1,0 +1,79 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 27,
+              "length": 136,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/integer_overflow.sol",
+              "filename_relative": "tests/mini_dataset/integer_overflow.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/integer_overflow.sol",
+              "filename_short": "tests/mini_dataset/integer_overflow.sol",
+              "is_dependency": false,
+              "lines": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MarketPlace",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 166,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/integer_overflow.sol",
+                  "filename_relative": "tests/mini_dataset/integer_overflow.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/integer_overflow.sol",
+                  "filename_short": "tests/mini_dataset/integer_overflow.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer()"
+            }
+          }
+        ],
+        "description": "transfer() should be declared external:\n\t- MarketPlace.transfer() (tests/mini_dataset/integer_overflow.sol#2-7)\n",
+        "markdown": "transfer() should be declared external:\n\t- [MarketPlace.transfer()](tests/mini_dataset/integer_overflow.sol#L2-L7)\n",
+        "id": "d64a6b573a03722e1e87b641b31ddbeb61d07550387a7455f16a112e22b753ed",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

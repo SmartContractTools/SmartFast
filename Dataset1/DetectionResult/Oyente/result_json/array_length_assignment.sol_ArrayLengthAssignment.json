@@ -1,0 +1,18 @@
+{
+ "vulnerabilities": {
+  "callstack": [], 
+  "time_dependency": [], 
+  "reentrancy": [], 
+  "integer_overflow": [
+   "/dataset/tests/mini_dataset/array_length_assignment.sol:38:9: Warning: Integer Overflow.\n        a.x.length++\nInteger Overflow occurs if:\n    a.x.length = 115792089237316195423570985008687907853269984665640564039457584007913129639935", 
+   "/dataset/tests/mini_dataset/array_length_assignment.sol:1:1: Warning: Integer Overflow.\n\nInteger Overflow occurs if:\n    b.subStruct.x.length = 115792089237316195423570985008687907853269984665640564039457584007878769901566"
+  ], 
+  "parity_multisig_bug_2": [], 
+  "integer_underflow": [
+   "/dataset/tests/mini_dataset/array_length_assignment.sol:45:9: Warning: Integer Underflow.\n        b.subStruct.x.length--\nInteger Underflow occurs if:\n    b.subStruct.x.length = 0"
+  ], 
+  "money_concurrency": [], 
+  "assertion_failure": []
+ }, 
+ "evm_code_coverage": "55.8"
+}

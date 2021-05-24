@@ -1,0 +1,1560 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "good0",
+            "source_mapping": {
+              "start": 589,
+              "length": 103,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+              "is_dependency": false,
+              "lines": [
+                28,
+                29,
+                30
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Bug",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 1307,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "good0(uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "totalSupply += a",
+            "source_mapping": {
+              "start": 670,
+              "length": 16,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+              "is_dependency": false,
+              "lines": [
+                29
+              ],
+              "starting_column": 5,
+              "ending_column": 21
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "good0",
+                "source_mapping": {
+                  "start": 589,
+                  "length": 103,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    28,
+                    29,
+                    30
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Bug",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 1307,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "good0(uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Bug.good0(uint256) (tests/mini_dataset/missing_events_access_control.sol#28-30) may have integer overflow\n\tPossible nodes:\n\t- totalSupply += a (tests/mini_dataset/missing_events_access_control.sol#29)\n",
+        "markdown": "[Bug.good0(uint256)](tests/mini_dataset/missing_events_access_control.sol#L28-L30) may have integer overflow\n\tPossible nodes:\n\t- [totalSupply += a](tests/mini_dataset/missing_events_access_control.sol#L29)\n",
+        "id": "41c474fd46ebbda73c407b2fc6961f780a4afa7a6c8f1f001731f25d24571233",
+        "check": "integer-overflow",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad0",
+            "source_mapping": {
+              "start": 284,
+              "length": 76,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+              "is_dependency": false,
+              "lines": [
+                15,
+                16,
+                17
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Bug",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 1307,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad0()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "owner = msg.sender",
+            "source_mapping": {
+              "start": 325,
+              "length": 18,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+              "is_dependency": false,
+              "lines": [
+                16
+              ],
+              "starting_column": 5,
+              "ending_column": 23
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad0",
+                "source_mapping": {
+                  "start": 284,
+                  "length": 76,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Bug",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 1307,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad0()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Bug.bad0() (tests/mini_dataset/missing_events_access_control.sol#15-17) should emit an event for: \n\t- owner = msg.sender (tests/mini_dataset/missing_events_access_control.sol#16) \n",
+        "markdown": "[Bug.bad0()](tests/mini_dataset/missing_events_access_control.sol#L15-L17) should emit an event for: \n\t- [owner = msg.sender](tests/mini_dataset/missing_events_access_control.sol#L16) \n",
+        "id": "91d086ee7e7f431c3a6f83340cc99fc1dcaa4ddc6403962805a1abfb60223fab",
+        "check": "events-access",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad1",
+            "source_mapping": {
+              "start": 364,
+              "length": 90,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+              "is_dependency": false,
+              "lines": [
+                19,
+                20,
+                21
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Bug",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 1307,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad1(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "owner = newOwner",
+            "source_mapping": {
+              "start": 421,
+              "length": 16,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+              "is_dependency": false,
+              "lines": [
+                20
+              ],
+              "starting_column": 5,
+              "ending_column": 21
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad1",
+                "source_mapping": {
+                  "start": 364,
+                  "length": 90,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Bug",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 1307,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad1(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Bug.bad1(address) (tests/mini_dataset/missing_events_access_control.sol#19-21) should emit an event for: \n\t- owner = newOwner (tests/mini_dataset/missing_events_access_control.sol#20) \n",
+        "markdown": "[Bug.bad1(address)](tests/mini_dataset/missing_events_access_control.sol#L19-L21) should emit an event for: \n\t- [owner = newOwner](tests/mini_dataset/missing_events_access_control.sol#L20) \n",
+        "id": "80bdcd1f1f8db327cbd50b4b4f154545bc7c47c376dc9a7dfbe2e3bd50a287b8",
+        "check": "events-access",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad2",
+            "source_mapping": {
+              "start": 458,
+              "length": 127,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+              "is_dependency": false,
+              "lines": [
+                23,
+                24,
+                25,
+                26
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Bug",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 1307,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad2(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "owner = newOwner",
+            "source_mapping": {
+              "start": 552,
+              "length": 16,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+              "is_dependency": false,
+              "lines": [
+                25
+              ],
+              "starting_column": 5,
+              "ending_column": 21
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad2",
+                "source_mapping": {
+                  "start": 458,
+                  "length": 127,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Bug",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 1307,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad2(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Bug.bad2(address) (tests/mini_dataset/missing_events_access_control.sol#23-26) should emit an event for: \n\t- owner = newOwner (tests/mini_dataset/missing_events_access_control.sol#25) \n",
+        "markdown": "[Bug.bad2(address)](tests/mini_dataset/missing_events_access_control.sol#L23-L26) should emit an event for: \n\t- [owner = newOwner](tests/mini_dataset/missing_events_access_control.sol#L25) \n",
+        "id": "bd54589de00618a8156f4ecda48ec675c87baf2231d44b14f74b221811da225c",
+        "check": "events-access",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "newOwner",
+            "source_mapping": {
+              "start": 378,
+              "length": 16,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+              "is_dependency": false,
+              "lines": [
+                19
+              ],
+              "starting_column": 17,
+              "ending_column": 33
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad1",
+                "source_mapping": {
+                  "start": 364,
+                  "length": 90,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Bug",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 1307,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad1(address)"
+                }
+              }
+            }
+          },
+          {
+            "type": "node",
+            "name": "owner = newOwner",
+            "source_mapping": {
+              "start": 421,
+              "length": 16,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+              "is_dependency": false,
+              "lines": [
+                20
+              ],
+              "starting_column": 5,
+              "ending_column": 21
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad1",
+                "source_mapping": {
+                  "start": 364,
+                  "length": 90,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Bug",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 1307,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad1(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Bug.bad1(address).newOwner (tests/mini_dataset/missing_events_access_control.sol#19) lacks a zero-check on :\n\t\t- owner = newOwner (tests/mini_dataset/missing_events_access_control.sol#20)\n",
+        "markdown": "[Bug.bad1(address).newOwner](tests/mini_dataset/missing_events_access_control.sol#L19) lacks a zero-check on :\n\t\t- [owner = newOwner](tests/mini_dataset/missing_events_access_control.sol#L20)\n",
+        "id": "944a51763f33b9bb1c02df3f6687c8704ea21f71222fffc78ccf134feb58b9a1",
+        "check": "missing-zero-check",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "newOwner",
+            "source_mapping": {
+              "start": 1179,
+              "length": 16,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+              "is_dependency": false,
+              "lines": [
+                49
+              ],
+              "starting_column": 18,
+              "ending_column": 34
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "good5",
+                "source_mapping": {
+                  "start": 1164,
+                  "length": 141,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    49,
+                    50,
+                    51
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Bug",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 1307,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "good5(address)"
+                }
+              }
+            }
+          },
+          {
+            "type": "node",
+            "name": "operator = newOwner",
+            "source_mapping": {
+              "start": 1222,
+              "length": 19,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+              "is_dependency": false,
+              "lines": [
+                50
+              ],
+              "starting_column": 5,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "good5",
+                "source_mapping": {
+                  "start": 1164,
+                  "length": 141,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    49,
+                    50,
+                    51
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Bug",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 1307,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                      "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "good5(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Bug.good5(address).newOwner (tests/mini_dataset/missing_events_access_control.sol#49) lacks a zero-check on :\n\t\t- operator = newOwner (tests/mini_dataset/missing_events_access_control.sol#50)\n",
+        "markdown": "[Bug.good5(address).newOwner](tests/mini_dataset/missing_events_access_control.sol#L49) lacks a zero-check on :\n\t\t- [operator = newOwner](tests/mini_dataset/missing_events_access_control.sol#L50)\n",
+        "id": "09dff127a9ea25f175b063f368f0eb47db41df0e904fd1f690612889bbaf5fa1",
+        "check": "missing-zero-check",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "addr",
+            "source_mapping": {
+              "start": 87,
+              "length": 57,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+              "is_dependency": false,
+              "lines": [
+                6
+              ],
+              "starting_column": 3,
+              "ending_column": 60
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Bug",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 1307,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "Bug.addr (tests/mini_dataset/missing_events_access_control.sol#6) should be constant\n",
+        "markdown": "[Bug.addr](tests/mini_dataset/missing_events_access_control.sol#L6) should be constant\n",
+        "id": "b654ab32e482d64325c6cadcd81057ce71355ea94c4f0c5c153545b1e4162076",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "good4",
+            "source_mapping": {
+              "start": 1052,
+              "length": 108,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+              "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+              "is_dependency": false,
+              "lines": [
+                45,
+                46,
+                47
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Bug",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 1307,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_relative": "tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/missing_events_access_control.sol",
+                  "filename_short": "tests/mini_dataset/missing_events_access_control.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "good4(uint256)"
+            }
+          }
+        ],
+        "description": "good4(uint256) should be declared external:\n\t- Bug.good4(uint256) (tests/mini_dataset/missing_events_access_control.sol#45-47)\n",
+        "markdown": "good4(uint256) should be declared external:\n\t- [Bug.good4(uint256)](tests/mini_dataset/missing_events_access_control.sol#L45-L47)\n",
+        "id": "b43729cfd8605eb70439bb143544e07ab091d2eb226925808e8c3db53ee8612c",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                6
+              ],
+              "starting_column": 17
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "hardcoded",
+        "description": "0x123F681646d4A755815f9CB19e1aCc8565A0c2AC; (tests/mini_dataset/missing_events_access_control.sol)#6\n",
+        "confidence": "possibly"
+      }
+    ]
+  }
+}

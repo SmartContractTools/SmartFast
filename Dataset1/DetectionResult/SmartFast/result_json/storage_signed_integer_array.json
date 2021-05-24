@@ -1,0 +1,1850 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "A",
+            "source_mapping": {
+              "start": 25,
+              "length": 2256,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          },
+          {
+            "type": "function",
+            "name": "bad1",
+            "source_mapping": {
+              "start": 601,
+              "length": 170,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "is_dependency": false,
+              "lines": [
+                15,
+                16,
+                17
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 2256,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad1(int128[3])"
+            }
+          },
+          {
+            "type": "node",
+            "name": "intArray = userArray",
+            "source_mapping": {
+              "start": 746,
+              "length": 20,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "is_dependency": false,
+              "lines": [
+                16
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad1",
+                "source_mapping": {
+                  "start": 601,
+                  "length": 170,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "A",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 2256,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                      "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                      "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad1(int128[3])"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Contract A (tests/mini_dataset/storage_signed_integer_array.sol#3-45) \n\t- Function A.bad1(int128[3]) (tests/mini_dataset/storage_signed_integer_array.sol#15-17)\n\t\t- intArray = userArray (tests/mini_dataset/storage_signed_integer_array.sol#16) has a storage signed integer array assignment\n",
+        "markdown": "Contract [A](tests/mini_dataset/storage_signed_integer_array.sol#L3-L45) \n\t- Function [A.bad1(int128[3])](tests/mini_dataset/storage_signed_integer_array.sol#L15-L17)\n\t\t- [intArray = userArray](tests/mini_dataset/storage_signed_integer_array.sol#L16) has a storage signed integer array assignment\n",
+        "id": "36ff6ffe108b22330c6b11ee12132fc1d1f923e9624a7ed9f5f15cee5210fadf",
+        "check": "storage-array",
+        "impact": "High",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "A",
+            "source_mapping": {
+              "start": 25,
+              "length": 2256,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          },
+          {
+            "type": "function",
+            "name": "bad0",
+            "source_mapping": {
+              "start": 355,
+              "length": 132,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "is_dependency": false,
+              "lines": [
+                10,
+                11,
+                12
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 2256,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad0()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "intArray = (- 1,- 2,- 3)",
+            "source_mapping": {
+              "start": 384,
+              "length": 23,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 5,
+              "ending_column": 28
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad0",
+                "source_mapping": {
+                  "start": 355,
+                  "length": 132,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "A",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 2256,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                      "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                      "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad0()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Contract A (tests/mini_dataset/storage_signed_integer_array.sol#3-45) \n\t- Function A.bad0() (tests/mini_dataset/storage_signed_integer_array.sol#10-12)\n\t\t- intArray = (- 1,- 2,- 3) (tests/mini_dataset/storage_signed_integer_array.sol#11) has a storage signed integer array assignment\n",
+        "markdown": "Contract [A](tests/mini_dataset/storage_signed_integer_array.sol#L3-L45) \n\t- Function [A.bad0()](tests/mini_dataset/storage_signed_integer_array.sol#L10-L12)\n\t\t- [intArray = (- 1,- 2,- 3)](tests/mini_dataset/storage_signed_integer_array.sol#L11) has a storage signed integer array assignment\n",
+        "id": "931117d2f8794390d37e16ba9bd8c882af994c89d70798d9d79abb9b2f90d50b",
+        "check": "storage-array",
+        "impact": "High",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad0",
+            "source_mapping": {
+              "start": 355,
+              "length": 132,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "is_dependency": false,
+              "lines": [
+                10,
+                11,
+                12
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 2256,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad0()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "intArray = (- 1,- 2,- 3)",
+            "source_mapping": {
+              "start": 384,
+              "length": 23,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 5,
+              "ending_column": 28
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "bad0",
+                "source_mapping": {
+                  "start": 355,
+                  "length": 132,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "A",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 2256,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                      "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                      "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "bad0()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "A.bad0() (tests/mini_dataset/storage_signed_integer_array.sol#10-12) may have integer overflow\n\tPossible nodes:\n\t- intArray = (- 1,- 2,- 3) (tests/mini_dataset/storage_signed_integer_array.sol#11)\n",
+        "markdown": "[A.bad0()](tests/mini_dataset/storage_signed_integer_array.sol#L10-L12) may have integer overflow\n\tPossible nodes:\n\t- [intArray = (- 1,- 2,- 3)](tests/mini_dataset/storage_signed_integer_array.sol#L11)\n",
+        "id": "5f4fa2e66de7af8044c0896587766d07f4d324210a71a313098828eca3b98d53",
+        "check": "integer-overflow",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "good2",
+            "source_mapping": {
+              "start": 1480,
+              "length": 242,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "is_dependency": false,
+              "lines": [
+                30,
+                31,
+                32
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 2256,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "good2()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "intArray[1] = - 1",
+            "source_mapping": {
+              "start": 1600,
+              "length": 16,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "is_dependency": false,
+              "lines": [
+                31
+              ],
+              "starting_column": 5,
+              "ending_column": 21
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "good2",
+                "source_mapping": {
+                  "start": 1480,
+                  "length": 242,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    30,
+                    31,
+                    32
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "A",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 2256,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                      "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                      "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "good2()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "A.good2() (tests/mini_dataset/storage_signed_integer_array.sol#30-32) may have integer overflow\n\tPossible nodes:\n\t- intArray[1] = - 1 (tests/mini_dataset/storage_signed_integer_array.sol#31)\n",
+        "markdown": "[A.good2()](tests/mini_dataset/storage_signed_integer_array.sol#L30-L32) may have integer overflow\n\tPossible nodes:\n\t- [intArray[1] = - 1](tests/mini_dataset/storage_signed_integer_array.sol#L31)\n",
+        "id": "f1bd6e297e7960c9f3601b8118f9ace161512235f4e98e20caa7ab727851c489",
+        "check": "integer-overflow",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "good4",
+            "source_mapping": {
+              "start": 2185,
+              "length": 93,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "is_dependency": false,
+              "lines": [
+                40,
+                41,
+                42,
+                43
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 2256,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "good4()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "memIntArray = (- 1,- 2,- 3)",
+            "source_mapping": {
+              "start": 2247,
+              "length": 26,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "is_dependency": false,
+              "lines": [
+                42
+              ],
+              "starting_column": 5,
+              "ending_column": 31
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "good4",
+                "source_mapping": {
+                  "start": 2185,
+                  "length": 93,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "A",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 2256,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                      "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                      "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "good4()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "A.good4() (tests/mini_dataset/storage_signed_integer_array.sol#40-43) may have integer overflow\n\tPossible nodes:\n\t- memIntArray = (- 1,- 2,- 3) (tests/mini_dataset/storage_signed_integer_array.sol#42)\n",
+        "markdown": "[A.good4()](tests/mini_dataset/storage_signed_integer_array.sol#L40-L43) may have integer overflow\n\tPossible nodes:\n\t- [memIntArray = (- 1,- 2,- 3)](tests/mini_dataset/storage_signed_integer_array.sol#L42)\n",
+        "id": "ba4a8b693de807df8962be6fe2e3e633767ccb838ea0eb1f8ac036eb5715ae6a",
+        "check": "integer-overflow",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.5.8",
+            "source_mapping": {
+              "start": 0,
+              "length": 23,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.5",
+                ".8"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.5.8 (tests/mini_dataset/storage_signed_integer_array.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.5.8](tests/mini_dataset/storage_signed_integer_array.sol#L1) allows old versions\n",
+        "id": "8e95addba8c5d9439f6d589e2dd28b9b12f397b9b682429d4b2dc4c51c3d442d",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.5.8",
+            "source_mapping": {
+              "start": 0,
+              "length": 23,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.5",
+                ".8"
+              ]
+            }
+          }
+        ],
+        "description": "solc-0.5.8 is not recommended for deployment\n",
+        "markdown": "solc-0.5.8 is not recommended for deployment\n",
+        "id": "9ac5705453fdf5f2e22c1fc46d8016c7ff08b68311942a6daf1a1cef7e3d6438",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad0",
+            "source_mapping": {
+              "start": 355,
+              "length": 132,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "is_dependency": false,
+              "lines": [
+                10,
+                11,
+                12
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 2256,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad0()"
+            }
+          }
+        ],
+        "description": "bad0() should be declared external:\n\t- A.bad0() (tests/mini_dataset/storage_signed_integer_array.sol#10-12)\n",
+        "markdown": "bad0() should be declared external:\n\t- [A.bad0()](tests/mini_dataset/storage_signed_integer_array.sol#L10-L12)\n",
+        "id": "bdc441f7fe6a6f29f8c6e1b6fa7b1e668029185595b9b7dda101b99b81daccbf",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "bad1",
+            "source_mapping": {
+              "start": 601,
+              "length": 170,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "is_dependency": false,
+              "lines": [
+                15,
+                16,
+                17
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 2256,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "bad1(int128[3])"
+            }
+          }
+        ],
+        "description": "bad1(int128[3]) should be declared external:\n\t- A.bad1(int128[3]) (tests/mini_dataset/storage_signed_integer_array.sol#15-17)\n",
+        "markdown": "bad1(int128[3]) should be declared external:\n\t- [A.bad1(int128[3])](tests/mini_dataset/storage_signed_integer_array.sol#L15-L17)\n",
+        "id": "5d488f9b3efec1cfcbdecaca4291137899499cec71ab9ac82abc029d402b31e5",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "good0",
+            "source_mapping": {
+              "start": 837,
+              "length": 247,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "is_dependency": false,
+              "lines": [
+                20,
+                21,
+                22
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 2256,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "good0()"
+            }
+          }
+        ],
+        "description": "good0() should be declared external:\n\t- A.good0() (tests/mini_dataset/storage_signed_integer_array.sol#20-22)\n",
+        "markdown": "good0() should be declared external:\n\t- [A.good0()](tests/mini_dataset/storage_signed_integer_array.sol#L20-L22)\n",
+        "id": "cad7632832895cfae66d58fcefb8fc606fc9d443709b02c11d9d9f83c5291154",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "good1",
+            "source_mapping": {
+              "start": 1146,
+              "length": 267,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "is_dependency": false,
+              "lines": [
+                25,
+                26,
+                27
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 2256,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "good1(uint256[3])"
+            }
+          }
+        ],
+        "description": "good1(uint256[3]) should be declared external:\n\t- A.good1(uint256[3]) (tests/mini_dataset/storage_signed_integer_array.sol#25-27)\n",
+        "markdown": "good1(uint256[3]) should be declared external:\n\t- [A.good1(uint256[3])](tests/mini_dataset/storage_signed_integer_array.sol#L25-L27)\n",
+        "id": "2605ca94929a5aff45e3490bf9eff40a5790fcdcfd49f997ebc4a6d3b9e8dbc7",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "good2",
+            "source_mapping": {
+              "start": 1480,
+              "length": 242,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "is_dependency": false,
+              "lines": [
+                30,
+                31,
+                32
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 2256,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "good2()"
+            }
+          }
+        ],
+        "description": "good2() should be declared external:\n\t- A.good2() (tests/mini_dataset/storage_signed_integer_array.sol#30-32)\n",
+        "markdown": "good2() should be declared external:\n\t- [A.good2()](tests/mini_dataset/storage_signed_integer_array.sol#L30-L32)\n",
+        "id": "fae84780f6fb59706f5b0e511c259328faa3f69ca00fb7d1e9f5d2d520260609",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "good3",
+            "source_mapping": {
+              "start": 1823,
+              "length": 267,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "is_dependency": false,
+              "lines": [
+                35,
+                36,
+                37
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 2256,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "good3(int256[3])"
+            }
+          }
+        ],
+        "description": "good3(int256[3]) should be declared external:\n\t- A.good3(int256[3]) (tests/mini_dataset/storage_signed_integer_array.sol#35-37)\n",
+        "markdown": "good3(int256[3]) should be declared external:\n\t- [A.good3(int256[3])](tests/mini_dataset/storage_signed_integer_array.sol#L35-L37)\n",
+        "id": "d8e2632b2c03ab4aef0586758ed14a6be2c091cfa20ba0f2ea7703c5dfe508f2",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "good4",
+            "source_mapping": {
+              "start": 2185,
+              "length": 93,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+              "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+              "is_dependency": false,
+              "lines": [
+                40,
+                41,
+                42,
+                43
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 2256,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_relative": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/storage_signed_integer_array.sol",
+                  "filename_short": "tests/mini_dataset/storage_signed_integer_array.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "good4()"
+            }
+          }
+        ],
+        "description": "good4() should be declared external:\n\t- A.good4() (tests/mini_dataset/storage_signed_integer_array.sol#40-43)\n",
+        "markdown": "good4() should be declared external:\n\t- [A.good4()](tests/mini_dataset/storage_signed_integer_array.sol#L40-L43)\n",
+        "id": "78f7277e0cfa05eb1e9be45125c41cafd7d3ba57a8be4e57e89f1c7df8fb3d74",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                31
+              ],
+              "starting_column": 18
+            }
+          }
+        ],
+        "impact": "Medium",
+        "check": "typographical-error",
+        "description": "-1;                                                                                                      (tests/mini_dataset/storage_signed_integer_array.sol)#31\n",
+        "confidence": "probably"
+      }
+    ]
+  }
+}

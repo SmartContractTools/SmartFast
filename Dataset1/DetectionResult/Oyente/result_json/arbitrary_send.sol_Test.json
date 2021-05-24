@@ -1,0 +1,20 @@
+{
+ "vulnerabilities": {
+  "callstack": [], 
+  "time_dependency": [], 
+  "reentrancy": [], 
+  "integer_overflow": [], 
+  "parity_multisig_bug_2": [], 
+  "integer_underflow": [], 
+  "money_concurrency": [
+   [
+    "/dataset/tests/mini_dataset/arbitrary_send.sol:14:9: Warning: Transaction-Ordering Dependency.\n        msg.sender.send(address(this).balance)"
+   ], 
+   [
+    "/dataset/tests/mini_dataset/arbitrary_send.sol:41:9: Warning: Transaction-Ordering Dependency.\n        destination.send(msg.value)"
+   ]
+  ], 
+  "assertion_failure": []
+ }, 
+ "evm_code_coverage": "99.0"
+}

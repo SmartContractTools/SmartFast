@@ -1,0 +1,30 @@
+{"PullPayment":{
+ "execution_paths": "7", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.235672950745", 
+ "signedness": false, 
+ "evm_code_coverage": "93.7", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "ADD ", 
+  "SWAP2 ", 
+  "POP ", 
+  "POP ", 
+  "PUSH2 0x0060 ", 
+  "JUMP ", 
+  "STOP ", 
+  "JUMPDEST ", 
+  "DUP1 ", 
+  "DUP1 ", 
+  "PUSH1 0x01 "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}}

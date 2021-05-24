@@ -1,0 +1,1 @@
+[{"severity":1,"argument":"SOLIDITY_VISIBILITY","starting_column":4,"description_val":"function transfer() { (tests/mini_dataset/integer_overflow.sol)#2\n","context_ling":2,"text":"function"}]

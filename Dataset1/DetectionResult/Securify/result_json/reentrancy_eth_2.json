@@ -1,0 +1,308 @@
+{
+  "tests/mini_dataset/reentrancy_eth_2.sol:Reentrancy": {
+    "version": "unknown_version",
+    "results": {
+      "DAO": {
+        "violations": [
+          16,
+          25,
+          32,
+          114,
+          123,
+          133,
+          134
+        ],
+        "warnings": [],
+        "safe": [
+          76
+        ],
+        "conflicts": []
+      },
+      "DAOConstantGas": {
+        "violations": [
+          40,
+          86
+        ],
+        "warnings": [],
+        "safe": [],
+        "conflicts": []
+      },
+      "LockedEther": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          2
+        ],
+        "conflicts": []
+      },
+      "MissingInputValidation": {
+        "violations": [
+          5
+        ],
+        "warnings": [],
+        "safe": [
+          9,
+          13,
+          22,
+          29,
+          37,
+          46,
+          58,
+          71,
+          81,
+          90,
+          99,
+          109,
+          118,
+          131
+        ],
+        "conflicts": []
+      },
+      "RepeatedCall": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          16,
+          25,
+          32,
+          40,
+          51,
+          64,
+          76,
+          86,
+          95,
+          105,
+          114,
+          123,
+          133,
+          134
+        ],
+        "conflicts": []
+      },
+      "TODAmount": {
+        "violations": [],
+        "warnings": [
+          16,
+          25,
+          32,
+          40,
+          76,
+          86,
+          114,
+          123,
+          133,
+          134
+        ],
+        "safe": [],
+        "conflicts": []
+      },
+      "TODReceiver": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          16,
+          25,
+          32,
+          40,
+          76,
+          86,
+          114,
+          123,
+          133,
+          134
+        ],
+        "conflicts": []
+      },
+      "UnhandledException": {
+        "violations": [
+          32,
+          134
+        ],
+        "warnings": [],
+        "safe": [
+          16,
+          25,
+          40,
+          51,
+          64,
+          76,
+          86,
+          95,
+          105,
+          114,
+          123,
+          133
+        ],
+        "conflicts": []
+      },
+      "UnrestrictedEtherFlow": {
+        "violations": [],
+        "warnings": [
+          16,
+          25,
+          32,
+          40,
+          76,
+          86,
+          114,
+          123,
+          133,
+          134
+        ],
+        "safe": [
+          51,
+          64,
+          95,
+          105
+        ],
+        "conflicts": []
+      },
+      "UnrestrictedWrite": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          10,
+          19,
+          26,
+          33,
+          43,
+          54,
+          67,
+          75,
+          87,
+          96,
+          106,
+          113,
+          115,
+          122,
+          127,
+          135
+        ],
+        "conflicts": []
+      }
+    },
+    "securifyErrors": {
+      "errors": []
+    }
+  },
+  "tests/mini_dataset/reentrancy_eth_2.sol:ReentrancyEvent": {
+    "version": "unknown_version",
+    "results": {
+      "DAO": {
+        "violations": [
+          182
+        ],
+        "warnings": [],
+        "safe": [],
+        "conflicts": []
+      },
+      "DAOConstantGas": {
+        "violations": [
+          191
+        ],
+        "warnings": [],
+        "safe": [
+          198
+        ],
+        "conflicts": []
+      },
+      "LockedEther": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          153
+        ],
+        "conflicts": []
+      },
+      "MissingInputValidation": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          159,
+          166,
+          172,
+          179,
+          188,
+          197
+        ],
+        "conflicts": []
+      },
+      "RepeatedCall": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          161,
+          168,
+          174,
+          182,
+          191,
+          198
+        ],
+        "conflicts": []
+      },
+      "TODAmount": {
+        "violations": [],
+        "warnings": [
+          182,
+          191,
+          198
+        ],
+        "safe": [],
+        "conflicts": []
+      },
+      "TODReceiver": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          182,
+          191,
+          198
+        ],
+        "conflicts": []
+      },
+      "UnhandledException": {
+        "violations": [
+          168
+        ],
+        "warnings": [],
+        "safe": [
+          161,
+          174,
+          182,
+          191,
+          198
+        ],
+        "conflicts": []
+      },
+      "UnrestrictedEtherFlow": {
+        "violations": [],
+        "warnings": [
+          182,
+          191,
+          198
+        ],
+        "safe": [
+          161,
+          168,
+          174
+        ],
+        "conflicts": []
+      },
+      "UnrestrictedWrite": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          175,
+          181,
+          183,
+          190,
+          192
+        ],
+        "conflicts": []
+      }
+    },
+    "securifyErrors": {
+      "errors": []
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"no_holeloops": ["erc1410_interface", "erc20_indexed", "external_function_import", "redundant_fallback_0.3.0", "unimplemented_functions", "uninitialized_local", "void_cst"], "false_audit": []}

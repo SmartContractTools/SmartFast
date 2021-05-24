@@ -1,0 +1,454 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "Locked",
+            "source_mapping": {
+              "start": 24,
+              "length": 97,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/locked_ether_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          },
+          {
+            "type": "function",
+            "name": "receive",
+            "source_mapping": {
+              "start": 46,
+              "length": 72,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/locked_ether_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                4,
+                5,
+                6
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Locked",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 97,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "receive()"
+            }
+          }
+        ],
+        "description": "Contract locking ether found in :\n\tContract Locked (tests/mini_dataset/locked_ether_0.5.1.sol#2-8) has payable functions:\n\t - Locked.receive() (tests/mini_dataset/locked_ether_0.5.1.sol#4-6)\n\tBut does not have a function to withdraw the ether or the call value is 0\n",
+        "markdown": "Contract locking ether found in :\n\tContract [Locked](tests/mini_dataset/locked_ether_0.5.1.sol#L2-L8) has payable functions:\n\t - [Locked.receive()](tests/mini_dataset/locked_ether_0.5.1.sol#L4-L6)\n\tBut does not have a function to withdraw the ether or the call value is 0\n",
+        "id": "68e8c613f50fb0c3b7fd6d00c03ef65e7a3e1b7346138f6b3b5b5b33d33baee5",
+        "check": "locked-ether",
+        "impact": "Medium",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "OnlyLocked",
+            "source_mapping": {
+              "start": 375,
+              "length": 32,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/locked_ether_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                26
+              ],
+              "starting_column": 1,
+              "ending_column": 33
+            }
+          },
+          {
+            "type": "function",
+            "name": "receive",
+            "source_mapping": {
+              "start": 46,
+              "length": 72,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/locked_ether_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                4,
+                5,
+                6
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Locked",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 97,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "receive()"
+            }
+          }
+        ],
+        "description": "Contract locking ether found in :\n\tContract OnlyLocked (tests/mini_dataset/locked_ether_0.5.1.sol#26) has payable functions:\n\t - Locked.receive() (tests/mini_dataset/locked_ether_0.5.1.sol#4-6)\n\tBut does not have a function to withdraw the ether or the call value is 0\n",
+        "markdown": "Contract locking ether found in :\n\tContract [OnlyLocked](tests/mini_dataset/locked_ether_0.5.1.sol#L26) has payable functions:\n\t - [Locked.receive()](tests/mini_dataset/locked_ether_0.5.1.sol#L4-L6)\n\tBut does not have a function to withdraw the ether or the call value is 0\n",
+        "id": "d98dd018a49a4741390f1bd99841d59cfcef895e4a4216d62905ba5560020aff",
+        "check": "locked-ether",
+        "impact": "Medium",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "receive",
+            "source_mapping": {
+              "start": 46,
+              "length": 72,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/locked_ether_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                4,
+                5,
+                6
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Locked",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 97,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "receive()"
+            }
+          }
+        ],
+        "description": "Locked.receive() (tests/mini_dataset/locked_ether_0.5.1.sol#4-6) (function) shadows built-in symbol\"\n",
+        "markdown": "[Locked.receive()](tests/mini_dataset/locked_ether_0.5.1.sol#L4-L6) (function) shadows built-in symbol\"\n",
+        "id": "07d21f942afd915036ab15474ad7832110180abe39b6a7c2f4cedcb1ee2dbf3e",
+        "check": "shadowing-builtin",
+        "impact": "Low",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 311,
+              "length": 59,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/locked_ether_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                20,
+                21,
+                22
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Unlocked",
+                "source_mapping": {
+                  "start": 271,
+                  "length": 102,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "withdraw()"
+            }
+          },
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 187,
+              "length": 80,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/locked_ether_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                13,
+                14,
+                15
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Send",
+                "source_mapping": {
+                  "start": 123,
+                  "length": 146,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "withdraw()"
+            }
+          }
+        ],
+        "description": "Unlocked.withdraw() (tests/mini_dataset/locked_ether_0.5.1.sol#20-22) shadows:\n\t- Send.withdraw() (tests/mini_dataset/locked_ether_0.5.1.sol#13-15)\n",
+        "markdown": "[Unlocked.withdraw()](tests/mini_dataset/locked_ether_0.5.1.sol#L20-L22) shadows:\n\t- [Send.withdraw()](tests/mini_dataset/locked_ether_0.5.1.sol#L13-L15)\n",
+        "id": "6b5f724176bf960785a102f703ca59429a3779f7eb719832ad12c0f229723886",
+        "check": "shadowing-function",
+        "impact": "Low",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.5.0",
+            "source_mapping": {
+              "start": 0,
+              "length": 23,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/locked_ether_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.5",
+                ".0"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.5.0 (tests/mini_dataset/locked_ether_0.5.1.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.5.0](tests/mini_dataset/locked_ether_0.5.1.sol#L1) allows old versions\n",
+        "id": "1bb25308e054e625ea2c03d05b65b9532a05454e10bf405f9ea9124eab44b0b1",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.5.0",
+            "source_mapping": {
+              "start": 0,
+              "length": 23,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/locked_ether_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.5",
+                ".0"
+              ]
+            }
+          }
+        ],
+        "description": "solc-0.5.0 is not recommended for deployment\n",
+        "markdown": "solc-0.5.0 is not recommended for deployment\n",
+        "id": "21539c75e015cde5bdae3a77b39cf5d17be24d0b87a05da1d6b5d5020b7aef22",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "receive",
+            "source_mapping": {
+              "start": 46,
+              "length": 72,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_relative": "tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+              "filename_short": "tests/mini_dataset/locked_ether_0.5.1.sol",
+              "is_dependency": false,
+              "lines": [
+                4,
+                5,
+                6
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Locked",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 97,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "filename_relative": "tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "filename_short": "tests/mini_dataset/locked_ether_0.5.1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "receive()"
+            }
+          }
+        ],
+        "description": "receive() should be declared external:\n\t- Locked.receive() (tests/mini_dataset/locked_ether_0.5.1.sol#4-6)\n",
+        "markdown": "receive() should be declared external:\n\t- [Locked.receive()](tests/mini_dataset/locked_ether_0.5.1.sol#L4-L6)\n",
+        "id": "27c867b480315c7e5dedf887f1bb813a5d20fd96b2b4ae98fff577a5e1bd992f",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

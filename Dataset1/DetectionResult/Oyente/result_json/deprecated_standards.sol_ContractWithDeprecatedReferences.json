@@ -1,0 +1,15 @@
+{
+ "vulnerabilities": {
+  "callstack": [], 
+  "time_dependency": [], 
+  "reentrancy": [], 
+  "integer_overflow": [], 
+  "parity_multisig_bug_2": [], 
+  "integer_underflow": [
+   "/dataset/tests/mini_dataset/deprecated_standards.sol:15:14: Warning: Integer Underflow.\n\t   return ((now - lastUpdated\nInteger Underflow occurs if:\n    lastUpdated = 1"
+  ], 
+  "money_concurrency": [], 
+  "assertion_failure": []
+ }, 
+ "evm_code_coverage": "90.5"
+}

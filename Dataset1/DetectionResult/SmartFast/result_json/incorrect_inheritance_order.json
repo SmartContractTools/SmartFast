@@ -1,0 +1,1163 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "owner",
+            "source_mapping": {
+              "start": 105,
+              "length": 13,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 5,
+              "ending_column": 18
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "B",
+                "source_mapping": {
+                  "start": 83,
+                  "length": 85,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "owner",
+            "source_mapping": {
+              "start": 17,
+              "length": 13,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 5,
+              "ending_column": 18
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 80,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "B.owner (tests/mini_dataset/incorrect_inheritance_order.sol#9) shadows:\n\t- A.owner (tests/mini_dataset/incorrect_inheritance_order.sol#2)\n",
+        "markdown": "[B.owner](tests/mini_dataset/incorrect_inheritance_order.sol#L9) shadows:\n\t- [A.owner](tests/mini_dataset/incorrect_inheritance_order.sol#L2)\n",
+        "id": "704d1e81f2f4bbd2f22e135bef330a0001a73b5e1dc5879cd36ed21bb5417a60",
+        "check": "shadowing-abstract",
+        "impact": "Medium",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "aa",
+            "source_mapping": {
+              "start": 124,
+              "length": 20,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "B",
+                "source_mapping": {
+                  "start": 83,
+                  "length": 85,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "aa",
+            "source_mapping": {
+              "start": 36,
+              "length": 20,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 80,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "B.aa (tests/mini_dataset/incorrect_inheritance_order.sol#10) shadows:\n\t- A.aa (tests/mini_dataset/incorrect_inheritance_order.sol#3)\n",
+        "markdown": "[B.aa](tests/mini_dataset/incorrect_inheritance_order.sol#L10) shadows:\n\t- [A.aa](tests/mini_dataset/incorrect_inheritance_order.sol#L3)\n",
+        "id": "3a13ecaea32252a58767e3d59789eb1f751ae90075d8ddbfe4f9d63c5d356d26",
+        "check": "shadowing-abstract",
+        "impact": "Medium",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "AA",
+            "source_mapping": {
+              "start": 150,
+              "length": 16,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 5,
+              "ending_column": 21
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "B",
+                "source_mapping": {
+                  "start": 83,
+                  "length": 85,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "AA()"
+            }
+          },
+          {
+            "type": "function",
+            "name": "AA",
+            "source_mapping": {
+              "start": 62,
+              "length": 16,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 5,
+              "ending_column": 21
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 80,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "AA()"
+            }
+          }
+        ],
+        "description": "B.AA() (tests/mini_dataset/incorrect_inheritance_order.sol#11) shadows:\n\t- A.AA() (tests/mini_dataset/incorrect_inheritance_order.sol#4)\n",
+        "markdown": "[B.AA()](tests/mini_dataset/incorrect_inheritance_order.sol#L11) shadows:\n\t- [A.AA()](tests/mini_dataset/incorrect_inheritance_order.sol#L4)\n",
+        "id": "d1551136710d2ae2b1be400cf281acd05bfa2959147ccc35eac973deea6c5771",
+        "check": "shadowing-function",
+        "impact": "Low",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "D",
+            "source_mapping": {
+              "start": 230,
+              "length": 26,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                19,
+                20,
+                21
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          },
+          {
+            "type": "variable",
+            "name": "aa",
+            "source_mapping": {
+              "start": 205,
+              "length": 20,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                16
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "C",
+                "source_mapping": {
+                  "start": 170,
+                  "length": 58,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "owner",
+            "source_mapping": {
+              "start": 105,
+              "length": 13,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 5,
+              "ending_column": 18
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "B",
+                "source_mapping": {
+                  "start": 83,
+                  "length": 85,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "owner",
+            "source_mapping": {
+              "start": 186,
+              "length": 13,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                15
+              ],
+              "starting_column": 5,
+              "ending_column": 18
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "C",
+                "source_mapping": {
+                  "start": 170,
+                  "length": 58,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "aa",
+            "source_mapping": {
+              "start": 124,
+              "length": 20,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "B",
+                "source_mapping": {
+                  "start": 83,
+                  "length": 85,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "D (tests/mini_dataset/incorrect_inheritance_order.sol#19-21) inherits the contract, there is a conflict between state variables and functions\n\tConflicting functions and state variables:\n\t- C.aa (tests/mini_dataset/incorrect_inheritance_order.sol#16)\n\t- B.owner (tests/mini_dataset/incorrect_inheritance_order.sol#9)\n\t- C.owner (tests/mini_dataset/incorrect_inheritance_order.sol#15)\n\t- B.aa (tests/mini_dataset/incorrect_inheritance_order.sol#10)\n",
+        "markdown": "[D](tests/mini_dataset/incorrect_inheritance_order.sol#L19-L21) inherits the contract, there is a conflict between state variables and functions\n\tConflicting functions and state variables:\n\t- [C.aa](tests/mini_dataset/incorrect_inheritance_order.sol#L16)\n\t- [B.owner](tests/mini_dataset/incorrect_inheritance_order.sol#L9)\n\t- [C.owner](tests/mini_dataset/incorrect_inheritance_order.sol#L15)\n\t- [B.aa](tests/mini_dataset/incorrect_inheritance_order.sol#L10)\n",
+        "id": "54d320593ffbf81617daf517687b71895f17ad265856112817742e1adb203eb3",
+        "check": "incorrect-inheritance-order",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "AA",
+            "source_mapping": {
+              "start": 62,
+              "length": 16,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 5,
+              "ending_column": 21
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 80,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "AA()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function A.AA() (tests/mini_dataset/incorrect_inheritance_order.sol#4) is not in mixedCase\n",
+        "markdown": "Function [A.AA()](tests/mini_dataset/incorrect_inheritance_order.sol#L4) is not in mixedCase\n",
+        "id": "dacd0b9cd4e0cd242b30ab51c17d683b67e4fceb62a77e7d7ef3132b5c82a967",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "aa",
+            "source_mapping": {
+              "start": 36,
+              "length": 20,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 80,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable_constant",
+              "convention": "UPPER_CASE_WITH_UNDERSCORES"
+            }
+          }
+        ],
+        "description": "Constant A.aa (tests/mini_dataset/incorrect_inheritance_order.sol#3) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+        "markdown": "Constant [A.aa](tests/mini_dataset/incorrect_inheritance_order.sol#L3) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+        "id": "7d5d2affaaa3fc6efd1c03a9efa3cb9281001c35102edfd14786ae8a9abbb118",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "AA",
+            "source_mapping": {
+              "start": 150,
+              "length": 16,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 5,
+              "ending_column": 21
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "B",
+                "source_mapping": {
+                  "start": 83,
+                  "length": 85,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "AA()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function B.AA() (tests/mini_dataset/incorrect_inheritance_order.sol#11) is not in mixedCase\n",
+        "markdown": "Function [B.AA()](tests/mini_dataset/incorrect_inheritance_order.sol#L11) is not in mixedCase\n",
+        "id": "95b6ab7a5d7fd586107b97fc34dee8eecc8e47a19ed91359653e4702369110f4",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "aa",
+            "source_mapping": {
+              "start": 124,
+              "length": 20,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "B",
+                "source_mapping": {
+                  "start": 83,
+                  "length": 85,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable_constant",
+              "convention": "UPPER_CASE_WITH_UNDERSCORES"
+            }
+          }
+        ],
+        "description": "Constant B.aa (tests/mini_dataset/incorrect_inheritance_order.sol#10) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+        "markdown": "Constant [B.aa](tests/mini_dataset/incorrect_inheritance_order.sol#L10) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+        "id": "72b3d9e3f5fd2ae987d91948467963bf70420979a968c63585df73abd0e64a0d",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "aa",
+            "source_mapping": {
+              "start": 205,
+              "length": 20,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                16
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "C",
+                "source_mapping": {
+                  "start": 170,
+                  "length": 58,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable_constant",
+              "convention": "UPPER_CASE_WITH_UNDERSCORES"
+            }
+          }
+        ],
+        "description": "Constant C.aa (tests/mini_dataset/incorrect_inheritance_order.sol#16) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+        "markdown": "Constant [C.aa](tests/mini_dataset/incorrect_inheritance_order.sol#L16) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+        "id": "2f307f7282797c6b10c72f13ea08d0463185adabb0fea7eb0f810ceb0b807f92",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "owner",
+            "source_mapping": {
+              "start": 17,
+              "length": 13,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 5,
+              "ending_column": 18
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 80,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "A.owner (tests/mini_dataset/incorrect_inheritance_order.sol#2) should be constant\n",
+        "markdown": "[A.owner](tests/mini_dataset/incorrect_inheritance_order.sol#L2) should be constant\n",
+        "id": "3382914c8242e88488922657606ab48ea8ccba62d494530a97d7c952167feb7a",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "owner",
+            "source_mapping": {
+              "start": 105,
+              "length": 13,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 5,
+              "ending_column": 18
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "B",
+                "source_mapping": {
+                  "start": 83,
+                  "length": 85,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "B.owner (tests/mini_dataset/incorrect_inheritance_order.sol#9) should be constant\n",
+        "markdown": "[B.owner](tests/mini_dataset/incorrect_inheritance_order.sol#L9) should be constant\n",
+        "id": "76f12767e73908e979d6ea4a7220af569d379ca01bb5deb7e0f9d571a468e0b0",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "owner",
+            "source_mapping": {
+              "start": 186,
+              "length": 13,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                15
+              ],
+              "starting_column": 5,
+              "ending_column": 18
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "C",
+                "source_mapping": {
+                  "start": 170,
+                  "length": 58,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "C.owner (tests/mini_dataset/incorrect_inheritance_order.sol#15) should be constant\n",
+        "markdown": "[C.owner](tests/mini_dataset/incorrect_inheritance_order.sol#L15) should be constant\n",
+        "id": "e9c90a20a5340d923d414aeafaef0dd7e29cc13a828b2adb6c926f6aa7a17385",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "AA",
+            "source_mapping": {
+              "start": 62,
+              "length": 16,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 5,
+              "ending_column": 21
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 80,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "AA()"
+            }
+          },
+          {
+            "type": "function",
+            "name": "AA",
+            "source_mapping": {
+              "start": 150,
+              "length": 16,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 5,
+              "ending_column": 21
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "B",
+                "source_mapping": {
+                  "start": 83,
+                  "length": 85,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "AA()"
+            }
+          }
+        ],
+        "description": "AA() should be declared external:\n\t- A.AA() (tests/mini_dataset/incorrect_inheritance_order.sol#4)\n\t- B.AA() (tests/mini_dataset/incorrect_inheritance_order.sol#11)\n",
+        "markdown": "AA() should be declared external:\n\t- [A.AA()](tests/mini_dataset/incorrect_inheritance_order.sol#L4)\n\t- [B.AA()](tests/mini_dataset/incorrect_inheritance_order.sol#L11)\n",
+        "id": "7da55464ab535c140880a1d166edd55488026337412a2cdc2a4f336ea92f2557",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "owner",
+            "source_mapping": {
+              "start": 186,
+              "length": 13,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                15
+              ],
+              "starting_column": 5,
+              "ending_column": 18
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "C",
+                "source_mapping": {
+                  "start": 170,
+                  "length": 58,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "C.owner (tests/mini_dataset/incorrect_inheritance_order.sol#15) is never used\n",
+        "markdown": "[C.owner](tests/mini_dataset/incorrect_inheritance_order.sol#L15) is never used\n",
+        "id": "35e97204f03d8226e959d6b8dde3741b8d9efb2e476de644e1444a163b7e76d0",
+        "check": "unused-state",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "aa",
+            "source_mapping": {
+              "start": 205,
+              "length": 20,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+              "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+              "is_dependency": false,
+              "lines": [
+                16
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "C",
+                "source_mapping": {
+                  "start": 170,
+                  "length": 58,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_inheritance_order.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "C.aa (tests/mini_dataset/incorrect_inheritance_order.sol#16) is never used\n",
+        "markdown": "[C.aa](tests/mini_dataset/incorrect_inheritance_order.sol#L16) is never used\n",
+        "id": "900c0fc2a4991be93220d556f2e128ef93689eb5266e113b2d397603824d3c7d",
+        "check": "unused-state",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                4
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function AA() {} (tests/mini_dataset/incorrect_inheritance_order.sol)#4\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                11
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function AA() {} (tests/mini_dataset/incorrect_inheritance_order.sol)#11\n",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

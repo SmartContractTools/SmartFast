@@ -1,0 +1,30 @@
+{
+ "vulnerabilities": {
+  "callstack": [
+   "/dataset/tests/mini_dataset/reentrancy_eth_2.sol:33:9: Warning: Callstack Depth Attack Vulnerability.\n        msg.sender.call.value(userBalance[msg.sender])()", 
+   "/dataset/tests/mini_dataset/reentrancy_eth_2.sol:135:13: Warning: Callstack Depth Attack Vulnerability.\n            msg.sender.call.value(amount/2)()"
+  ], 
+  "time_dependency": [], 
+  "reentrancy": [
+   "/dataset/tests/mini_dataset/reentrancy_eth_2.sol:33:9: Warning: Re-Entrancy Vulnerability.\n        msg.sender.call.value(userBalance[msg.sender])()", 
+   "/dataset/tests/mini_dataset/reentrancy_eth_2.sol:134:16: Warning: Re-Entrancy Vulnerability.\n        if( ! (msg.sender.call.value(amount/2)()", 
+   "/dataset/tests/mini_dataset/reentrancy_eth_2.sol:26:17: Warning: Re-Entrancy Vulnerability.\n        require(msg.sender.call.value(userBalance[msg.sender])()", 
+   "/dataset/tests/mini_dataset/reentrancy_eth_2.sol:17:16: Warning: Re-Entrancy Vulnerability.\n        if( ! (msg.sender.call.value(userBalance[msg.sender])()"
+  ], 
+  "integer_overflow": [
+   "/dataset/tests/mini_dataset/reentrancy_eth_2.sol:11:9: Warning: Integer Overflow.\n        userBalance[msg.sender] += msg.value\nInteger Overflow occurs if:\n    userBalance[msg.sender] = 1"
+  ], 
+  "parity_multisig_bug_2": [], 
+  "integer_underflow": [], 
+  "money_concurrency": [
+   [
+    "/dataset/tests/mini_dataset/reentrancy_eth_2.sol:87:9: Warning: Transaction-Ordering Dependency.\n        msg.sender.transfer(userBalance[msg.sender])"
+   ], 
+   [
+    "/dataset/tests/mini_dataset/reentrancy_eth_2.sol:77:16: Warning: Transaction-Ordering Dependency.\n        if( ! (msg.sender.call.value(amount)()"
+   ]
+  ], 
+  "assertion_failure": []
+ }, 
+ "evm_code_coverage": "90.9"
+}

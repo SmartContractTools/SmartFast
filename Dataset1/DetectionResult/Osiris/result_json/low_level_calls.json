@@ -1,0 +1,49 @@
+{"Receiver":{
+ "execution_paths": "4", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.297130823135", 
+ "signedness": false, 
+ "evm_code_coverage": "98.7", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/dataset/tests/mini_dataset/low_level_calls.sol:Receiver:110:9\nbalance += msg.value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+},"Sender":{
+ "execution_paths": "37", 
+ "callstack": false, 
+ "reentrancy": "\n/dataset/tests/mini_dataset/low_level_calls.sol:Sender:30:12\n_receiver.call.value(msg.value).gas(7777)(\"\")\n^\n/dataset/tests/mini_dataset/low_level_calls.sol:Sender:44:17\n_receiver.call.value(msg.value).gas(7777)(\"\")\n^\n/dataset/tests/mini_dataset/low_level_calls.sol:Sender:72:9\n_receiver.call.value(msg.value).gas(7777)(\"\")\n^\n/dataset/tests/mini_dataset/low_level_calls.sol:Sender:13:9\n_receiver.call.value(msg.value).gas(7777)(\"\")\n^\n/dataset/tests/mini_dataset/low_level_calls.sol:Sender:52:16\n_receiver.call.value(msg.value).gas(7777)(\"\")\n^\n/dataset/tests/mini_dataset/low_level_calls.sol:Sender:60:16\n_receiver.call.value(msg.value).gas(7777)(\"\")\n^\n/dataset/tests/mini_dataset/low_level_calls.sol:Sender:17:12\n_receiver.call.value(msg.value).gas(7777)(\"\")\n^", 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "4.00346899033", 
+ "signedness": false, 
+ "evm_code_coverage": "99.3", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "JUMP ", 
+  "JUMPDEST ", 
+  "STOP ", 
+  "STOP ", 
+  "JUMPDEST ", 
+  "POP ", 
+  "JUMP ", 
+  "JUMPDEST ", 
+  "STOP ", 
+  "JUMPDEST ", 
+  "POP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": "\nFlow 1:\n/dataset/tests/mini_dataset/low_level_calls.sol:Sender:40:17\n_receiver.send(msg.value)\n^\nFlow 2:", 
+ "truncation": false
+}}

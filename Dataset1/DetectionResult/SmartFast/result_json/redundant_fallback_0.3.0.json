@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                1
+              ],
+              "starting_column": 0
+            }
+          }
+        ],
+        "impact": "High",
+        "check": "redundant-fallback",
+        "description": "pragma solidity 0.3.24; (tests/mini_dataset/redundant_fallback_0.3.0.sol)#1\n",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

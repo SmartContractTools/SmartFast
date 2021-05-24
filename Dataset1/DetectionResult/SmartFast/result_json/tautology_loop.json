@@ -1,0 +1,526 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "infiniteLoop",
+            "source_mapping": {
+              "start": 62,
+              "length": 141,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+              "filename_relative": "tests/mini_dataset/tautology_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+              "filename_short": "tests/mini_dataset/tautology_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "GreaterOrEqualToZero",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 181,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+                  "filename_relative": "tests/mini_dataset/tautology_loop.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+                  "filename_short": "tests/mini_dataset/tautology_loop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "infiniteLoop(uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "i >= 0",
+            "source_mapping": {
+              "start": 148,
+              "length": 6,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+              "filename_relative": "tests/mini_dataset/tautology_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+              "filename_short": "tests/mini_dataset/tautology_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 31,
+              "ending_column": 37
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "infiniteLoop",
+                "source_mapping": {
+                  "start": 62,
+                  "length": 141,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+                  "filename_relative": "tests/mini_dataset/tautology_loop.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+                  "filename_short": "tests/mini_dataset/tautology_loop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "GreaterOrEqualToZero",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 181,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+                      "filename_relative": "tests/mini_dataset/tautology_loop.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+                      "filename_short": "tests/mini_dataset/tautology_loop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "infiniteLoop(uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "GreaterOrEqualToZero.infiniteLoop(uint256) (tests/mini_dataset/tautology_loop.sol#3-7) contains a tautology or contradiction:\n\t- i >= 0 (tests/mini_dataset/tautology_loop.sol#4)\n",
+        "markdown": "[GreaterOrEqualToZero.infiniteLoop(uint256)](tests/mini_dataset/tautology_loop.sol#L3-L7) contains a tautology or contradiction:\n\t- [i >= 0](tests/mini_dataset/tautology_loop.sol#L4)\n",
+        "id": "c6c8fbc214dd8cb751c7fffd26956cfd68a7ff05e4a5d3a8e01cf33a5193b75b",
+        "check": "tautology",
+        "impact": "Medium",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "infiniteLoop",
+            "source_mapping": {
+              "start": 249,
+              "length": 147,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+              "filename_relative": "tests/mini_dataset/tautology_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+              "filename_short": "tests/mini_dataset/tautology_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "GreaterOrEqualToZero_1",
+                "source_mapping": {
+                  "start": 210,
+                  "length": 189,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+                  "filename_relative": "tests/mini_dataset/tautology_loop.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+                  "filename_short": "tests/mini_dataset/tautology_loop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "infiniteLoop(uint128)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "i >= 0",
+            "source_mapping": {
+              "start": 341,
+              "length": 6,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+              "filename_relative": "tests/mini_dataset/tautology_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+              "filename_short": "tests/mini_dataset/tautology_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                12
+              ],
+              "starting_column": 34,
+              "ending_column": 40
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "infiniteLoop",
+                "source_mapping": {
+                  "start": 249,
+                  "length": 147,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+                  "filename_relative": "tests/mini_dataset/tautology_loop.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+                  "filename_short": "tests/mini_dataset/tautology_loop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "GreaterOrEqualToZero_1",
+                    "source_mapping": {
+                      "start": 210,
+                      "length": 189,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+                      "filename_relative": "tests/mini_dataset/tautology_loop.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+                      "filename_short": "tests/mini_dataset/tautology_loop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "infiniteLoop(uint128)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "GreaterOrEqualToZero_1.infiniteLoop(uint128) (tests/mini_dataset/tautology_loop.sol#11-15) contains a tautology or contradiction:\n\t- i >= 0 (tests/mini_dataset/tautology_loop.sol#12)\n",
+        "markdown": "[GreaterOrEqualToZero_1.infiniteLoop(uint128)](tests/mini_dataset/tautology_loop.sol#L11-L15) contains a tautology or contradiction:\n\t- [i >= 0](tests/mini_dataset/tautology_loop.sol#L12)\n",
+        "id": "693e227c8ecfb427ef69bcfadf625b7ebfdb77ad15686b541006829f549776c6",
+        "check": "tautology",
+        "impact": "Medium",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "0.4.24",
+            "source_mapping": {
+              "start": 0,
+              "length": 23,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+              "filename_relative": "tests/mini_dataset/tautology_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+              "filename_short": "tests/mini_dataset/tautology_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "0.4",
+                ".24"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version0.4.24 (tests/mini_dataset/tautology_loop.sol#1) allows old versions\n",
+        "markdown": "Pragma version[0.4.24](tests/mini_dataset/tautology_loop.sol#L1) allows old versions\n",
+        "id": "fb262ccd51cae58d9de07562f94ba680075db0fe179d5fabeb015c4fd35766b9",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "0.4.24",
+            "source_mapping": {
+              "start": 0,
+              "length": 23,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+              "filename_relative": "tests/mini_dataset/tautology_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+              "filename_short": "tests/mini_dataset/tautology_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "0.4",
+                ".24"
+              ]
+            }
+          }
+        ],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "GreaterOrEqualToZero_1",
+            "source_mapping": {
+              "start": 210,
+              "length": 189,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+              "filename_relative": "tests/mini_dataset/tautology_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+              "filename_short": "tests/mini_dataset/tautology_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "starting_column": 1,
+              "ending_column": 0
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract GreaterOrEqualToZero_1 (tests/mini_dataset/tautology_loop.sol#10-17) is not in CapWords\n",
+        "markdown": "Contract [GreaterOrEqualToZero_1](tests/mini_dataset/tautology_loop.sol#L10-L17) is not in CapWords\n",
+        "id": "c5341ece10ea409c536d3c7c0fb759bf6d30a843b4b6eb674ba1c2cef461b638",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "infiniteLoop",
+            "source_mapping": {
+              "start": 62,
+              "length": 141,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+              "filename_relative": "tests/mini_dataset/tautology_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+              "filename_short": "tests/mini_dataset/tautology_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "GreaterOrEqualToZero",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 181,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+                  "filename_relative": "tests/mini_dataset/tautology_loop.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+                  "filename_short": "tests/mini_dataset/tautology_loop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "infiniteLoop(uint256)"
+            }
+          }
+        ],
+        "description": "infiniteLoop(uint256) should be declared external:\n\t- GreaterOrEqualToZero.infiniteLoop(uint256) (tests/mini_dataset/tautology_loop.sol#3-7)\n",
+        "markdown": "infiniteLoop(uint256) should be declared external:\n\t- [GreaterOrEqualToZero.infiniteLoop(uint256)](tests/mini_dataset/tautology_loop.sol#L3-L7)\n",
+        "id": "d240c8424aea394c89058edcde2c64b40a7ae4d0a4fc6d2fb0a97204da410841",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "infiniteLoop",
+            "source_mapping": {
+              "start": 249,
+              "length": 147,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+              "filename_relative": "tests/mini_dataset/tautology_loop.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+              "filename_short": "tests/mini_dataset/tautology_loop.sol",
+              "is_dependency": false,
+              "lines": [
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "GreaterOrEqualToZero_1",
+                "source_mapping": {
+                  "start": 210,
+                  "length": 189,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+                  "filename_relative": "tests/mini_dataset/tautology_loop.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/tautology_loop.sol",
+                  "filename_short": "tests/mini_dataset/tautology_loop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "infiniteLoop(uint128)"
+            }
+          }
+        ],
+        "description": "infiniteLoop(uint128) should be declared external:\n\t- GreaterOrEqualToZero_1.infiniteLoop(uint128) (tests/mini_dataset/tautology_loop.sol#11-15)\n",
+        "markdown": "infiniteLoop(uint128) should be declared external:\n\t- [GreaterOrEqualToZero_1.infiniteLoop(uint128)](tests/mini_dataset/tautology_loop.sol#L11-L15)\n",
+        "id": "ca7228eae71a0d53320d4a321b15b2fffb77a653604a57e1192078d8aa297635",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                3
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function infiniteLoop(uint border) returns(uint ans) { (tests/mini_dataset/tautology_loop.sol)#3\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                11
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function infiniteLoop(uint128 border) returns(uint ans) { (tests/mini_dataset/tautology_loop.sol)#11\n",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

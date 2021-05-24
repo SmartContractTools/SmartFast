@@ -1,0 +1,23 @@
+{
+ "vulnerabilities": {
+  "callstack": [], 
+  "time_dependency": [
+   "/dataset/tests/mini_dataset/revert_require.sol:11:9: Warning: Timestamp Dependency.\n        if (now < holdUntil){\r\n        ^\nSpanning multiple lines.", 
+   "/dataset/tests/mini_dataset/revert_require.sol:18:9: Warning: Timestamp Dependency.\n        if (now < holdUntil){\r\n        ^\nSpanning multiple lines."
+  ], 
+  "reentrancy": [], 
+  "integer_overflow": [], 
+  "parity_multisig_bug_2": [], 
+  "integer_underflow": [], 
+  "money_concurrency": [
+   [
+    "/dataset/tests/mini_dataset/revert_require.sol:14:9: Warning: Transaction-Ordering Dependency.\n        holder.transfer(this.balance)"
+   ], 
+   [
+    "/dataset/tests/mini_dataset/revert_require.sol:21:9: Warning: Transaction-Ordering Dependency.\n        holder.transfer(this.balance)"
+   ]
+  ], 
+  "assertion_failure": []
+ }, 
+ "evm_code_coverage": "95.8"
+}

@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                4
+              ],
+              "starting_column": 2
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "assembly",
+        "description": "assembly { (tests/mini_dataset/shift_parameter_mixup.sol)#4\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                12
+              ],
+              "starting_column": 2
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "assembly",
+        "description": "assembly { (tests/mini_dataset/shift_parameter_mixup.sol)#12\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                5
+              ],
+              "starting_column": 17
+            }
+          }
+        ],
+        "impact": "Medium",
+        "check": "shift-parameter-mixup",
+        "description": "shr(a, 8) //reverse (tests/mini_dataset/shift_parameter_mixup.sol)#5\n",
+        "confidence": "possibly"
+      }
+    ]
+  }
+}

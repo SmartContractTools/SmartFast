@@ -1,0 +1,224 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "addUsers",
+            "source_mapping": {
+              "start": 59,
+              "length": 237,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/mul_var_len_arguments.sol",
+              "filename_relative": "tests/mini_dataset/mul_var_len_arguments.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/mul_var_len_arguments.sol",
+              "filename_short": "tests/mini_dataset/mul_var_len_arguments.sol",
+              "is_dependency": false,
+              "lines": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Mulvarlenarguments",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 273,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/mul_var_len_arguments.sol",
+                  "filename_relative": "tests/mini_dataset/mul_var_len_arguments.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/mul_var_len_arguments.sol",
+                  "filename_short": "tests/mini_dataset/mul_var_len_arguments.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "addUsers(address[],address[],bytes)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "hash = keccak256(bytes)(abi.encodePacked(admins,regularUsers))",
+            "source_mapping": {
+              "start": 225,
+              "length": 64,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/mul_var_len_arguments.sol",
+              "filename_relative": "tests/mini_dataset/mul_var_len_arguments.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/mul_var_len_arguments.sol",
+              "filename_short": "tests/mini_dataset/mul_var_len_arguments.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 3,
+              "ending_column": 67
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "addUsers",
+                "source_mapping": {
+                  "start": 59,
+                  "length": 237,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/mul_var_len_arguments.sol",
+                  "filename_relative": "tests/mini_dataset/mul_var_len_arguments.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/mul_var_len_arguments.sol",
+                  "filename_short": "tests/mini_dataset/mul_var_len_arguments.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Mulvarlenarguments",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 273,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/mul_var_len_arguments.sol",
+                      "filename_relative": "tests/mini_dataset/mul_var_len_arguments.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/mul_var_len_arguments.sol",
+                      "filename_short": "tests/mini_dataset/mul_var_len_arguments.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "addUsers(address[],address[],bytes)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Mulvarlenarguments.addUsers(address[],address[],bytes) (tests/mini_dataset/mul_var_len_arguments.sol#4-12) has multiple variable length parameters hash collision\n\tPossible hash conflict statements:\n\t- hash = keccak256(bytes)(abi.encodePacked(admins,regularUsers)) (tests/mini_dataset/mul_var_len_arguments.sol#11)\n",
+        "markdown": "[Mulvarlenarguments.addUsers(address[],address[],bytes)](tests/mini_dataset/mul_var_len_arguments.sol#L4-L12) has multiple variable length parameters hash collision\n\tPossible hash conflict statements:\n\t- [hash = keccak256(bytes)(abi.encodePacked(admins,regularUsers))](tests/mini_dataset/mul_var_len_arguments.sol#L11)\n",
+        "id": "2dbfd5d92b1fd5671432a42a610c0d081bf8460fdd719632d85c8e665e2b00ae",
+        "check": "mul-var-len-arguments",
+        "impact": "Medium",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.5.0",
+            "source_mapping": {
+              "start": 0,
+              "length": 23,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/mul_var_len_arguments.sol",
+              "filename_relative": "tests/mini_dataset/mul_var_len_arguments.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/mul_var_len_arguments.sol",
+              "filename_short": "tests/mini_dataset/mul_var_len_arguments.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.5",
+                ".0"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.5.0 (tests/mini_dataset/mul_var_len_arguments.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.5.0](tests/mini_dataset/mul_var_len_arguments.sol#L1) allows old versions\n",
+        "id": "d8e0f4089f4e1439fb5c5b8b36e87be0d62a1930bc448db70313300009dd2a25",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.5.0",
+            "source_mapping": {
+              "start": 0,
+              "length": 23,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/mul_var_len_arguments.sol",
+              "filename_relative": "tests/mini_dataset/mul_var_len_arguments.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/mul_var_len_arguments.sol",
+              "filename_short": "tests/mini_dataset/mul_var_len_arguments.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.5",
+                ".0"
+              ]
+            }
+          }
+        ],
+        "description": "solc-0.5.0 is not recommended for deployment\n",
+        "markdown": "solc-0.5.0 is not recommended for deployment\n",
+        "id": "21539c75e015cde5bdae3a77b39cf5d17be24d0b87a05da1d6b5d5020b7aef22",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

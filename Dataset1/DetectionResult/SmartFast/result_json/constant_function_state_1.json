@@ -1,0 +1,88 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                25
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Medium",
+        "check": "constant-function-state",
+        "description": "function test_assembly_bug_pure() public pure{ (tests/mini_dataset/constant_function_state_1.sol)#25\n",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                17
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Medium",
+        "check": "constant-function-state",
+        "description": "function test_assembly_bug() public view{ (tests/mini_dataset/constant_function_state_1.sol)#17\n",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                21
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Medium",
+        "check": "constant-function-state",
+        "description": "function test_view_send(address payable ss) public view{ (tests/mini_dataset/constant_function_state_1.sol)#21\n",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                18
+              ],
+              "starting_column": 8
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "assembly",
+        "description": "assembly{} (tests/mini_dataset/constant_function_state_1.sol)#18\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                26
+              ],
+              "starting_column": 8
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "assembly",
+        "description": "assembly{} (tests/mini_dataset/constant_function_state_1.sol)#26\n",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

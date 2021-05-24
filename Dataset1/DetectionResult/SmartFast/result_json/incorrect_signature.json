@@ -1,0 +1,738 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "callFoo",
+            "source_mapping": {
+              "start": 52,
+              "length": 252,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Signature",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 283,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "callFoo(address,uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "(status1) = addr.call(bytes4(keccak256()(foo(uint),value)))",
+            "source_mapping": {
+              "start": 205,
+              "length": 67,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+              "is_dependency": false,
+              "lines": [
+                5
+              ],
+              "starting_column": 3,
+              "ending_column": 70
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "callFoo",
+                "source_mapping": {
+                  "start": 52,
+                  "length": 252,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Signature",
+                    "source_mapping": {
+                      "start": 26,
+                      "length": 283,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                      "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                      "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "callFoo(address,uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Signature.callFoo(address,uint256) (tests/mini_dataset/incorrect_signature.sol#3-7) unchecks return value:\n\t- (status1) = addr.call(bytes4(keccak256()(foo(uint),value))) (tests/mini_dataset/incorrect_signature.sol#5)\n",
+        "markdown": "[Signature.callFoo(address,uint256)](tests/mini_dataset/incorrect_signature.sol#L3-L7) unchecks return value:\n\t- [(status1) = addr.call(bytes4(keccak256()(foo(uint),value)))](tests/mini_dataset/incorrect_signature.sol#L5)\n",
+        "id": "1be6a27c8adf97f6a16e7100719b481ce69792e72f0e78c770c18ef7b7285c35",
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "addr",
+            "source_mapping": {
+              "start": 69,
+              "length": 12,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 22,
+              "ending_column": 34
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "callFoo",
+                "source_mapping": {
+                  "start": 52,
+                  "length": 252,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Signature",
+                    "source_mapping": {
+                      "start": 26,
+                      "length": 283,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                      "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                      "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "callFoo(address,uint256)"
+                }
+              }
+            }
+          },
+          {
+            "type": "node",
+            "name": "(status) = addr.call(abi.encodeWithSignature(foo(uint),value))",
+            "source_mapping": {
+              "start": 128,
+              "length": 72,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 9,
+              "ending_column": 81
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "callFoo",
+                "source_mapping": {
+                  "start": 52,
+                  "length": 252,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Signature",
+                    "source_mapping": {
+                      "start": 26,
+                      "length": 283,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                      "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                      "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "callFoo(address,uint256)"
+                }
+              }
+            }
+          },
+          {
+            "type": "node",
+            "name": "(status1) = addr.call(bytes4(keccak256()(foo(uint),value)))",
+            "source_mapping": {
+              "start": 205,
+              "length": 67,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+              "is_dependency": false,
+              "lines": [
+                5
+              ],
+              "starting_column": 3,
+              "ending_column": 70
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "callFoo",
+                "source_mapping": {
+                  "start": 52,
+                  "length": 252,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Signature",
+                    "source_mapping": {
+                      "start": 26,
+                      "length": 283,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                      "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                      "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "callFoo(address,uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Signature.callFoo(address,uint256).addr (tests/mini_dataset/incorrect_signature.sol#3) lacks a zero-check on :\n\t\t- (status) = addr.call(abi.encodeWithSignature(foo(uint),value)) (tests/mini_dataset/incorrect_signature.sol#4)\n\t\t- (status1) = addr.call(bytes4(keccak256()(foo(uint),value))) (tests/mini_dataset/incorrect_signature.sol#5)\n",
+        "markdown": "[Signature.callFoo(address,uint256).addr](tests/mini_dataset/incorrect_signature.sol#L3) lacks a zero-check on :\n\t\t- [(status) = addr.call(abi.encodeWithSignature(foo(uint),value))](tests/mini_dataset/incorrect_signature.sol#L4)\n\t\t- [(status1) = addr.call(bytes4(keccak256()(foo(uint),value)))](tests/mini_dataset/incorrect_signature.sol#L5)\n",
+        "id": "a275cbddba1164e69a1da15522b06e05a1ec81a0056660f9a9727f66047c14fd",
+        "check": "missing-zero-check",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.24",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".24"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.24 (tests/mini_dataset/incorrect_signature.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.24](tests/mini_dataset/incorrect_signature.sol#L1) allows old versions\n",
+        "id": "20073a641c3f2f4dc4730dc19cd7a1357e81305d08896e79f4cd0a9b22742a2b",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.24",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".24"
+              ]
+            }
+          }
+        ],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "callFoo",
+            "source_mapping": {
+              "start": 52,
+              "length": 252,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Signature",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 283,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "callFoo(address,uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "(status) = addr.call(abi.encodeWithSignature(foo(uint),value))",
+            "source_mapping": {
+              "start": 128,
+              "length": 72,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 9,
+              "ending_column": 81
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "callFoo",
+                "source_mapping": {
+                  "start": 52,
+                  "length": 252,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Signature",
+                    "source_mapping": {
+                      "start": 26,
+                      "length": 283,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                      "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                      "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "callFoo(address,uint256)"
+                }
+              }
+            }
+          },
+          {
+            "type": "node",
+            "name": "(status1) = addr.call(bytes4(keccak256()(foo(uint),value)))",
+            "source_mapping": {
+              "start": 205,
+              "length": 67,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+              "is_dependency": false,
+              "lines": [
+                5
+              ],
+              "starting_column": 3,
+              "ending_column": 70
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "callFoo",
+                "source_mapping": {
+                  "start": 52,
+                  "length": 252,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Signature",
+                    "source_mapping": {
+                      "start": 26,
+                      "length": 283,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                      "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                      "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "callFoo(address,uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in Signature.callFoo(address,uint256) (tests/mini_dataset/incorrect_signature.sol#3-7):\n\t- (status) = addr.call(abi.encodeWithSignature(foo(uint),value)) (tests/mini_dataset/incorrect_signature.sol#4)\n\t- (status1) = addr.call(bytes4(keccak256()(foo(uint),value))) (tests/mini_dataset/incorrect_signature.sol#5)\n",
+        "markdown": "Low level call in [Signature.callFoo(address,uint256)](tests/mini_dataset/incorrect_signature.sol#L3-L7):\n\t- [(status) = addr.call(abi.encodeWithSignature(foo(uint),value))](tests/mini_dataset/incorrect_signature.sol#L4)\n\t- [(status1) = addr.call(bytes4(keccak256()(foo(uint),value)))](tests/mini_dataset/incorrect_signature.sol#L5)\n",
+        "id": "ae0b9ca526cef9a4f12748645485b4702b5a503d8db70c063d1db2b58687581d",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "callFoo",
+            "source_mapping": {
+              "start": 52,
+              "length": 252,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+              "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Signature",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 283,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_signature.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_signature.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_signature.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "callFoo(address,uint256)"
+            }
+          }
+        ],
+        "description": "callFoo(address,uint256) should be declared external:\n\t- Signature.callFoo(address,uint256) (tests/mini_dataset/incorrect_signature.sol#3-7)\n",
+        "markdown": "callFoo(address,uint256) should be declared external:\n\t- [Signature.callFoo(address,uint256)](tests/mini_dataset/incorrect_signature.sol#L3-L7)\n",
+        "id": "fa7ded734f81a87ef0f6879c1f3bae0c175aa661069a31b86f256e0f45ed638f",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                5
+              ],
+              "starting_column": 38
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "upgrade-050",
+        "description": "keccak256(\"foo(uint)\", value))); (tests/mini_dataset/incorrect_signature.sol)#5\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                5
+              ],
+              "starting_column": 26
+            }
+          }
+        ],
+        "impact": "Medium",
+        "check": "incorrect-signature",
+        "description": "call(bytes4(keccak256(\"foo(uint)\", value))); (tests/mini_dataset/incorrect_signature.sol)#5\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                4
+              ],
+              "starting_column": 35
+            }
+          }
+        ],
+        "impact": "Medium",
+        "check": "incorrect-signature",
+        "description": "(abi.encodeWithSignature(\"foo(uint)\", value)); (tests/mini_dataset/incorrect_signature.sol)#4\n",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

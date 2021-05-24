@@ -1,0 +1,248 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "other",
+            "name": "rtlo-character",
+            "source_mapping": {
+              "start": 96,
+              "length": 3,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/rtlo_yinyong.sol",
+              "filename_relative": "tests/mini_dataset/rtlo_yinyong.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/rtlo_yinyong.sol",
+              "filename_short": "tests/mini_dataset/rtlo_yinyong.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 18,
+              "ending_column": 21
+            }
+          }
+        ],
+        "description": "tests/mini_dataset/rtlo_yinyong.sol contains a unicode right-to-left-override character at byte offset 96:\n\t- b'        test1(/*A\\xe2\\x80\\xae/*B*/2 , 1/*\\xe2\\x80\\xad'\n",
+        "markdown": "tests/mini_dataset/rtlo_yinyong.sol contains a unicode right-to-left-override character at byte offset 96:\n\t- b'        test1(/*A\\xe2\\x80\\xae/*B*/2 , 1/*\\xe2\\x80\\xad'\n",
+        "id": "d2e0ce7795f53d77581cb18daabc60bd56a24bd464c66a03b9741c2a31cb1628",
+        "check": "rtlo",
+        "impact": "High",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "test1",
+            "source_mapping": {
+              "start": 151,
+              "length": 77,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/rtlo_yinyong.sol",
+              "filename_relative": "tests/mini_dataset/rtlo_yinyong.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/rtlo_yinyong.sol",
+              "filename_short": "tests/mini_dataset/rtlo_yinyong.sol",
+              "is_dependency": false,
+              "lines": [
+                11,
+                12,
+                13,
+                14
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "B",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 202,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/rtlo_yinyong.sol",
+                  "filename_relative": "tests/mini_dataset/rtlo_yinyong.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/rtlo_yinyong.sol",
+                  "filename_short": "tests/mini_dataset/rtlo_yinyong.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "test1(uint256,uint256,uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "a = b + c",
+            "source_mapping": {
+              "start": 212,
+              "length": 9,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/rtlo_yinyong.sol",
+              "filename_relative": "tests/mini_dataset/rtlo_yinyong.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/rtlo_yinyong.sol",
+              "filename_short": "tests/mini_dataset/rtlo_yinyong.sol",
+              "is_dependency": false,
+              "lines": [
+                13
+              ],
+              "starting_column": 3,
+              "ending_column": 12
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "test1",
+                "source_mapping": {
+                  "start": 151,
+                  "length": 77,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/rtlo_yinyong.sol",
+                  "filename_relative": "tests/mini_dataset/rtlo_yinyong.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/rtlo_yinyong.sol",
+                  "filename_short": "tests/mini_dataset/rtlo_yinyong.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    11,
+                    12,
+                    13,
+                    14
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "B",
+                    "source_mapping": {
+                      "start": 28,
+                      "length": 202,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/rtlo_yinyong.sol",
+                      "filename_relative": "tests/mini_dataset/rtlo_yinyong.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/rtlo_yinyong.sol",
+                      "filename_short": "tests/mini_dataset/rtlo_yinyong.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "test1(uint256,uint256,uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "B.test1(uint256,uint256,uint256) (tests/mini_dataset/rtlo_yinyong.sol#11-14) may have integer overflow\n\tPossible nodes:\n\t- a = b + c (tests/mini_dataset/rtlo_yinyong.sol#13)\n",
+        "markdown": "[B.test1(uint256,uint256,uint256)](tests/mini_dataset/rtlo_yinyong.sol#L11-L14) may have integer overflow\n\tPossible nodes:\n\t- [a = b + c](tests/mini_dataset/rtlo_yinyong.sol#L13)\n",
+        "id": "6adb15ea46383d15bd4266675938cb793d44288d2440e2ddbed794103fe5740c",
+        "check": "integer-overflow",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "test",
+            "source_mapping": {
+              "start": 45,
+              "length": 96,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/rtlo_yinyong.sol",
+              "filename_relative": "tests/mini_dataset/rtlo_yinyong.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/rtlo_yinyong.sol",
+              "filename_short": "tests/mini_dataset/rtlo_yinyong.sol",
+              "is_dependency": false,
+              "lines": [
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "B",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 202,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/rtlo_yinyong.sol",
+                  "filename_relative": "tests/mini_dataset/rtlo_yinyong.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/rtlo_yinyong.sol",
+                  "filename_short": "tests/mini_dataset/rtlo_yinyong.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "test()"
+            }
+          }
+        ],
+        "description": "test() should be declared external:\n\t- B.test() (tests/mini_dataset/rtlo_yinyong.sol#5-9)\n",
+        "markdown": "test() should be declared external:\n\t- [B.test()](tests/mini_dataset/rtlo_yinyong.sol#L5-L9)\n",
+        "id": "5e7f34571270d46e3056d7f30cac98180506291fc720069df0f71fc48e1963ab",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

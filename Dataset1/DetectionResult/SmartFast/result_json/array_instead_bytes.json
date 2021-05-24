@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                2
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Optimization",
+        "check": "array-instead-bytes",
+        "description": "byte[] someVariable; (tests/mini_dataset/array_instead_bytes.sol)#2\n",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

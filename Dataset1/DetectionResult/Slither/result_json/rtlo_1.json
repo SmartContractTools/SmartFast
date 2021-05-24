@@ -1,0 +1,403 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "_withdraw",
+            "source_mapping": {
+              "start": 350,
+              "length": 169,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+              "filename_relative": "tests/mini_dataset/rtlo_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+              "filename_short": "tests/mini_dataset/rtlo_1.sol",
+              "is_dependency": false,
+              "lines": [
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Token",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 521,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+                  "filename_relative": "tests/mini_dataset/rtlo_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+                  "filename_short": "tests/mini_dataset/rtlo_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "_withdraw(address,address,uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "fee_receiver.transfer(1)",
+            "source_mapping": {
+              "start": 457,
+              "length": 24,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+              "filename_relative": "tests/mini_dataset/rtlo_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+              "filename_short": "tests/mini_dataset/rtlo_1.sol",
+              "is_dependency": false,
+              "lines": [
+                17
+              ],
+              "starting_column": 3,
+              "ending_column": 27
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "_withdraw",
+                "source_mapping": {
+                  "start": 350,
+                  "length": 169,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+                  "filename_relative": "tests/mini_dataset/rtlo_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+                  "filename_short": "tests/mini_dataset/rtlo_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Token",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 521,
+                      "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+                      "filename_relative": "tests/mini_dataset/rtlo_1.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+                      "filename_short": "tests/mini_dataset/rtlo_1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "_withdraw(address,address,uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Token._withdraw(address,address,uint256) (tests/mini_dataset/rtlo_1.sol#15-19) sends eth to arbitrary user\n\tDangerous calls:\n\t- fee_receiver.transfer(1) (tests/mini_dataset/rtlo_1.sol#17)\n",
+        "markdown": "[Token._withdraw(address,address,uint256)](tests/mini_dataset/rtlo_1.sol#L15-L19) sends eth to arbitrary user\n\tDangerous calls:\n\t- [fee_receiver.transfer(1)](tests/mini_dataset/rtlo_1.sol#L17)\n",
+        "id": "977bfeff648961e237a0767c9d2c0a9e27e0ba957c4ecdb1af690f40c1fa35b3",
+        "check": "arbitrary-send",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "other",
+            "name": "rtlo-character",
+            "source_mapping": {
+              "start": 279,
+              "length": 3,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+              "filename_relative": "tests/mini_dataset/rtlo_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+              "filename_short": "tests/mini_dataset/rtlo_1.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 26,
+              "ending_column": 29
+            }
+          }
+        ],
+        "description": "tests/mini_dataset/rtlo_1.sol contains a unicode right-to-left-override character at byte offset 279:\n\t- b'        _withdraw(/*owner\\xe2\\x80\\xae/*noitanitsed*/ d, o/*\\xe2\\x80\\xad'\n",
+        "markdown": "tests/mini_dataset/rtlo_1.sol contains a unicode right-to-left-override character at byte offset 279:\n\t- b'        _withdraw(/*owner\\xe2\\x80\\xae/*noitanitsed*/ d, o/*\\xe2\\x80\\xad'\n",
+        "id": "9d64547acb7bc036252cf5dd5d3bd237368dd2583067bfb307ecace63a519500",
+        "check": "rtlo",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "o",
+            "source_mapping": {
+              "start": 21,
+              "length": 17,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+              "filename_relative": "tests/mini_dataset/rtlo_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+              "filename_short": "tests/mini_dataset/rtlo_1.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 5,
+              "ending_column": 22
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Token",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 521,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+                  "filename_relative": "tests/mini_dataset/rtlo_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+                  "filename_short": "tests/mini_dataset/rtlo_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 91,
+              "length": 253,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+              "filename_relative": "tests/mini_dataset/rtlo_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+              "filename_short": "tests/mini_dataset/rtlo_1.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Token",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 521,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+                  "filename_relative": "tests/mini_dataset/rtlo_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+                  "filename_short": "tests/mini_dataset/rtlo_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "withdraw()"
+            }
+          }
+        ],
+        "description": "Token.o (tests/mini_dataset/rtlo_1.sol#3) is never initialized. It is used in:\n\t- Token.withdraw() (tests/mini_dataset/rtlo_1.sol#6-13)\n",
+        "markdown": "[Token.o](tests/mini_dataset/rtlo_1.sol#L3) is never initialized. It is used in:\n\t- [Token.withdraw()](tests/mini_dataset/rtlo_1.sol#L6-L13)\n",
+        "id": "5fcc80be7813a3b46f74a3face8bfb71601593125a5cd507b141beee117ddf62",
+        "check": "uninitialized-state",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.5.0 is not recommended for deployment\n",
+        "markdown": "solc-0.5.0 is not recommended for deployment\n",
+        "id": "21539c75e015cde5bdae3a77b39cf5d17be24d0b87a05da1d6b5d5020b7aef22",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "o",
+            "source_mapping": {
+              "start": 21,
+              "length": 17,
+              "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+              "filename_relative": "tests/mini_dataset/rtlo_1.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+              "filename_short": "tests/mini_dataset/rtlo_1.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 5,
+              "ending_column": 22
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Token",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 521,
+                  "filename_used": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+                  "filename_relative": "tests/mini_dataset/rtlo_1.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/slither-master/tests/mini_dataset/rtlo_1.sol",
+                  "filename_short": "tests/mini_dataset/rtlo_1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              }
+            }
+          }
+        ],
+        "description": "Token.o (tests/mini_dataset/rtlo_1.sol#3) should be constant\n",
+        "markdown": "[Token.o](tests/mini_dataset/rtlo_1.sol#L3) should be constant\n",
+        "id": "6b9b7911ef95a270829b76ab26dffbfb8154f360763042c3c70712a907a55ae5",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

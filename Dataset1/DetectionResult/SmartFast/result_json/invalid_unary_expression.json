@@ -1,0 +1,608 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "f",
+            "source_mapping": {
+              "start": 60,
+              "length": 126,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_relative": "tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_short": "tests/mini_dataset/invalid_unary_expression.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "C",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 188,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_relative": "tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_short": "tests/mini_dataset/invalid_unary_expression.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "f()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "x ++",
+            "source_mapping": {
+              "start": 136,
+              "length": 3,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_relative": "tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_short": "tests/mini_dataset/invalid_unary_expression.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 5,
+              "ending_column": 8
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "f",
+                "source_mapping": {
+                  "start": 60,
+                  "length": 126,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_relative": "tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_short": "tests/mini_dataset/invalid_unary_expression.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "C",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 188,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+                      "filename_relative": "tests/mini_dataset/invalid_unary_expression.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+                      "filename_short": "tests/mini_dataset/invalid_unary_expression.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "f()"
+                }
+              }
+            }
+          },
+          {
+            "type": "node",
+            "name": "x = - 1 + 1",
+            "source_mapping": {
+              "start": 145,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_relative": "tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_short": "tests/mini_dataset/invalid_unary_expression.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 5,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "f",
+                "source_mapping": {
+                  "start": 60,
+                  "length": 126,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_relative": "tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_short": "tests/mini_dataset/invalid_unary_expression.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "C",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 188,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+                      "filename_relative": "tests/mini_dataset/invalid_unary_expression.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+                      "filename_short": "tests/mini_dataset/invalid_unary_expression.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "f()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "C.f() (tests/mini_dataset/invalid_unary_expression.sol#6-14) may have integer overflow\n\tPossible nodes:\n\t- x ++ (tests/mini_dataset/invalid_unary_expression.sol#10)\n\t- x = - 1 + 1 (tests/mini_dataset/invalid_unary_expression.sol#11)\n",
+        "markdown": "[C.f()](tests/mini_dataset/invalid_unary_expression.sol#L6-L14) may have integer overflow\n\tPossible nodes:\n\t- [x ++](tests/mini_dataset/invalid_unary_expression.sol#L10)\n\t- [x = - 1 + 1](tests/mini_dataset/invalid_unary_expression.sol#L11)\n",
+        "id": "c2e6f76960990c4283f385c2b3a17245cac84d4e6c0dc4eced21f11f08ca8669",
+        "check": "integer-overflow",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "c",
+            "source_mapping": {
+              "start": 42,
+              "length": 13,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_relative": "tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_short": "tests/mini_dataset/invalid_unary_expression.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 3,
+              "ending_column": 16
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "C",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 188,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_relative": "tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_short": "tests/mini_dataset/invalid_unary_expression.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "C.c (tests/mini_dataset/invalid_unary_expression.sol#4) is set pre-construction with a non-constant function or state variable:\n\t- (b = + 1)\n",
+        "markdown": "[C.c](tests/mini_dataset/invalid_unary_expression.sol#L4) is set pre-construction with a non-constant function or state variable:\n\t- (b = + 1)\n",
+        "id": "bf1a747114ce1ff749f58992be0a34e64ad5c914dd9476e818c749c55b69aae1",
+        "check": "function-init-state",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "a",
+            "source_mapping": {
+              "start": 15,
+              "length": 8,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_relative": "tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_short": "tests/mini_dataset/invalid_unary_expression.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 3,
+              "ending_column": 11
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "C",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 188,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_relative": "tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_short": "tests/mini_dataset/invalid_unary_expression.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "C.a (tests/mini_dataset/invalid_unary_expression.sol#2) should be constant\n",
+        "markdown": "[C.a](tests/mini_dataset/invalid_unary_expression.sol#L2) should be constant\n",
+        "id": "c414496978eb2382aa6bf28aed53f0832dbe2c1a9c4489afa1df8b5dc1ca4687",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "b",
+            "source_mapping": {
+              "start": 27,
+              "length": 11,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_relative": "tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_short": "tests/mini_dataset/invalid_unary_expression.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 3,
+              "ending_column": 14
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "C",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 188,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_relative": "tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_short": "tests/mini_dataset/invalid_unary_expression.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "C.b (tests/mini_dataset/invalid_unary_expression.sol#3) should be constant\n",
+        "markdown": "[C.b](tests/mini_dataset/invalid_unary_expression.sol#L3) should be constant\n",
+        "id": "65a9d5951db61b4d026383c37954c5c4fb456c6d06e76bb07a642b2423e88eff",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "a",
+            "source_mapping": {
+              "start": 15,
+              "length": 8,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_relative": "tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_short": "tests/mini_dataset/invalid_unary_expression.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 3,
+              "ending_column": 11
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "C",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 188,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_relative": "tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_short": "tests/mini_dataset/invalid_unary_expression.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "C.a (tests/mini_dataset/invalid_unary_expression.sol#2) is never used\n",
+        "markdown": "[C.a](tests/mini_dataset/invalid_unary_expression.sol#L2) is never used\n",
+        "id": "9a02025af068392f8aa14c600a62024ec6017753e11eca19f4fcb6c7a6b4cfb3",
+        "check": "unused-state",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "c",
+            "source_mapping": {
+              "start": 42,
+              "length": 13,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_relative": "tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+              "filename_short": "tests/mini_dataset/invalid_unary_expression.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 3,
+              "ending_column": 16
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "C",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 188,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_relative": "tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/invalid_unary_expression.sol",
+                  "filename_short": "tests/mini_dataset/invalid_unary_expression.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "C.c (tests/mini_dataset/invalid_unary_expression.sol#4) is never used\n",
+        "markdown": "[C.c](tests/mini_dataset/invalid_unary_expression.sol#L4) is never used\n",
+        "id": "41d74718d88fe2ff3f357f42d16dbfe64664ec9b4de759adf9ee953515b9904d",
+        "check": "unused-state",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                4
+              ],
+              "starting_column": 12
+            }
+          }
+        ],
+        "impact": "Medium",
+        "check": "typographical-error",
+        "description": "+1); (tests/mini_dataset/invalid_unary_expression.sol)#4\n",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                8
+              ],
+              "starting_column": 6
+            }
+          }
+        ],
+        "impact": "Medium",
+        "check": "typographical-error",
+        "description": "+ 144444; (tests/mini_dataset/invalid_unary_expression.sol)#8\n",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                9
+              ],
+              "starting_column": 11
+            }
+          }
+        ],
+        "impact": "Medium",
+        "check": "typographical-error",
+        "description": "+1); (tests/mini_dataset/invalid_unary_expression.sol)#9\n",
+        "confidence": "probably"
+      }
+    ]
+  }
+}

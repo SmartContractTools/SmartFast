@@ -1,0 +1,20 @@
+{"Reentrancy":{
+ "execution_paths": "16", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "2.07821297646", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/dataset/tests/mini_dataset/reentrancy_limited_gas.sol:Reentrancy:18:9\ntoken_deposed[token][msg.sender] += value\n^\n/dataset/tests/mini_dataset/reentrancy_limited_gas.sol:Reentrancy:14:9\neth_deposed[token][msg.sender] += msg.value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+}}

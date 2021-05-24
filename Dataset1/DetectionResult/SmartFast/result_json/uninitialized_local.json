@@ -1,0 +1,597 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "uint_not_init",
+            "source_mapping": {
+              "start": 165,
+              "length": 18,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+              "filename_relative": "tests/mini_dataset/uninitialized_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+              "filename_short": "tests/mini_dataset/uninitialized_local.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 9,
+              "ending_column": 27
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "func",
+                "source_mapping": {
+                  "start": 117,
+                  "length": 143,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                  "filename_relative": "tests/mini_dataset/uninitialized_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                  "filename_short": "tests/mini_dataset/uninitialized_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Uninitialized",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 350,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                      "filename_relative": "tests/mini_dataset/uninitialized_local.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                      "filename_short": "tests/mini_dataset/uninitialized_local.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "func()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Uninitialized.func().uint_not_init (tests/mini_dataset/uninitialized_local.sol#10) is a local variable never initialized\n",
+        "markdown": "[Uninitialized.func().uint_not_init](tests/mini_dataset/uninitialized_local.sol#L10) is a local variable never initialized\n",
+        "id": "6ef627d0a3f7234c0d3dd339ae4cf3c1adf898f03384e08c3c8d846c67e0d476",
+        "check": "uninitialized-local",
+        "impact": "Medium",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "a",
+            "source_mapping": {
+              "start": 316,
+              "length": 6,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+              "filename_relative": "tests/mini_dataset/uninitialized_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+              "filename_short": "tests/mini_dataset/uninitialized_local.sol",
+              "is_dependency": false,
+              "lines": [
+                16
+              ],
+              "starting_column": 9,
+              "ending_column": 15
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "func_1",
+                "source_mapping": {
+                  "start": 266,
+                  "length": 81,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                  "filename_relative": "tests/mini_dataset/uninitialized_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                  "filename_short": "tests/mini_dataset/uninitialized_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Uninitialized",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 350,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                      "filename_relative": "tests/mini_dataset/uninitialized_local.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                      "filename_short": "tests/mini_dataset/uninitialized_local.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "func_1()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Uninitialized.func_1().a (tests/mini_dataset/uninitialized_local.sol#16) is a local variable never initialized\n",
+        "markdown": "[Uninitialized.func_1().a](tests/mini_dataset/uninitialized_local.sol#L16) is a local variable never initialized\n",
+        "id": "d174b4037e7b2cf53db34425bf4459db35888f200d97a85bb4534590ab304250",
+        "check": "uninitialized-local",
+        "impact": "Medium",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "ss",
+            "source_mapping": {
+              "start": 58,
+              "length": 10,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+              "filename_relative": "tests/mini_dataset/uninitialized_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+              "filename_short": "tests/mini_dataset/uninitialized_local.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 6,
+              "ending_column": 16
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "ceshi_modi",
+                "source_mapping": {
+                  "start": 29,
+                  "length": 82,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                  "filename_relative": "tests/mini_dataset/uninitialized_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                  "filename_short": "tests/mini_dataset/uninitialized_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Uninitialized",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 350,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                      "filename_relative": "tests/mini_dataset/uninitialized_local.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                      "filename_short": "tests/mini_dataset/uninitialized_local.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "ceshi_modi()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Uninitialized.ceshi_modi().ss (tests/mini_dataset/uninitialized_local.sol#4) is a local variable never initialized\n",
+        "markdown": "[Uninitialized.ceshi_modi().ss](tests/mini_dataset/uninitialized_local.sol#L4) is a local variable never initialized\n",
+        "id": "2f2c9a2bdb6b7fb163efb20f5b658bdeca3f028eecea933755b8f38ce018f151",
+        "check": "uninitialized-local",
+        "impact": "Medium",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "func",
+            "source_mapping": {
+              "start": 117,
+              "length": 143,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+              "filename_relative": "tests/mini_dataset/uninitialized_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+              "filename_short": "tests/mini_dataset/uninitialized_local.sol",
+              "is_dependency": false,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Uninitialized",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 350,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                  "filename_relative": "tests/mini_dataset/uninitialized_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                  "filename_short": "tests/mini_dataset/uninitialized_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "func()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "uint_not_init + uint_init",
+            "source_mapping": {
+              "start": 221,
+              "length": 32,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+              "filename_relative": "tests/mini_dataset/uninitialized_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+              "filename_short": "tests/mini_dataset/uninitialized_local.sol",
+              "is_dependency": false,
+              "lines": [
+                12
+              ],
+              "starting_column": 9,
+              "ending_column": 41
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "func",
+                "source_mapping": {
+                  "start": 117,
+                  "length": 143,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                  "filename_relative": "tests/mini_dataset/uninitialized_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                  "filename_short": "tests/mini_dataset/uninitialized_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Uninitialized",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 350,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                      "filename_relative": "tests/mini_dataset/uninitialized_local.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                      "filename_short": "tests/mini_dataset/uninitialized_local.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "func()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Uninitialized.func() (tests/mini_dataset/uninitialized_local.sol#9-13) may have integer overflow\n\tPossible nodes:\n\t- uint_not_init + uint_init (tests/mini_dataset/uninitialized_local.sol#12)\n",
+        "markdown": "[Uninitialized.func()](tests/mini_dataset/uninitialized_local.sol#L9-L13) may have integer overflow\n\tPossible nodes:\n\t- [uint_not_init + uint_init](tests/mini_dataset/uninitialized_local.sol#L12)\n",
+        "id": "fc26869c051d9a0ffac9c58505287716d671153dd6b011155b6980fe3f0f7481",
+        "check": "integer-overflow",
+        "impact": "Low",
+        "confidence": "probably"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "func_1",
+            "source_mapping": {
+              "start": 266,
+              "length": 81,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+              "filename_relative": "tests/mini_dataset/uninitialized_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+              "filename_short": "tests/mini_dataset/uninitialized_local.sol",
+              "is_dependency": false,
+              "lines": [
+                15,
+                16,
+                17,
+                18
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Uninitialized",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 350,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                  "filename_relative": "tests/mini_dataset/uninitialized_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                  "filename_short": "tests/mini_dataset/uninitialized_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "func_1()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function Uninitialized.func_1() (tests/mini_dataset/uninitialized_local.sol#15-18) is not in mixedCase\n",
+        "markdown": "Function [Uninitialized.func_1()](tests/mini_dataset/uninitialized_local.sol#L15-L18) is not in mixedCase\n",
+        "id": "9ca76b4221c755cfde505a74f34c5b28e780bc232b77473f665e42561fa52e00",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "ceshi_modi",
+            "source_mapping": {
+              "start": 29,
+              "length": 82,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+              "filename_relative": "tests/mini_dataset/uninitialized_local.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+              "filename_short": "tests/mini_dataset/uninitialized_local.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Uninitialized",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 350,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                  "filename_relative": "tests/mini_dataset/uninitialized_local.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/uninitialized_local.sol",
+                  "filename_short": "tests/mini_dataset/uninitialized_local.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "ceshi_modi()"
+            },
+            "additional_fields": {
+              "target": "modifier",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Modifier Uninitialized.ceshi_modi() (tests/mini_dataset/uninitialized_local.sol#3-7) is not in mixedCase\n",
+        "markdown": "Modifier [Uninitialized.ceshi_modi()](tests/mini_dataset/uninitialized_local.sol#L3-L7) is not in mixedCase\n",
+        "id": "b6d0b13d3253eddd54133dd30b92015d1c80dad023a1f1982352336460702262",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

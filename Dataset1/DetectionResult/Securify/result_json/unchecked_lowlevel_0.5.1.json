@@ -1,0 +1,109 @@
+{
+  "tests/mini_dataset/unchecked_lowlevel_0.5.1.sol:MyConc": {
+    "version": "unknown_version",
+    "results": {
+      "DAO": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          2,
+          6,
+          10,
+          15
+        ],
+        "conflicts": []
+      },
+      "DAOConstantGas": {
+        "violations": [],
+        "warnings": [],
+        "safe": [],
+        "conflicts": []
+      },
+      "LockedEther": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          0
+        ],
+        "conflicts": []
+      },
+      "MissingInputValidation": {
+        "violations": [
+          1,
+          9,
+          14
+        ],
+        "warnings": [],
+        "safe": [
+          5
+        ],
+        "conflicts": []
+      },
+      "RepeatedCall": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          2,
+          6,
+          10,
+          15
+        ],
+        "conflicts": []
+      },
+      "TODAmount": {
+        "violations": [],
+        "warnings": [
+          2,
+          6,
+          10,
+          15
+        ],
+        "safe": [],
+        "conflicts": []
+      },
+      "TODReceiver": {
+        "violations": [],
+        "warnings": [],
+        "safe": [
+          2,
+          6,
+          10,
+          15
+        ],
+        "conflicts": []
+      },
+      "UnhandledException": {
+        "violations": [
+          2,
+          6,
+          15
+        ],
+        "warnings": [],
+        "safe": [
+          10
+        ],
+        "conflicts": []
+      },
+      "UnrestrictedEtherFlow": {
+        "violations": [],
+        "warnings": [
+          2,
+          6,
+          10,
+          15
+        ],
+        "safe": [],
+        "conflicts": []
+      },
+      "UnrestrictedWrite": {
+        "violations": [],
+        "warnings": [],
+        "safe": [],
+        "conflicts": []
+      }
+    },
+    "securifyErrors": {
+      "errors": []
+    }
+  }
+}

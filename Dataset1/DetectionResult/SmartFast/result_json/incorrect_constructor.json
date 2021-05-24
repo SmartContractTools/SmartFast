@@ -1,0 +1,1348 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "Incorrectconstructor",
+            "source_mapping": {
+              "start": 0,
+              "length": 326,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+              "is_dependency": false,
+              "lines": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          },
+          {
+            "type": "function",
+            "name": "Incorrectconstructo",
+            "source_mapping": {
+              "start": 61,
+              "length": 62,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Incorrectconstructor",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 326,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Incorrectconstructo()"
+            }
+          }
+        ],
+        "description": "Incorrectconstructor (tests/mini_dataset/incorrect_constructor.sol#1-18) may have a constructor with the wrong name\n\t- Incorrectconstructor.Incorrectconstructo() (tests/mini_dataset/incorrect_constructor.sol#3-5) may be a constructor\n",
+        "markdown": "[Incorrectconstructor](tests/mini_dataset/incorrect_constructor.sol#L1-L18) may have a constructor with the wrong name\n\t- [Incorrectconstructor.Incorrectconstructo()](tests/mini_dataset/incorrect_constructor.sol#L3-L5) may be a constructor\n",
+        "id": "d97cdb7caeb6df4b9b088e3b4784bd85f92657b1a76dfcf79f0d658fab12ee03",
+        "check": "incorrect-constructor",
+        "impact": "High",
+        "confidence": "probably"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 302,
+              "length": 22,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+              "is_dependency": false,
+              "lines": [
+                17
+              ],
+              "starting_column": 5,
+              "ending_column": 27
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Incorrectconstructor",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 326,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "fallback()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "revert()()",
+            "source_mapping": {
+              "start": 314,
+              "length": 8,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+              "is_dependency": false,
+              "lines": [
+                17
+              ],
+              "starting_column": 17,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "fallback",
+                "source_mapping": {
+                  "start": 302,
+                  "length": 22,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 27
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Incorrectconstructor",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 326,
+                      "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                      "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+                      "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                      "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "fallback()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Incorrectconstructor.fallback() (tests/mini_dataset/incorrect_constructor.sol#17) logic is abnormal, abnormal termination statement:\n\t- revert()() (tests/mini_dataset/incorrect_constructor.sol#17)\n",
+        "markdown": "[Incorrectconstructor.fallback()](tests/mini_dataset/incorrect_constructor.sol#L17) logic is abnormal, abnormal termination statement:\n\t- [revert()()](tests/mini_dataset/incorrect_constructor.sol#L17)\n",
+        "id": "1362849ebaad938884e45b335cd427ef243842880ac2f125b99146fcb78f3e15",
+        "check": "function-problem",
+        "impact": "Medium",
+        "confidence": "probably"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.24 is not recommended for deployment\n",
+        "markdown": "solc-0.4.24 is not recommended for deployment\n",
+        "id": "4fdaa1943fda7c6196f21cde2a89972a5de2e49314548f4161996d6ef6af4a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Incorrectconstructo",
+            "source_mapping": {
+              "start": 61,
+              "length": 62,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Incorrectconstructor",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 326,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Incorrectconstructo()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function Incorrectconstructor.Incorrectconstructo() (tests/mini_dataset/incorrect_constructor.sol#3-5) is not in mixedCase\n",
+        "markdown": "Function [Incorrectconstructor.Incorrectconstructo()](tests/mini_dataset/incorrect_constructor.sol#L3-L5) is not in mixedCase\n",
+        "id": "d4785e71e33de8849d039b833bb056f22af75a44d6c28adc0ae78ee0b764963b",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "B",
+            "source_mapping": {
+              "start": 364,
+              "length": 44,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+              "is_dependency": false,
+              "lines": [
+                22,
+                23,
+                24
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 328,
+                  "length": 255,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "B()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function A.B() (tests/mini_dataset/incorrect_constructor.sol#22-24) is not in mixedCase\n",
+        "markdown": "Function [A.B()](tests/mini_dataset/incorrect_constructor.sol#L22-L24) is not in mixedCase\n",
+        "id": "3f3770021490cb3c65b4063ff95df3dc491bd553b1e39035c4bae58807a17a92",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Incorrectconstructor",
+            "source_mapping": {
+              "start": 700,
+              "length": 41,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+              "is_dependency": false,
+              "lines": [
+                44,
+                45,
+                46
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Incorrectconstructor1",
+                "source_mapping": {
+                  "start": 585,
+                  "length": 331,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Incorrectconstructor()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function Incorrectconstructor1.Incorrectconstructor() (tests/mini_dataset/incorrect_constructor.sol#44-46) is not in mixedCase\n",
+        "markdown": "Function [Incorrectconstructor1.Incorrectconstructor()](tests/mini_dataset/incorrect_constructor.sol#L44-L46) is not in mixedCase\n",
+        "id": "c1b872109ace850581c4c88d0094a79f72d6df1d0bd0144d8d66f298ba8e6225",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Incorrectconstructor",
+            "source_mapping": {
+              "start": 1052,
+              "length": 41,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+              "is_dependency": false,
+              "lines": [
+                66,
+                67,
+                68
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Incorrectconstructor2",
+                "source_mapping": {
+                  "start": 918,
+                  "length": 350,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Incorrectconstructor()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function Incorrectconstructor2.Incorrectconstructor() (tests/mini_dataset/incorrect_constructor.sol#66-68) is not in mixedCase\n",
+        "markdown": "Function [Incorrectconstructor2.Incorrectconstructor()](tests/mini_dataset/incorrect_constructor.sol#L66-L68) is not in mixedCase\n",
+        "id": "d687a4602e4d0bedb091ddf276f7710698d45d647c96366f52e979780627001c",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Incorrectconstructo",
+            "source_mapping": {
+              "start": 61,
+              "length": 62,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Incorrectconstructor",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 326,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Incorrectconstructo()"
+            }
+          }
+        ],
+        "description": "Incorrectconstructo() should be declared external:\n\t- Incorrectconstructor.Incorrectconstructo() (tests/mini_dataset/incorrect_constructor.sol#3-5)\n",
+        "markdown": "Incorrectconstructo() should be declared external:\n\t- [Incorrectconstructor.Incorrectconstructo()](tests/mini_dataset/incorrect_constructor.sol#L3-L5)\n",
+        "id": "ef75ff5363fef0539687b0375be4777aadee30dd5184a1b78d885e8f3e3179b2",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawmoney",
+            "source_mapping": {
+              "start": 208,
+              "length": 88,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+              "is_dependency": false,
+              "lines": [
+                13,
+                14,
+                15
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Incorrectconstructor",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 326,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "withdrawmoney()"
+            }
+          }
+        ],
+        "description": "withdrawmoney() should be declared external:\n\t- Incorrectconstructor.withdrawmoney() (tests/mini_dataset/incorrect_constructor.sol#13-15)\n",
+        "markdown": "withdrawmoney() should be declared external:\n\t- [Incorrectconstructor.withdrawmoney()](tests/mini_dataset/incorrect_constructor.sol#L13-L15)\n",
+        "id": "5dd3a6699c08d761631f54c809b28601f5fdf4c8368f9d15d845cb0815173b09",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 302,
+              "length": 22,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+              "is_dependency": false,
+              "lines": [
+                17
+              ],
+              "starting_column": 5,
+              "ending_column": 27
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Incorrectconstructor",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 326,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- Incorrectconstructor.fallback() (tests/mini_dataset/incorrect_constructor.sol#17)\n",
+        "markdown": "fallback() should be declared external:\n\t- [Incorrectconstructor.fallback()](tests/mini_dataset/incorrect_constructor.sol#L17)\n",
+        "id": "eae2cf9c666584836e932b99ece78a708edaadb62e3ff24d3254c89cd4885d07",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "B",
+            "source_mapping": {
+              "start": 364,
+              "length": 44,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+              "is_dependency": false,
+              "lines": [
+                22,
+                23,
+                24
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 328,
+                  "length": 255,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "B()"
+            }
+          }
+        ],
+        "description": "B() should be declared external:\n\t- A.B() (tests/mini_dataset/incorrect_constructor.sol#22-24)\n",
+        "markdown": "B() should be declared external:\n\t- [A.B()](tests/mini_dataset/incorrect_constructor.sol#L22-L24)\n",
+        "id": "5c5519d7ed86e35fe3deed64c616a0593d90115d59b3cd29897f7c8029c191ae",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawmoney",
+            "source_mapping": {
+              "start": 493,
+              "length": 88,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+              "is_dependency": false,
+              "lines": [
+                32,
+                33,
+                34
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "A",
+                "source_mapping": {
+                  "start": 328,
+                  "length": 255,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "withdrawmoney()"
+            }
+          }
+        ],
+        "description": "withdrawmoney() should be declared external:\n\t- A.withdrawmoney() (tests/mini_dataset/incorrect_constructor.sol#32-34)\n",
+        "markdown": "withdrawmoney() should be declared external:\n\t- [A.withdrawmoney()](tests/mini_dataset/incorrect_constructor.sol#L32-L34)\n",
+        "id": "ea6e895b9f8dbac3c403591e105893ad11d0530f4619edc07abddb1fbaac2269",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Incorrectconstructor",
+            "source_mapping": {
+              "start": 700,
+              "length": 41,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+              "is_dependency": false,
+              "lines": [
+                44,
+                45,
+                46
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Incorrectconstructor1",
+                "source_mapping": {
+                  "start": 585,
+                  "length": 331,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Incorrectconstructor()"
+            }
+          }
+        ],
+        "description": "Incorrectconstructor() should be declared external:\n\t- Incorrectconstructor1.Incorrectconstructor() (tests/mini_dataset/incorrect_constructor.sol#44-46)\n",
+        "markdown": "Incorrectconstructor() should be declared external:\n\t- [Incorrectconstructor1.Incorrectconstructor()](tests/mini_dataset/incorrect_constructor.sol#L44-L46)\n",
+        "id": "546b277d6302ae9a64a3912c5027f4dc01ed070c8be97a610aa60d845fda2a9a",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawmoney",
+            "source_mapping": {
+              "start": 826,
+              "length": 88,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+              "is_dependency": false,
+              "lines": [
+                54,
+                55,
+                56
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Incorrectconstructor1",
+                "source_mapping": {
+                  "start": 585,
+                  "length": 331,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "withdrawmoney()"
+            }
+          }
+        ],
+        "description": "withdrawmoney() should be declared external:\n\t- Incorrectconstructor1.withdrawmoney() (tests/mini_dataset/incorrect_constructor.sol#54-56)\n",
+        "markdown": "withdrawmoney() should be declared external:\n\t- [Incorrectconstructor1.withdrawmoney()](tests/mini_dataset/incorrect_constructor.sol#L54-L56)\n",
+        "id": "005c3c93673ed2e12347746f4997f526825a0a3e561196ff5dfd065e6235de02",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Incorrectconstructor",
+            "source_mapping": {
+              "start": 1052,
+              "length": 41,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+              "is_dependency": false,
+              "lines": [
+                66,
+                67,
+                68
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Incorrectconstructor2",
+                "source_mapping": {
+                  "start": 918,
+                  "length": 350,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Incorrectconstructor()"
+            }
+          }
+        ],
+        "description": "Incorrectconstructor() should be declared external:\n\t- Incorrectconstructor2.Incorrectconstructor() (tests/mini_dataset/incorrect_constructor.sol#66-68)\n",
+        "markdown": "Incorrectconstructor() should be declared external:\n\t- [Incorrectconstructor2.Incorrectconstructor()](tests/mini_dataset/incorrect_constructor.sol#L66-L68)\n",
+        "id": "f17bb5ff89b1b529300d27f9382952185b7ec2f4e17ae1f44c2fe5f47c4c57b7",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawmoney",
+            "source_mapping": {
+              "start": 1178,
+              "length": 88,
+              "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+              "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+              "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+              "is_dependency": false,
+              "lines": [
+                76,
+                77,
+                78
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Incorrectconstructor2",
+                "source_mapping": {
+                  "start": 918,
+                  "length": 350,
+                  "filename_used": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_relative": "tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_absolute": "/home/smartcontract/SmartContract/smartanalysis-master-03/tests/mini_dataset/incorrect_constructor.sol",
+                  "filename_short": "tests/mini_dataset/incorrect_constructor.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "withdrawmoney()"
+            }
+          }
+        ],
+        "description": "withdrawmoney() should be declared external:\n\t- Incorrectconstructor2.withdrawmoney() (tests/mini_dataset/incorrect_constructor.sol#76-78)\n",
+        "markdown": "withdrawmoney() should be declared external:\n\t- [Incorrectconstructor2.withdrawmoney()](tests/mini_dataset/incorrect_constructor.sol#L76-L78)\n",
+        "id": "b39cf12832cdd6fc62e7d72567819c9ff08c571798513ed573a941d575413cf7",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                3
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function Incorrectconstructo() { (tests/mini_dataset/incorrect_constructor.sol)#3\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                13
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function withdrawmoney() ifowner { (tests/mini_dataset/incorrect_constructor.sol)#13\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                17
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function() {revert();} (tests/mini_dataset/incorrect_constructor.sol)#17\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                22
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function B() { (tests/mini_dataset/incorrect_constructor.sol)#22\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                32
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function withdrawmoney() ifowner { (tests/mini_dataset/incorrect_constructor.sol)#32\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                40
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "constructor() { (tests/mini_dataset/incorrect_constructor.sol)#40\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                44
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function Incorrectconstructor() { (tests/mini_dataset/incorrect_constructor.sol)#44\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                54
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function withdrawmoney() ifowner { (tests/mini_dataset/incorrect_constructor.sol)#54\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                62
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function Incorrectconstructor2() { (tests/mini_dataset/incorrect_constructor.sol)#62\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                66
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function Incorrectconstructor() { (tests/mini_dataset/incorrect_constructor.sol)#66\n",
+        "confidence": "exactly"
+      },
+      {
+        "elements": [
+          {
+            "source_mapping": {
+              "lines": [
+                76
+              ],
+              "starting_column": 4
+            }
+          }
+        ],
+        "impact": "Informational",
+        "check": "visibility",
+        "description": "function withdrawmoney() ifowner { (tests/mini_dataset/incorrect_constructor.sol)#76\n",
+        "confidence": "exactly"
+      }
+    ]
+  }
+}

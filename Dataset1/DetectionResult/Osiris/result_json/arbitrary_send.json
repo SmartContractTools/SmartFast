@@ -1,0 +1,20 @@
+{"Test":{
+ "execution_paths": "34", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "1.55287289619", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": "\nFlow 1:\n/dataset/tests/mini_dataset/arbitrary_send.sol:Test:14:9\nmsg.sender.send(address(this).balance)\n^\nFlow 2:\n/dataset/tests/mini_dataset/arbitrary_send.sol:Test:41:9\ndestination.send(msg.value)\n^", 
+ "truncation": false
+}}
