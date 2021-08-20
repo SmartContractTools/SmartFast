@@ -1,5 +1,5 @@
 # SmartFast
-This project is the supporting material of the paper titled "SmartFast: An Precision and Robust Formal Analysis Tool for Ethereum Smart Contracts", including: data set, test results, result report, source code, etc.
+This project is the supporting material of the paper titled "SmartFast: An Accurate and Robust Formal Analysis Tool for Ethereum Smart Contracts", including: datasets, test results, result report, source code, etc.
 
 # Folder introduction
 
