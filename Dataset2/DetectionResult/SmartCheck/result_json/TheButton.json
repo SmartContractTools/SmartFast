@@ -1,1 +1,0 @@
-[{"severity":1,"argument":"SOLIDITY_PRAGMAS_VERSION","starting_column":16,"description_val":"^0.4.11; (tests_etherscan/dataset_etherscan/TheButton.sol)#1\n","context_ling":1,"text":"^"},{"severity":1,"argument":"SOLIDITY_VISIBILITY","starting_column":4,"description_val":"function press() { (tests_etherscan/dataset_etherscan/TheButton.sol)#7\n","context_ling":7,"text":"function"}]

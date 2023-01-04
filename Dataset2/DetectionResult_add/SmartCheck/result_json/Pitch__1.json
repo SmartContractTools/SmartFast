@@ -1,1 +1,0 @@
-[{"severity":1,"argument":"SOLIDITY_USING_INLINE_ASSEMBLY","starting_column":8,"description_val":"assembly { (tests_etherscan/dataset_etherscan/Pitch__1.sol)#33\n","context_ling":33,"text":"assembly"}]

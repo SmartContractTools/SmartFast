@@ -1,1 +1,0 @@
-[{"severity":1,"argument":"SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL","starting_column":4,"description_val":"function transferOwnership(address newOwner) public onlyOwner { (tests_etherscan/dataset_etherscan/YFG.sol)#17\n","context_ling":17,"text":"function"}]

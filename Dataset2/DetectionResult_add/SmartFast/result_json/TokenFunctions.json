@@ -1,5 +1,0 @@
-{
-  "success": false,
-  "error": "Function not found on TMP_971(None) = HIGH_LEVEL_CALL, dest:TMP_970(None), function:sub, arguments:['1']  . Please try compiling with a recent Solidity version. 'NoneType' object has no attribute 'type'",
-  "results": {}
-}

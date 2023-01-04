@@ -1,1 +1,0 @@
-[{"severity":1,"argument":"SOLIDITY_SAFEMATH","starting_column":4,"description_val":"using SafeMath for uint256; (tests/mini_dataset/safemath.sol)#30\n","context_ling":30,"text":"using"}]

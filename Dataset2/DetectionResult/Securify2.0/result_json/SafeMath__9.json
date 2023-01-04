@@ -1,1 +1,0 @@
-{"success": true, "error": "", "results": [{"severity_name": "LOW", "pattern_name": "Solidity pragma directives", "description": "Avoid complex solidity version pragma statements.", "type": "Violation", "contentline": 1, "charnumber": 1}]}

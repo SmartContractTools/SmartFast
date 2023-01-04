@@ -1,1 +1,0 @@
-[{"severity":2,"argument":"SOLIDITY_ERC20_APPROVE","starting_column":4,"description_val":"function approve(address spender, uint value) external returns (bool) { (tests_etherscan/dataset_etherscan/FakeToken.sol)#71\n","context_ling":71,"text":"function"}]

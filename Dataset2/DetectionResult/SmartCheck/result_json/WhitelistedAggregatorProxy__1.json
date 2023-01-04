@@ -1,1 +1,0 @@
-[{"severity":1,"argument":"SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA","starting_column":10,"description_val":"private pendingOwner; (tests_etherscan/dataset_etherscan/WhitelistedAggregatorProxy__1.sol)#10\n","context_ling":10,"text":"private"}]

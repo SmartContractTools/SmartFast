@@ -17,7 +17,7 @@ class ShadowingAbstractDetection(AbstractDetector):
     IMPACT = DetectorClassification.MEDIUM
     CONFIDENCE = DetectorClassification.EXACTLY
 
-    WIKI = 'https://github.com/crytic/smartfast/wiki/Detector-Documentation#state-variable-shadowing-from-abstract-contracts'
+    WIKI = 'https://github.com/SmartContractTools/SmartFast/wiki/Detector-Documentation#state-variable-shadowing-from-abstract-contracts'
 
 
     WIKI_TITLE = 'State variable shadowing from abstract contracts'

@@ -1,1 +1,0 @@
-[{"severity":1,"argument":"SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL","starting_column":4,"description_val":"function safeResync(address crp, address bpool, address token) public { (tests_etherscan/dataset_etherscan/AmplElasticCRPWrapper.sol)#19\n","context_ling":19,"text":"function"}]

@@ -1,1 +1,0 @@
-[{"severity":1,"argument":"SOLIDITY_ADDRESS_HARDCODED","starting_column":41,"description_val":"0x52Ae12ABe5D8BD778BD5397F99cA900624CfADD4; (tests_etherscan/dataset_etherscan/BancorTokenAdapter.sol)#136\n","context_ling":136,"text":"0x52Ae12ABe5D8BD778BD5397F99cA900624CfADD4"}]

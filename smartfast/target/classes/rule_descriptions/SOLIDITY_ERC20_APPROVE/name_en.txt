@@ -1,0 +1,1 @@
+Using approve function of the ERC-20 token standard

@@ -1,1 +1,0 @@
-[{"severity":1,"argument":"SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL","starting_column":2,"description_val":"function getBalance() public view returns (uint){ (tests_etherscan/dataset_etherscan/Test.sol)#5\n","context_ling":5,"text":"function"}]

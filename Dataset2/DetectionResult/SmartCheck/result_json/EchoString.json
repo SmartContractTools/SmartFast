@@ -1,1 +1,0 @@
-[{"severity":1,"argument":"SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL","starting_column":4,"description_val":"function echo(string memory data) public { (tests_etherscan/dataset_etherscan/EchoString.sol)#6\n","context_ling":6,"text":"function"}]

@@ -1,1 +1,0 @@
-[{"severity":1,"argument":"SOLIDITY_USING_INLINE_ASSEMBLY","starting_column":8,"description_val":"assembly { (tests_etherscan/dataset_etherscan/ArbitraryCaller.sol)#17\n","context_ling":17,"text":"assembly"}]

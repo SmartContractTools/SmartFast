@@ -1,1 +1,0 @@
-[{"severity":1,"argument":"SOLIDITY_ADDRESS_HARDCODED","starting_column":31,"description_val":"0x4aB81192BB75474Cf203B56c36D6a13623270A67; (tests_etherscan/dataset_etherscan/ChainlinkLENDUSDCPriceOracleProxy.sol)#20\n","context_ling":20,"text":"0x4aB81192BB75474Cf203B56c36D6a13623270A67"}]

@@ -1,1 +1,0 @@
-[{"severity":1,"argument":"SOLIDITY_FUNCTION_RETURNS_TYPE_AND_NO_RETURN","starting_column":4,"description_val":"function iFail() external pure returns (uint256) { (tests_etherscan/dataset_etherscan/Tester.sol)#10\n","context_ling":10,"text":"function"}]

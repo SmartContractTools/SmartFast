@@ -16,7 +16,7 @@ class StateShadowing(AbstractDetector):
     IMPACT = DetectorClassification.HIGH
     CONFIDENCE = DetectorClassification.EXACTLY
 
-    WIKI = 'https://github.com/crytic/smartfast/wiki/Detector-Documentation#state-variable-shadowing'
+    WIKI = 'https://github.com/SmartContractTools/SmartFast/wiki/Detector-Documentation#state-variable-shadowing'
 
     WIKI_TITLE = 'State variable shadowing'
     WIKI_DESCRIPTION = 'Detection of state variables shadowed.'

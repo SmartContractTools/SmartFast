@@ -1,5 +1,5 @@
 # SmartFast, an formal analysis tool for Ethereum smart contracts
-<img src="./logo.png" alt="Logo" width="300"/>
+<img src="./logo.png" alt="Logo" align="left" width="300"/>
 
 SmartFast is a Solidity static analysis framework written in Python 3. It takes the Solidity source code of the smart contract as input, and expresses the source code as SmartIR (XML, IR, and IR-SSA) through a formal description. According to preset rules and taint tracking technology, SmartFast matches SmartIR to locate the contract code with vulnerabilities. In addition, SmartFast can also automatically Optimizationimize contract code and improve the user’s understanding of the contracts.
 
@@ -9,32 +9,52 @@ SmartFast is a Solidity static analysis framework written in Python 3. It takes 
 
 ## Bugs and Optimizationimizations Detection
 
-Run SmartFast on a Truffle/Embark/Dapp/Etherlime application:
+If SmartFast is not installed, please perform the installation steps first.
+
+View the parameter usage of SmartFast:
+
 ```bash
-SmartFast .
+python -m smartfast.__main__ --help
+```
+
+Run SmartFast on a Truffle/Embark/Dapp/Etherlime application:
+
+```bash
+python -m smartfast.__main__ .
 ```
 
 Run SmartFast on a single file:
+
 ```bash
-SmartFast tests/mini_dataset/arbitrary_send.sol
+python -m smartfast.__main__ tests/arbitrary_send.sol
 ```
 
 Run SmartFast and output the results to a json file:
 ```bash
-SmartFast tests/mini_dataset/arbitrary_send.sol --json tests/expected_json/arbitrary_send.json
+python -m smartfast.__main__ tests/arbitrary_send.sol --json tests/expected_json/arbitrary_send.json
 ```
 
 Run SmartFast and generate a detailed vulnerability audit report (.pdf):
 ```bash
-SmartFast tests/mini_dataset/arbitrary_send.sol --repot tests/report/arbitrary_send.pdf
+python -m smartfast.__main__ tests/arbitrary_send.sol --report tests/report/arbitrary_send_report.pdf
 ```
 
 Run SmartFast and generate a streamlined vulnerability audit report (.pdf):
 ```bash
-SmartFast tests/mini_dataset/arbitrary_send.sol --repot-main tests/report/arbitrary_send_main.pdf
+python -m smartfast.__main__ tests/arbitrary_send.sol --report-main tests/report/arbitrary_send_report_main.pdf
 ```
 
-Use [solc-select](https://github.com/crytic/solc-select) if your contracts require older versions of solc.
+Employ [solc-select](https://github.com/crytic/solc-select) to specify the solc versions of your contracts before the analysis. For example:
+
+```bash
+solc use 0.4.24
+```
+
+View all detectors of SmartFast:
+
+```bash
+python -m smartfast.__main__ --list-detectors
+```
 
 ### Detectors
 
@@ -163,7 +183,15 @@ Num | Detector | What it Detects | Impact | Confidence
 
 ## How to install
 
-SmartFast requires Python 3.6+ and [solc](https://github.com/ethereum/solidity/), the Solidity compiler.
+SmartFast requires Python 3.6+ and [solc](https://github.com/ethereum/solidity/) (solc-select), the Solidity compiler.
+
+Before the analysis, we should install solc-select as fowllows. Note that solc-select can be replaced with other compiler, such as [solcx](https://github.com/iamdefinitelyahuman/py-solc-x).
+
+```bash
+git clone https://github.com/crytic/solc-select.git
+./solc-select/scripts/install.sh
+export PATH=$HOME/.solc-select:$PATH or put the command PATH=$HOME/.solc-select:$PATH into file "/etc/profile"
+```
 
 ### Using Git
 
@@ -172,10 +200,12 @@ git clone https://github.com/SmartContractTools/SmartFast.git && cd smartfast
 python3 setup.py install
 ```
 
-Of course, SmartFast can also be deployed in a virtual environment. This project provides a virtual environment by default, under the venv folder. Execute the following command to start the virtual operating environment.
+Of course, SmartFast can also be deployed in a virtual environment, which is one of the recommended ways. This project provides a virtual environment by default, under the venv folder. Execute the following command to start the virtual operating environment, and use SmartFast without installation.
 
 ```bash
 source venv/bin/activate
+solc use 0.4.24
+python -m smartfast.__main__ tests/arbitrary_send.sol
 ```
 
 If you want to recreate the virtual environment, perform the following operations.
@@ -185,10 +215,51 @@ virtualenv --python=/usr/bin/python3.7 venv
 venv/bin/python setup.py install
 pip install jpype1
 pip install reportlab
+pip install crytic-compile==0.1.13
+pip install prettytable
 pip install numpy
 pip install pandas
 pip install tqdm
 pip install oscillo
+```
+
+Install the font for making report.
+
+```bash
+unzip font.zip
+sudo cp font/* /usr/share/fonts/truetype/myfonts/
+```
+
+If you want to perform secondary development based on Smartfast, you can install the Java environment as follows.
+
+```bash
+dowload jdk-8u102-linux-x64.tar.gz from https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html
+tar -xvf jdk-8u102-linux-x64.tar.gz -C /usr/local
+vim /etc/profile
+JAVA_HOME=/usr/local/jdk1.8.0_102
+CLASSPATH=.:$JAVA_HOME/lib.tools.jar
+PATH=$JAVA_HOME/bin:$PATH
+export JAVA_HOME CLASSPATH PATH
+source /etc/profile	
+java -version
+```
+
+### Using Docker
+
+Use the `smartfast:v2` docker image. It includes all of our security tool and major version of Solidity. `/home/data` will be mounted to `/dataset` in the container.
+
+```bash
+docker pull scripthub/smartfast:v2
+```
+
+To share a directory in the container, which includes the contract datasets:
+
+```
+docker run -it -v /home/data:/dataset scripthub/smartfast:v2 /bin/bash
+cd code/smartfast_code
+source venv/bin/activate
+solc use 0.4.24
+python -m smartfast.__main__ tests/arbitrary_send.sol
 ```
 
 ## License
@@ -198,7 +269,10 @@ SmartFast is licensed and distributed under the AGPLv3 license.
 
 ## Publications
 
+SmartFast holds most advantages of static analysis tools like Slither and SmartCheck. Also, in order to make SmartFast more functional and comprehensive, it combines some auxiliary functions of these tools. For instance, it can export the CFG of each functions based on Slither. More functions can be seen on [Slither](https://github.com/crytic/slither/wiki/Printer-documentation). Therefore, we appreciate these excellent functions provided by these tools.
+
 ### References
+
 - [ReJection: A AST-Based Reentrancy Vulnerability Detection Method](https://www.researchgate.net/publication/339354823_ReJection_A_AST-Based_Reentrancy_Vulnerability_Detection_Method), Rui Ma, Zefeng Jian, Guangyuan Chen, Ke Ma, Yujia Chen - CTCIS 19
 - [Slither: A Static Analysis Framework For Smart Contracts](https://arxiv.org/abs/1908.09878), Josselin Feist, Gustavo Grieco, Alex Groce - WETSEB '19
 - [ETHPLOIT: From Fuzzing to Efficient Exploit Generation against Smart Contracts](https://wcventure.github.io/FuzzingPaper/Paper/SANER20_ETHPLOIT.pdf), Qingzhao Zhang, Yizhuo Wang, Juanru Li, Siqi Ma - SANER 20

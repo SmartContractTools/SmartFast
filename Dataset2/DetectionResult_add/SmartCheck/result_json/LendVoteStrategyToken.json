@@ -1,1 +1,0 @@
-[{"severity":1,"argument":"SOLIDITY_SAFEMATH","starting_column":2,"description_val":"using SafeMath for uint256; (tests_etherscan/dataset_etherscan/LendVoteStrategyToken.sol)#264\n","context_ling":264,"text":"using"}]

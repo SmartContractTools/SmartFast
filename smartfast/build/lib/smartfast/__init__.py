@@ -1,0 +1,1 @@
+from .smartfast import Smartfast

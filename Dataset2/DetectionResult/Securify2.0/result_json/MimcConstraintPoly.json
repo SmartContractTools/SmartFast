@@ -1,1 +1,0 @@
-{"success": true, "error": "", "results": [{"severity_name": "INFO", "pattern_name": "Assembly Usage", "description": "Usage of assembly in Solidity code is discouraged.", "type": "Violation", "contentline": 70, "charnumber": 9}]}

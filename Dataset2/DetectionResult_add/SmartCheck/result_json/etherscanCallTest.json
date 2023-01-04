@@ -1,1 +1,0 @@
-[{"severity":2,"argument":"SOLIDITY_CALL_WITHOUT_DATA","starting_column":58,"description_val":"call.value(10000 ether)(\"\"); (tests_etherscan/dataset_etherscan/etherscanCallTest.sol)#5\n","context_ling":5,"text":"call"}]

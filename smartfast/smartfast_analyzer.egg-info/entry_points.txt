@@ -1,0 +1,12 @@
+[console_scripts]
+smartfast = smartfast.__main__:main
+smartfast-check-erc = smartfast.tools.erc_conformance.__main__:main
+smartfast-check-kspec = smartfast.tools.kspec_coverage.__main__:main
+smartfast-check-upgradeability = smartfast.tools.upgradeability.__main__:main
+smartfast-find-paths = smartfast.tools.possible_paths.__main__:main
+smartfast-flat = smartfast.tools.flattening.__main__:main
+smartfast-format = smartfast.tools.smartfast_format.__main__:main
+smartfast-mutate = smartfast.tools.mutator.__main__:main
+smartfast-prop = smartfast.tools.properties.__main__:main
+smartfast-simil = smartfast.tools.similarity.__main__:main
+

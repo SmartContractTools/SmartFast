@@ -1,5 +1,0 @@
-{
-  "success": false,
-  "error": "Function not found on TMP_655(None) = HIGH_LEVEL_CALL, dest:TMP_654(None), function:mul, arguments:['_totalShells']  . Please try compiling with a recent Solidity version. 'NoneType' object has no attribute 'type'",
-  "results": {}
-}

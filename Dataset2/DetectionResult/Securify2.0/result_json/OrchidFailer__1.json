@@ -1,1 +1,0 @@
-{"success": true, "error": "", "results": [{"severity_name": "MEDIUM", "pattern_name": "Missing Input Validation", "description": "Method arguments must be sanitized before they are used in computations.", "type": "Violation", "contentline": 30, "charnumber": 5}]}

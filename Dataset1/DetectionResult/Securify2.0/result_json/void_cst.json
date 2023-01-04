@@ -1,1 +1,0 @@
-{"success": true, "error": "", "results": [{"severity_name": "LOW", "pattern_name": "Call to Default Constructor", "description": "A call to the constructor might be a call to a normal function instead.", "type": "Violation", "contentline": 10, "charnumber": 26}]}

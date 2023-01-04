@@ -162,6 +162,7 @@ class AbstractDetector(metaclass=abc.ABCMeta):
                     info += result["description"]
                 info += 'The above is the result of <{}>, the difficulty of detection is |{}|, and the confidence is [{}].'.format(self.ARGUMENT, classification_txt[self.IMPACT], classification_txt[self.CONFIDENCE])
                 self._log(info)
+                # print(info)
         if self.smartfast.generate_patches:
             for result in results:
                 try:
@@ -239,9 +240,11 @@ class AbstractDetector(metaclass=abc.ABCMeta):
                     if not nextreport:
                         info += 'The above is the result of <{}>, the difficulty of detection is |{}|, and the confidence is [{}].'.format(check, impact, confidence)
                         self.logger.info(classification_txt_colors[impact](info))
+                        # print(info)
                         break
                     info += 'The above is the result of <{}>, the difficulty of detection is |{}|, and the confidence is [{}].'.format(check, impact, confidence)
                     self.logger.info(classification_txt_colors[impact](info))
+                    # print(info)
 
         if self.smartfast.generate_patches:
             for result in results:

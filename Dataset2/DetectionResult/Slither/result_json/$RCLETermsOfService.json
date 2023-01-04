@@ -1,5 +1,0 @@
-{
-  "success": false,
-  "error": "Traceback (most recent call last):\n  File \"/home/smartcontract/SmartContract/slither-master/slither/__main__.py\", line 712, in main_impl\n    ) = process_all(filename, args, detector_classes, printer_classes)\n  File \"/home/smartcontract/SmartContract/slither-master/slither/__main__.py\", line 71, in process_all\n    compilations = compile_all(target, **vars(args))\n  File \"/home/smartcontract/SmartContract/slither-master/venv/lib/python3.7/site-packages/crytic_compile-0.1.12-py3.7.egg/crytic_compile/crytic_compile.py\", line 1099, in compile_all\n    raise ValueError(f\"Unresolved target: {str(target)}\")\nValueError: Unresolved target: tests_etherscan/dataset_etherscan/.sol\n",
-  "results": {}
-}

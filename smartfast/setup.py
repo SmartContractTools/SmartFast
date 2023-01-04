@@ -4,7 +4,7 @@ setup(
     name="smartfast-analyzer",
     description="Smartfast is a Solidity static analysis framework written in Python 3.",
     url="https://github.com/smartfast",
-    author="Smart Fast",
+    author="Smart Analysis",
     version="0.0.4",
     packages=find_packages(),
     python_requires=">=3.6",
@@ -14,6 +14,7 @@ setup(
         "crytic-compile>=0.1.12",
         # "crytic-compile",
     ],
+    # dependency_links=["git+https://github.com/crytic/crytic-compile.git@master#egg=crytic-compile"],
     license="AGPL-3.0",
     long_description=open("README.md").read(),
     entry_points={

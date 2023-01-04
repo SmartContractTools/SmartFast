@@ -1,0 +1,1 @@
+Возвращаемое значение функции transfer, transferFrom или approve стандарта ERC-20 всегда равно false.

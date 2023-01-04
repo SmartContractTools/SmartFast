@@ -1,1 +1,0 @@
-[{"severity":1,"argument":"SOLIDITY_SAFEMATH","starting_column":4,"description_val":"using SafeMath for uint256; (tests_etherscan/dataset_etherscan/PriceBandCalculator.sol)#108\n","context_ling":108,"text":"using"}]

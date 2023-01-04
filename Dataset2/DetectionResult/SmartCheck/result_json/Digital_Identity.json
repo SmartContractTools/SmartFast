@@ -1,1 +1,0 @@
-[{"severity":1,"argument":"SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL","starting_column":2,"description_val":"function createIdentity(string memory _contentAddress) public { (tests_etherscan/dataset_etherscan/Digital_Identity.sol)#12\n","context_ling":12,"text":"function"}]

@@ -1,1 +1,0 @@
-[{"severity":2,"argument":"SOLIDITY_OVERPOWERED_ROLE","starting_column":2,"description_val":"function setVersion(address newVersion) external { (tests_etherscan/dataset_etherscan/DepositContract.sol)#55\n","context_ling":55,"text":"function"}]

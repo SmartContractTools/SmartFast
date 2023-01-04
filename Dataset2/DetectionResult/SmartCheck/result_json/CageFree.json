@@ -1,1 +1,0 @@
-[{"severity":1,"argument":"SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL","starting_column":4,"description_val":"function freeCash(uint256 wad) public returns (uint256 cashoutBalance) { (tests_etherscan/dataset_etherscan/CageFree.sol)#32\n","context_ling":32,"text":"function"}]
